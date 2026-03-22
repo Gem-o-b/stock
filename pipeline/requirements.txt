@@ -1,0 +1,24 @@
+# 데이터 수집
+finance-datareader>=0.9.66
+pykrx>=1.0.45
+yfinance>=0.2.31
+
+# ML
+lightgbm>=4.1.0
+scikit-learn>=1.3.0
+pandas>=2.1.0
+numpy>=1.24.0
+
+# 기술적 지표
+ta>=0.11.0
+
+# 뉴스 크롤링
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# 감성 분석 (선택 - GitHub Actions에서는 키워드 폴백 사용)
+# transformers>=4.35.0
+# torch>=2.1.0
+
+# 유틸리티
+joblib>=1.3.0

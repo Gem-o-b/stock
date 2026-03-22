@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Model files - 학습된 모델은 GitHub Actions에서 커밋
+# pipeline/models/*.pkl
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep structure, ignore large files)
+data/market/*.csv
+
+# Claude Code
+.claude/

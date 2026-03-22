@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2026-03-23",
+    "prediction": "SHORT",
+    "confidence": 0.9549,
+    "probability_long": 0.0451,
+    "probability_short": 0.9549,
+    "kospi_close": 5781.2,
+    "sentiment": {
+      "avg_score": 0.0,
+      "positive_ratio": 0.0,
+      "negative_ratio": 0.0,
+      "article_count": 0
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null
+  }
+]
