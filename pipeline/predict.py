@@ -342,7 +342,8 @@ def run_prediction():
     predictions = load_predictions()
 
     # 이미 오늘 예측이 있는지 확인
-    if any(p["date"] == date for p in predictions):
+    existing = next((p for p in predictions if p["date"] == date), None)
+    if existing and existing.get("reasons"):
         print(f"{date} 예측이 이미 존재합니다. 건너뜁니다.")
         return
 
@@ -384,26 +385,31 @@ def run_prediction():
 
     # 5. 결과 저장
     print("\n[5/5] 결과 저장")
-    new_prediction = {
-        "date": date,
-        "prediction": direction,
-        "confidence": round(confidence, 4),
-        "probability_long": round(float(prediction_proba[1]), 4),
-        "probability_short": round(float(prediction_proba[0]), 4),
-        "kospi_close": round(float(market_df.iloc[-1]["kospi_close"]), 2),
-        "sentiment": {
-            "avg_score": sentiment_result["avg_sentiment"],
-            "positive_ratio": sentiment_result["positive_ratio"],
-            "negative_ratio": sentiment_result["negative_ratio"],
-            "article_count": sentiment_result["article_count"],
-        },
-        "reasons": reasons,
-        "actual": None,
-        "actual_close": None,
-        "is_correct": None,
-    }
 
-    predictions.append(new_prediction)
+    if existing:
+        # 기존 예측에 reasons만 보강
+        existing["reasons"] = reasons
+        print(f"  기존 예측에 근거 데이터 추가")
+    else:
+        new_prediction = {
+            "date": date,
+            "prediction": direction,
+            "confidence": round(confidence, 4),
+            "probability_long": round(float(prediction_proba[1]), 4),
+            "probability_short": round(float(prediction_proba[0]), 4),
+            "kospi_close": round(float(market_df.iloc[-1]["kospi_close"]), 2),
+            "sentiment": {
+                "avg_score": sentiment_result["avg_sentiment"],
+                "positive_ratio": sentiment_result["positive_ratio"],
+                "negative_ratio": sentiment_result["negative_ratio"],
+                "article_count": sentiment_result["article_count"],
+            },
+            "reasons": reasons,
+            "actual": None,
+            "actual_close": None,
+            "is_correct": None,
+        }
+        predictions.append(new_prediction)
     save_predictions(predictions)
     update_accuracy(predictions)
 

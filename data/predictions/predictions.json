@@ -14,6 +14,63 @@
     },
     "actual": null,
     "actual_close": null,
-    "is_correct": null
+    "is_correct": null,
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1504.829956,
+          "importance": 292,
+          "contribution": 439410.3472,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 121.231808,
+          "importance": 177,
+          "contribution": 21458.03,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 111.54863,
+          "importance": 166,
+          "contribution": 18517.0726,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 49.795694,
+          "importance": 165,
+          "contribution": 8216.2895,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 26.780001,
+          "importance": 247,
+          "contribution": 6614.6602,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 49.8,
+        "rsi_signal": "중립",
+        "macd_signal": "매도",
+        "vix_level": 26.78,
+        "vix_status": "불안",
+        "trend": "5일 이동평균 상회"
+      }
+    }
   }
 ]
