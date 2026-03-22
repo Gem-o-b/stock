@@ -56,6 +56,13 @@ export default function Home() {
     <>
       <Header />
       <main className="mx-auto max-w-6xl px-4 py-8 space-y-6">
+        {/* 갱신 시각 */}
+        {accuracy?.last_updated && (
+          <p className="text-xs text-[var(--color-text-muted)] text-right">
+            마지막 갱신: {accuracy.last_updated} KST · 매일 08:00 자동 갱신
+          </p>
+        )}
+
         {/* 상단: 예측 + 적중률 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <PredictionCard prediction={latest} />

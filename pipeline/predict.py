@@ -275,7 +275,7 @@ def update_accuracy(predictions: list[dict]):
             "cumulative_return": 0.0,
             "total_trades": 0,
             "daily_returns": [],
-            "last_updated": today_kst(),
+            "last_updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         }
     else:
         correct = sum(1 for p in evaluated if p["prediction"] == p["actual"])
@@ -309,7 +309,7 @@ def update_accuracy(predictions: list[dict]):
             "cumulative_return": returns["cumulative_return"],
             "total_trades": returns["total_trades"],
             "daily_returns": returns["daily_returns"],
-            "last_updated": today_kst(),
+            "last_updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
         }
 
     for path in [ACCURACY_FILE, WEB_PUBLIC_DATA_DIR / "accuracy.json"]:
