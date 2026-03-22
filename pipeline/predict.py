@@ -92,15 +92,19 @@ def load_feature_importance() -> dict:
     return {}
 
 
-def build_reasons(featured_df, prediction_direction: str) -> dict:
+def build_reasons(featured_df, prediction_direction: str,
+                  articles: list[dict] | None = None,
+                  sentiment_result: dict | None = None) -> dict:
     """예측 근거 데이터 생성
 
     Args:
         featured_df: 피처가 생성된 DataFrame
         prediction_direction: "LONG" 또는 "SHORT"
+        articles: 수집된 뉴스 기사 목록
+        sentiment_result: 감성 분석 결과
 
     Returns:
-        reasons dict (top_factors + market_summary)
+        reasons dict (top_factors + market_summary + summary + news_headlines)
     """
     importance = load_feature_importance()
     latest = featured_df[FEATURE_COLUMNS].iloc[-1]
@@ -187,9 +191,98 @@ def build_reasons(featured_df, prediction_direction: str) -> dict:
         "trend": trend,
     }
 
+    # --- 초보자용 요약 문장 생성 ---
+    direction_kr = "상승(LONG)" if prediction_direction == "LONG" else "하락(SHORT)"
+
+    # 1) 뉴스 파트
+    news_headlines = []
+    news_summary = ""
+    if articles:
+        news_headlines = [
+            {"title": a["title"], "press": a.get("press", "")}
+            for a in articles[:5]
+        ]
+        if sentiment_result and sentiment_result.get("article_count", 0) > 0:
+            avg = sentiment_result["avg_sentiment"]
+            pos_r = sentiment_result["positive_ratio"]
+            neg_r = sentiment_result["negative_ratio"]
+            if avg > 0.1:
+                news_summary = (
+                    f"오늘 뉴스는 전반적으로 긍정적입니다. "
+                    f"수집된 {sentiment_result['article_count']}건의 기사 중 "
+                    f"긍정 {pos_r:.0%}, 부정 {neg_r:.0%}로 "
+                    f"시장에 호재성 소식이 많았습니다."
+                )
+            elif avg < -0.1:
+                news_summary = (
+                    f"오늘 뉴스는 전반적으로 부정적입니다. "
+                    f"수집된 {sentiment_result['article_count']}건의 기사 중 "
+                    f"부정 {neg_r:.0%}, 긍정 {pos_r:.0%}로 "
+                    f"시장에 악재성 소식이 많았습니다."
+                )
+            else:
+                news_summary = (
+                    f"오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. "
+                    f"수집된 {sentiment_result['article_count']}건의 기사 중 "
+                    f"긍정 {pos_r:.0%}, 부정 {neg_r:.0%}입니다."
+                )
+        else:
+            news_summary = "오늘은 주요 뉴스가 수집되지 않았습니다."
+    else:
+        news_summary = "오늘은 주요 뉴스가 수집되지 않았습니다."
+
+    # 2) 기술 지표 파트 (쉬운 말)
+    usdkrw = float(latest.get("usdkrw_level", 0))
+    sp500_ret = float(latest.get("sp500_return", 0))
+    nasdaq_ret = float(latest.get("nasdaq_return", 0))
+
+    tech_parts = []
+    # 환율
+    if usdkrw > 0:
+        if usdkrw >= 1400:
+            tech_parts.append(f"원/달러 환율이 {usdkrw:,.0f}원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다")
+        elif usdkrw <= 1200:
+            tech_parts.append(f"원/달러 환율이 {usdkrw:,.0f}원으로 낮은 편이라 외국인 투자자의 매수 유인이 있습니다")
+    # VIX
+    if vix >= 30:
+        tech_parts.append(f"공포지수(VIX)가 {vix:.1f}로 매우 높아 글로벌 시장의 불안감이 큽니다")
+    elif vix >= 20:
+        tech_parts.append(f"공포지수(VIX)가 {vix:.1f}로 다소 불안한 수준입니다")
+    else:
+        tech_parts.append(f"공포지수(VIX)가 {vix:.1f}로 시장이 비교적 안정적입니다")
+    # 미국 시장
+    if abs(sp500_ret) > 0.001 or abs(nasdaq_ret) > 0.001:
+        us_dir = "상승" if sp500_ret > 0 else "하락"
+        tech_parts.append(
+            f"미국 증시가 전일 {us_dir}하여 "
+            f"(S&P500 {sp500_ret:+.1%}, 나스닥 {nasdaq_ret:+.1%}) "
+            f"국내 시장에 {'긍정적' if sp500_ret > 0 else '부정적'}인 영향을 줄 수 있습니다"
+        )
+    # RSI
+    if rsi >= 70:
+        tech_parts.append("RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다")
+    elif rsi <= 30:
+        tech_parts.append("RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다")
+    # 추세
+    if ma5 > 0.01:
+        tech_parts.append("최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다")
+    elif ma5 < -0.01:
+        tech_parts.append("최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다")
+
+    tech_summary = ". ".join(tech_parts) + "." if tech_parts else ""
+
+    # 3) 종합
+    summary = (
+        f"AI 모델은 내일 KOSPI가 {direction_kr}할 것으로 예측했습니다.\n\n"
+        f"[뉴스 동향] {news_summary}\n\n"
+        f"[시장 상황] {tech_summary}"
+    )
+
     return {
         "top_factors": top_factors,
         "market_summary": market_summary,
+        "summary": summary,
+        "news_headlines": news_headlines,
     }
 
 
@@ -392,7 +485,8 @@ def run_prediction():
 
     # 이미 오늘 예측이 있는지 확인
     existing = next((p for p in predictions if p["date"] == date), None)
-    if existing and existing.get("reasons"):
+    existing_reasons = existing.get("reasons") if existing else None
+    if existing and existing_reasons and existing_reasons.get("summary"):
         print(f"{date} 예측이 이미 존재합니다. 건너뜁니다.")
         return
 
@@ -429,7 +523,7 @@ def run_prediction():
     print(f"  확률: LONG {prediction_proba[1]:.1%} / SHORT {prediction_proba[0]:.1%}")
 
     # 예측 근거 생성
-    reasons = build_reasons(featured_df, direction)
+    reasons = build_reasons(featured_df, direction, articles, sentiment_result)
     print(f"  주요 기여 요인: {', '.join(f['name'] for f in reasons['top_factors'])}")
 
     # 5. 결과 저장

@@ -17,9 +17,16 @@ export interface MarketSummary {
   trend: string;
 }
 
+export interface NewsHeadline {
+  title: string;
+  press: string;
+}
+
 export interface PredictionReasons {
   top_factors: ReasonFactor[];
   market_summary: MarketSummary;
+  summary?: string;
+  news_headlines?: NewsHeadline[];
 }
 
 export interface Prediction {
