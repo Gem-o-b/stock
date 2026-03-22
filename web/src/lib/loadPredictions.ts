@@ -25,6 +25,9 @@ export async function loadAccuracy(): Promise<Accuracy> {
       accuracy_all: 0,
       accuracy_7d: 0,
       accuracy_30d: 0,
+      cumulative_return: 0,
+      total_trades: 0,
+      daily_returns: [],
       last_updated: null,
     };
   }

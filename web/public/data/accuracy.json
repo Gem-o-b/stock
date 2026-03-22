@@ -5,5 +5,8 @@
   "accuracy_all": 0.0,
   "accuracy_7d": 0.0,
   "accuracy_30d": 0.0,
+  "cumulative_return": 0.0,
+  "total_trades": 0,
+  "daily_returns": [],
   "last_updated": "2026-03-22"
 }

@@ -218,9 +218,51 @@ def save_predictions(predictions: list[dict]):
             json.dump(predictions, f, ensure_ascii=False, indent=2)
 
 
+def calc_cumulative_return(predictions: list[dict]) -> dict:
+    """예측 기반 누적 수익률 계산
+
+    예측 방향대로 매매했을 때의 누적 수익률.
+    - LONG 예측: (actual_close - kospi_close) / kospi_close
+    - SHORT 예측: (kospi_close - actual_close) / kospi_close
+    """
+    evaluated = [
+        p for p in predictions
+        if p.get("actual") is not None and p.get("actual_close") is not None
+    ]
+    # 날짜순 정렬
+    evaluated.sort(key=lambda p: p["date"])
+
+    cumulative = 1.0
+    daily_returns = []
+
+    for p in evaluated:
+        base = p["kospi_close"]
+        actual = p["actual_close"]
+        if base == 0:
+            continue
+
+        if p["prediction"] == "LONG":
+            daily_ret = (actual - base) / base
+        else:  # SHORT
+            daily_ret = (base - actual) / base
+
+        daily_returns.append({
+            "date": p["date"],
+            "return": round(daily_ret, 6),
+        })
+        cumulative *= (1 + daily_ret)
+
+    return {
+        "cumulative_return": round((cumulative - 1), 6),
+        "total_trades": len(daily_returns),
+        "daily_returns": daily_returns,
+    }
+
+
 def update_accuracy(predictions: list[dict]):
     """정확도 계산 및 저장"""
     evaluated = [p for p in predictions if p.get("actual") is not None]
+    returns = calc_cumulative_return(predictions)
 
     if not evaluated:
         accuracy_data = {
@@ -230,6 +272,9 @@ def update_accuracy(predictions: list[dict]):
             "accuracy_all": 0.0,
             "accuracy_7d": 0.0,
             "accuracy_30d": 0.0,
+            "cumulative_return": 0.0,
+            "total_trades": 0,
+            "daily_returns": [],
             "last_updated": today_kst(),
         }
     else:
@@ -261,6 +306,9 @@ def update_accuracy(predictions: list[dict]):
             "accuracy_all": round(correct / len(evaluated), 4) if evaluated else 0.0,
             "accuracy_7d": round(correct_7d / len(recent_7d), 4) if recent_7d else 0.0,
             "accuracy_30d": round(correct_30d / len(recent_30d), 4) if recent_30d else 0.0,
+            "cumulative_return": returns["cumulative_return"],
+            "total_trades": returns["total_trades"],
+            "daily_returns": returns["daily_returns"],
             "last_updated": today_kst(),
         }
 
@@ -271,7 +319,8 @@ def update_accuracy(predictions: list[dict]):
 
     print(f"정확도 업데이트: 전체 {accuracy_data['accuracy_all']:.1%}, "
           f"7일 {accuracy_data['accuracy_7d']:.1%}, "
-          f"30일 {accuracy_data['accuracy_30d']:.1%}")
+          f"30일 {accuracy_data['accuracy_30d']:.1%}, "
+          f"누적 수익률 {accuracy_data['cumulative_return']:.2%}")
 
 
 def evaluate_previous_predictions(predictions: list[dict], market_df) -> list[dict]:

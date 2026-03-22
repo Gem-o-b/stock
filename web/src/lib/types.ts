@@ -41,6 +41,11 @@ export interface Prediction {
   is_correct: boolean | null;
 }
 
+export interface DailyReturn {
+  date: string;
+  return: number;
+}
+
 export interface Accuracy {
   total_predictions: number;
   evaluated_predictions: number;
@@ -48,6 +53,9 @@ export interface Accuracy {
   accuracy_all: number;
   accuracy_7d: number;
   accuracy_30d: number;
+  cumulative_return: number;
+  total_trades: number;
+  daily_returns: DailyReturn[];
   last_updated: string | null;
 }
 

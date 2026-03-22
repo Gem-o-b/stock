@@ -83,7 +83,35 @@ export default function AccuracyTracker({ accuracy }: Props) {
         />
       </div>
 
-      <div className="mt-4 text-center text-sm text-[var(--color-text-muted)]">
+      {/* 누적 수익률 */}
+      <div className="mt-5 rounded-xl bg-[var(--color-bg)] border border-[var(--color-border)] p-4">
+        <div className="flex items-center justify-between">
+          <span className="text-sm text-[var(--color-text-muted)]">
+            AI 추천 누적 수익률
+          </span>
+          <span
+            className="text-2xl font-bold"
+            style={{
+              color:
+                accuracy.cumulative_return > 0
+                  ? "var(--color-long)"
+                  : accuracy.cumulative_return < 0
+                    ? "var(--color-short)"
+                    : "var(--color-text-muted)",
+            }}
+          >
+            {accuracy.cumulative_return > 0 ? "+" : ""}
+            {(accuracy.cumulative_return * 100).toFixed(2)}%
+          </span>
+        </div>
+        {accuracy.total_trades > 0 && (
+          <p className="text-xs text-[var(--color-text-muted)] mt-1">
+            {accuracy.total_trades}회 매매 기준
+          </p>
+        )}
+      </div>
+
+      <div className="mt-3 text-center text-sm text-[var(--color-text-muted)]">
         총 {accuracy.total_predictions}건 예측 / {accuracy.evaluated_predictions}건 평가 /{" "}
         {accuracy.correct_predictions}건 적중
       </div>
