@@ -1,3 +1,27 @@
+export interface ReasonFactor {
+  name: string;
+  feature: string;
+  value: number;
+  importance: number;
+  contribution: number;
+  impact: "LONG" | "SHORT" | "NEUTRAL";
+  description: string;
+}
+
+export interface MarketSummary {
+  rsi_14: number;
+  rsi_signal: string;
+  macd_signal: string;
+  vix_level: number;
+  vix_status: string;
+  trend: string;
+}
+
+export interface PredictionReasons {
+  top_factors: ReasonFactor[];
+  market_summary: MarketSummary;
+}
+
 export interface Prediction {
   date: string;
   prediction: "LONG" | "SHORT";
@@ -11,6 +35,7 @@ export interface Prediction {
     negative_ratio: number;
     article_count: number;
   };
+  reasons?: PredictionReasons;
   actual: "LONG" | "SHORT" | null;
   actual_close: number | null;
   is_correct: boolean | null;

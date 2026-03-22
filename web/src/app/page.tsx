@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import PredictionCard from "@/components/PredictionCard";
+import PredictionReasons from "@/components/PredictionReasons";
 import KospiChart from "@/components/KospiChart";
 import AccuracyTracker from "@/components/AccuracyTracker";
 import NewsSentimentBar from "@/components/NewsSentimentBar";
@@ -60,6 +61,11 @@ export default function Home() {
           <PredictionCard prediction={latest} />
           {accuracy && <AccuracyTracker accuracy={accuracy} />}
         </div>
+
+        {/* 예측 근거 */}
+        {latest?.reasons && (
+          <PredictionReasons reasons={latest.reasons} />
+        )}
 
         {/* 중간: 차트 */}
         {market && market.candles.length > 0 && (
