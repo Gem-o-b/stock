@@ -31,6 +31,7 @@ export interface PredictionReasons {
 
 export interface Prediction {
   date: string;
+  target_date?: string;
   prediction: "LONG" | "SHORT";
   confidence: number;
   probability_long: number;

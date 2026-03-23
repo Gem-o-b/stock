@@ -26,9 +26,11 @@ export default function PredictionCard({ prediction }: Props) {
   return (
     <div className="rounded-2xl bg-[var(--color-card)] border border-[var(--color-border)] p-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold">오늘의 예측</h2>
-        <span className="text-sm text-[var(--color-text-muted)]">
-          {prediction.date}
+        <h2 className="text-lg font-semibold">
+          {prediction.target_date ?? prediction.date} 예측
+        </h2>
+        <span className="text-xs text-[var(--color-text-muted)]">
+          {prediction.date} 기준 분석
         </span>
       </div>
 

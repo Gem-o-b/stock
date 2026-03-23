@@ -94,7 +94,8 @@ def load_feature_importance() -> dict:
 
 def build_reasons(featured_df, prediction_direction: str,
                   articles: list[dict] | None = None,
-                  sentiment_result: dict | None = None) -> dict:
+                  sentiment_result: dict | None = None,
+                  target_date: str = "내일") -> dict:
     """예측 근거 데이터 생성
 
     Args:
@@ -273,7 +274,7 @@ def build_reasons(featured_df, prediction_direction: str,
 
     # 3) 종합
     summary = (
-        f"AI 모델은 내일 KOSPI가 {direction_kr}할 것으로 예측했습니다.\n\n"
+        f"AI 모델은 {target_date} KOSPI가 {direction_kr}할 것으로 예측했습니다.\n\n"
         f"[뉴스 동향] {news_summary}\n\n"
         f"[시장 상황] {tech_summary}"
     )
@@ -465,8 +466,29 @@ def get_next_trading_date() -> str:
     return now.strftime("%Y-%m-%d")
 
 
+def get_target_date(base_date: str) -> str:
+    """예측 대상 날짜(다음 거래일) 반환
+
+    base_date 기준으로 다음 거래일을 반환합니다.
+    예: 월요일 → 화요일, 금요일 → 월요일
+    """
+    dt = datetime.strptime(base_date, "%Y-%m-%d")
+    dt += timedelta(days=1)
+    while dt.weekday() >= 5:
+        dt += timedelta(days=1)
+    return dt.strftime("%Y-%m-%d")
+
+
 def run_prediction():
-    """일일 예측 메인 함수"""
+    """일일 예측 메인 함수
+
+    매 실행마다:
+    1. 시장 데이터 수집 (항상)
+    2. 이전 예측 평가 (항상)
+    3. 뉴스 수집 + 감성 분석 (항상)
+    4. 피처 생성 + 예측 (항상 최신 데이터로)
+    5. 결과 저장 (새로 생성 또는 기존 갱신)
+    """
     ensure_dirs()
     date = today_kst()
 
@@ -476,41 +498,33 @@ def run_prediction():
         print(f"오늘({date})은 주말입니다. 다음 거래일({next_day})로 예측합니다.")
         date = next_day
 
+    target_date = get_target_date(date)
+
     print("=" * 60)
-    print(f"KOSPI 방향 예측 - {date}")
+    print(f"KOSPI 방향 예측 - {date} (대상: {target_date})")
     print("=" * 60)
 
     # 기존 예측 로드
     predictions = load_predictions()
 
-    # 이미 오늘 예측이 있는지 확인
-    existing = next((p for p in predictions if p["date"] == date), None)
-    existing_reasons = existing.get("reasons") if existing else None
-    if existing and existing_reasons and existing_reasons.get("summary"):
-        print(f"{date} 예측이 이미 존재합니다. 건너뜁니다.")
-        # 정확도/갱신 시각은 항상 업데이트
-        update_accuracy(predictions)
-        copy_data_to_web()
-        return
-
-    # 1. 시장 데이터 수집
+    # 1. 시장 데이터 수집 (항상 실행)
     print("\n[1/5] 시장 데이터 수집")
     market_df = collect_all()
     save_latest_market_data(market_df)
 
-    # 2. 이전 예측 평가
+    # 2. 이전 예측 평가 (항상 실행)
     print("\n[2/5] 이전 예측 평가")
     predictions = evaluate_previous_predictions(predictions, market_df)
 
-    # 3. 뉴스 수집 + 감성 분석
+    # 3. 뉴스 수집 + 감성 분석 (항상 실행)
     print("\n[3/5] 뉴스 수집 및 감성 분석")
     articles = collect_news()
-    sentiment_result = analyze_articles(articles, use_finbert=False)  # 경량 모드
+    sentiment_result = analyze_articles(articles, use_finbert=False)
     print(f"  감성 점수: {sentiment_result['avg_sentiment']:.3f} "
           f"(긍정 {sentiment_result['positive_ratio']:.0%} / "
           f"부정 {sentiment_result['negative_ratio']:.0%})")
 
-    # 4. 피처 생성 + 예측
+    # 4. 피처 생성 + 예측 (항상 최신 데이터로)
     print("\n[4/5] 피처 생성 및 예측")
     featured_df = build_features(market_df, sentiment_result, include_target=False)
 
@@ -526,44 +540,53 @@ def run_prediction():
     print(f"  확률: LONG {prediction_proba[1]:.1%} / SHORT {prediction_proba[0]:.1%}")
 
     # 예측 근거 생성
-    reasons = build_reasons(featured_df, direction, articles, sentiment_result)
+    reasons = build_reasons(featured_df, direction, articles, sentiment_result, target_date)
     print(f"  주요 기여 요인: {', '.join(f['name'] for f in reasons['top_factors'])}")
 
     # 5. 결과 저장
     print("\n[5/5] 결과 저장")
 
+    prediction_data = {
+        "date": date,
+        "target_date": target_date,
+        "prediction": direction,
+        "confidence": round(confidence, 4),
+        "probability_long": round(float(prediction_proba[1]), 4),
+        "probability_short": round(float(prediction_proba[0]), 4),
+        "kospi_close": round(float(market_df.iloc[-1]["kospi_close"]), 2),
+        "sentiment": {
+            "avg_score": sentiment_result["avg_sentiment"],
+            "positive_ratio": sentiment_result["positive_ratio"],
+            "negative_ratio": sentiment_result["negative_ratio"],
+            "article_count": sentiment_result["article_count"],
+        },
+        "reasons": reasons,
+        "actual": None,
+        "actual_close": None,
+        "is_correct": None,
+        "updated_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
+    }
+
+    # 기존 예측이 있으면 갱신, 없으면 새로 추가
+    existing = next((p for p in predictions if p["date"] == date), None)
     if existing:
-        # 기존 예측에 reasons만 보강
-        existing["reasons"] = reasons
-        print(f"  기존 예측에 근거 데이터 추가")
+        # 평가 결과는 유지하고 나머지 갱신
+        prediction_data["actual"] = existing.get("actual")
+        prediction_data["actual_close"] = existing.get("actual_close")
+        prediction_data["is_correct"] = existing.get("is_correct")
+        idx = predictions.index(existing)
+        predictions[idx] = prediction_data
+        print(f"  기존 예측 갱신 완료 (최신 데이터 반영)")
     else:
-        new_prediction = {
-            "date": date,
-            "prediction": direction,
-            "confidence": round(confidence, 4),
-            "probability_long": round(float(prediction_proba[1]), 4),
-            "probability_short": round(float(prediction_proba[0]), 4),
-            "kospi_close": round(float(market_df.iloc[-1]["kospi_close"]), 2),
-            "sentiment": {
-                "avg_score": sentiment_result["avg_sentiment"],
-                "positive_ratio": sentiment_result["positive_ratio"],
-                "negative_ratio": sentiment_result["negative_ratio"],
-                "article_count": sentiment_result["article_count"],
-            },
-            "reasons": reasons,
-            "actual": None,
-            "actual_close": None,
-            "is_correct": None,
-        }
-        predictions.append(new_prediction)
+        predictions.append(prediction_data)
+        print(f"  새 예측 저장 완료")
+
     save_predictions(predictions)
     update_accuracy(predictions)
-
-    # web/public/data/에도 복사
     copy_data_to_web()
 
     print("\n" + "=" * 60)
-    print(f"예측 완료: {date} → {direction} (신뢰도 {confidence:.1%})")
+    print(f"예측 완료: {date} → {target_date} {direction} (신뢰도 {confidence:.1%})")
     print("=" * 60)
 
 
