@@ -2,15 +2,15 @@
   {
     "date": "2026-03-23",
     "target_date": "2026-03-24",
-    "prediction": "SHORT",
-    "confidence": 0.5781,
-    "probability_long": 0.4219,
-    "probability_short": 0.5781,
-    "kospi_close": 5450.61,
+    "prediction": "LONG",
+    "confidence": 0.5396,
+    "probability_long": 0.5396,
+    "probability_short": 0.4604,
+    "kospi_close": 5405.75,
     "sentiment": {
-      "avg_score": 0.0467,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.1667,
+      "avg_score": -0.2183,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.5,
       "article_count": 30
     },
     "reasons": {
@@ -18,36 +18,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1507.97998,
+          "value": 1512.430054,
           "importance": 292,
-          "contribution": 440330.1543,
+          "contribution": 441629.5757,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 115.957437,
+          "value": 115.241722,
           "importance": 177,
-          "contribution": 20524.4664,
+          "contribution": 20397.7848,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 85.176778,
+          "value": 81.598203,
           "importance": 166,
-          "contribution": 14139.3452,
+          "contribution": 13545.3016,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 44.218508,
+          "value": 43.556526,
           "importance": 165,
-          "contribution": 7296.0537,
+          "contribution": 7186.8267,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -62,40 +62,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 44.22,
+        "rsi_14": 43.56,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 26.78,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-03-24 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 17%입니다.\n\n[시장 상황] 원/달러 환율이 1,508원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-03-24 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 50%, 긍정 23%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,512원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "\"올해 점진적 회복\"…마스턴운용, 국내 건설경기 진단 보고서 발간",
-          "press": "데일리안"
-        },
-        {
-          "title": "[펀드매니저 리포트] 미래에셋자산, 대규모 군단이 만든 운용 스케일",
-          "press": "블로터"
-        },
-        {
-          "title": "중동發 공포, 코스피 5%↓…기관 순매도 2년 만에 최대[장중시황]",
-          "press": "뉴스1"
-        },
-        {
-          "title": "국민연금, 2경원 운용 블랙록과 전략적 제휴…\"투자노하우 공유\"",
+          "title": "두산 박정원, 작년 보수 181억원…주가 상승으로 RSU 평가액↑",
           "press": "연합뉴스"
         },
         {
-          "title": "LG화학, 나프타 수급 차질로 여수 2공장 '가동 중단'",
-          "press": "동행미디어 시대"
+          "title": "[올댓차이나] 대만 증시, 중동정세 악화·유가 급등에 사흘째 하락…2.45%↓",
+          "press": "뉴시스"
+        },
+        {
+          "title": "이달에만 매도 사이드카 4번…중동발 지정학적 리스크는 어디까지",
+          "press": "머니투데이"
+        },
+        {
+          "title": "'국장 복귀' RIA 출시 첫날…8개 대형 증권사 9천개 계좌 개설",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "'국장 복귀' RIA 출시 첫날…8개 대형 증권사 9천개 계좌 오픈(종합)",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-23 14:36"
+    "updated_at": "2026-03-23 18:18"
   }
 ]
