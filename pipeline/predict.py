@@ -488,6 +488,9 @@ def run_prediction():
     existing_reasons = existing.get("reasons") if existing else None
     if existing and existing_reasons and existing_reasons.get("summary"):
         print(f"{date} 예측이 이미 존재합니다. 건너뜁니다.")
+        # 정확도/갱신 시각은 항상 업데이트
+        update_accuracy(predictions)
+        copy_data_to_web()
         return
 
     # 1. 시장 데이터 수집
