@@ -59,7 +59,7 @@ export default function Home() {
         {/* 갱신 시각 */}
         {accuracy?.last_updated && (
           <p className="text-xs text-[var(--color-text-muted)] text-right">
-            마지막 갱신: {accuracy.last_updated} KST · 매일 08:00 / 14:00 / 18:00 자동 갱신
+            마지막 갱신: {accuracy.last_updated} KST · 매일 10:00 / 14:00 / 18:00 자동 갱신
           </p>
         )}
 

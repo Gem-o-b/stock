@@ -1,6 +1,5 @@
 # 데이터 수집
 finance-datareader>=0.9.66
-pykrx>=1.0.45
 yfinance>=0.2.31
 
 # ML

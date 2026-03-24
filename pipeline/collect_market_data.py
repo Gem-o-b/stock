@@ -2,7 +2,6 @@
 
 FinanceDataReader: KOSPI, 환율
 yfinance: S&P500, NASDAQ, VIX, WTI, 금, 달러인덱스
-pykrx: KOSPI 거래량/거래대금
 """
 import json
 from datetime import datetime, timedelta
@@ -10,7 +9,6 @@ from datetime import datetime, timedelta
 import FinanceDataReader as fdr
 import pandas as pd
 import yfinance as yf
-from pykrx import stock as pykrx_stock
 
 from config import (
     DATA_DIR,
@@ -35,7 +33,7 @@ def get_date_range() -> tuple[str, str]:
 
 def collect_kospi(start: str, end: str) -> pd.DataFrame:
     """KOSPI 지수 데이터 수집 (FinanceDataReader)"""
-    print("[1/4] KOSPI 지수 수집 중...")
+    print("[1/3] KOSPI 지수 수집 중...")
     df = fdr.DataReader(KOSPI_TICKER, start, end)
     df.index = pd.to_datetime(df.index)
     df = df.rename(columns={
@@ -52,7 +50,7 @@ def collect_kospi(start: str, end: str) -> pd.DataFrame:
 
 def collect_usdkrw(start: str, end: str) -> pd.DataFrame:
     """USD/KRW 환율 수집"""
-    print("[2/4] USD/KRW 환율 수집 중...")
+    print("[2/3] USD/KRW 환율 수집 중...")
     df = fdr.DataReader(USD_KRW_TICKER, start, end)
     df.index = pd.to_datetime(df.index)
     df = df[["Close"]].rename(columns={"Close": "usdkrw"})
@@ -61,7 +59,7 @@ def collect_usdkrw(start: str, end: str) -> pd.DataFrame:
 
 def collect_global_markets(start: str, end: str) -> pd.DataFrame:
     """글로벌 시장 데이터 수집 (yfinance)"""
-    print("[3/4] 글로벌 시장 데이터 수집 중...")
+    print("[3/3] 글로벌 시장 데이터 수집 중...")
     frames = {}
     for name, ticker in GLOBAL_TICKERS.items():
         try:
@@ -81,29 +79,6 @@ def collect_global_markets(start: str, end: str) -> pd.DataFrame:
     return pd.DataFrame()
 
 
-def collect_pykrx_volume(start: str, end: str) -> pd.DataFrame:
-    """KOSPI 거래량/거래대금 수집 (pykrx)"""
-    print("[4/4] KOSPI 거래대금 수집 중 (pykrx)...")
-    start_fmt = start.replace("-", "")
-    end_fmt = end.replace("-", "")
-    try:
-        df = pykrx_stock.get_index_trading_value_by_date(
-            start_fmt, end_fmt, "1001"  # 1001 = KOSPI
-        )
-        df.index = pd.to_datetime(df.index)
-        # 거래대금 합계 컬럼
-        if "합계" in df.columns:
-            df = df[["합계"]].rename(columns={"합계": "kospi_trading_value"})
-        elif len(df.columns) > 0:
-            # 전체 합산
-            df["kospi_trading_value"] = df.sum(axis=1)
-            df = df[["kospi_trading_value"]]
-        return df
-    except Exception as e:
-        print(f"  경고: pykrx 거래대금 수집 실패: {e}")
-        return pd.DataFrame()
-
-
 def collect_all() -> pd.DataFrame:
     """모든 시장 데이터를 수집하여 하나의 DataFrame으로 병합"""
     ensure_dirs()
@@ -113,11 +88,10 @@ def collect_all() -> pd.DataFrame:
     kospi = collect_kospi(start, end)
     usdkrw = collect_usdkrw(start, end)
     global_markets = collect_global_markets(start, end)
-    pykrx_vol = collect_pykrx_volume(start, end)
 
     # 날짜 기준 병합
     df = kospi.copy()
-    for other in [usdkrw, global_markets, pykrx_vol]:
+    for other in [usdkrw, global_markets]:
         if not other.empty:
             df = df.join(other, how="left")
 
