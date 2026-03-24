@@ -102,14 +102,14 @@
     "date": "2026-03-24",
     "target_date": "2026-03-25",
     "prediction": "SHORT",
-    "confidence": 0.8916,
-    "probability_long": 0.1084,
-    "probability_short": 0.8916,
+    "confidence": 0.9325,
+    "probability_long": 0.0675,
+    "probability_short": 0.9325,
     "kospi_close": 5553.92,
     "sentiment": {
-      "avg_score": 0.2544,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.1,
+      "avg_score": -0.1571,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.3667,
       "article_count": 30
     },
     "reasons": {
@@ -117,9 +117,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1498.130005,
-          "importance": 302,
-          "contribution": 452435.2615,
+          "value": 1497.079956,
+          "importance": 294,
+          "contribution": 440141.5071,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -127,8 +127,8 @@
           "name": "MACD 시그널",
           "feature": "macd_signal",
           "value": 96.564282,
-          "importance": 200,
-          "contribution": 19312.8565,
+          "importance": 181,
+          "contribution": 17478.1351,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
@@ -136,8 +136,8 @@
           "name": "RSI(14)",
           "feature": "rsi_14",
           "value": 49.233624,
-          "importance": 190,
-          "contribution": 9354.3886,
+          "importance": 194,
+          "contribution": 9551.3231,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -145,8 +145,8 @@
           "name": "MACD",
           "feature": "macd",
           "value": 58.69095,
-          "importance": 158,
-          "contribution": 9273.1701,
+          "importance": 159,
+          "contribution": 9331.861,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
@@ -154,8 +154,8 @@
           "name": "VIX 수준",
           "feature": "vix_level",
           "value": 26.15,
-          "importance": 257,
-          "contribution": 6720.5499,
+          "importance": 262,
+          "contribution": 6851.2999,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
@@ -168,33 +168,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-03-25 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,498원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 26.1로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-03-25 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,497원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 26.1로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[올댓차이나] 홍콩 증시, 중동정세 완화로 나흘 만에 반등 마감…H주 2.31%↑",
-          "press": "뉴시스"
+          "title": "[뉴욕증시]트럼프 변덕에 실망…일제히 하락 출발",
+          "press": "아시아경제"
         },
         {
-          "title": "토박스코리아, 자사주 23만주 소각키로",
-          "press": "한국경제"
+          "title": "트럼프 ‘입’, 결국 하루천하…미 증시 약세 반전, 삼전ㆍSK하닉도 기대감 ‘뚝’",
+          "press": "디지털타임스"
         },
         {
-          "title": "미래에셋증권, 6347억원 주주환원…김미섭·허선호 사내이사 재선임",
-          "press": "이코노미스트"
+          "title": "뉴욕증시, 美-이란 대화 의구심에 하락",
+          "press": "연합뉴스"
         },
         {
-          "title": "엔비디아發 광반도체 열풍…관련 테마 6종목 일제히 上[핫종목](종합)",
-          "press": "뉴스1"
+          "title": "이란 전쟁 후폭풍…주요국 3월 PMI 하락, 물가 급등",
+          "press": "아시아경제"
         },
         {
-          "title": "증시 출렁이면 ‘줍줍’… 간 큰 개미, 이달 26조 매수",
-          "press": "파이낸셜뉴스"
+          "title": "한국신용평가, 대표이사에 패트릭 윤 선임",
+          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-24 18:16"
+    "updated_at": "2026-03-24 23:47"
   }
 ]
