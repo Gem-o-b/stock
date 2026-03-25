@@ -201,14 +201,14 @@
     "date": "2026-03-25",
     "target_date": "2026-03-26",
     "prediction": "SHORT",
-    "confidence": 0.9228,
-    "probability_long": 0.0772,
-    "probability_short": 0.9228,
-    "kospi_close": 5736.48,
+    "confidence": 0.9045,
+    "probability_long": 0.0955,
+    "probability_short": 0.9045,
+    "kospi_close": 5668.69,
     "sentiment": {
-      "avg_score": 0.2311,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.1,
+      "avg_score": 0.0278,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -216,36 +216,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1492.5,
+          "value": 1498.180054,
           "importance": 294,
-          "contribution": 438795.0,
+          "contribution": 440464.9358,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 94.701265,
+          "value": 91.919432,
           "importance": 181,
-          "contribution": 17140.929,
+          "contribution": 16637.4173,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 75.598643,
+          "value": 66.01568,
           "importance": 159,
-          "contribution": 12020.1842,
+          "contribution": 10496.4931,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 53.54635,
+          "value": 52.024872,
           "importance": 194,
-          "contribution": 10387.9919,
+          "contribution": 10092.8253,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -260,40 +260,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 53.55,
+        "rsi_14": 52.02,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 26.95,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-03-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,492원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 27.0로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-03-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 20%입니다.\n\n[시장 상황] 원/달러 환율이 1,498원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 27.0로 다소 불안한 수준입니다.",
       "news_headlines": [
         {
-          "title": "대신증권, 고배당·고금리 투자설명회 정기 개최…“고변동성 장세 대응”",
-          "press": "조선비즈"
-        },
-        {
-          "title": "유진투자증권, 절세 혜택 담은 'RIA 계좌 개설 이벤트'",
-          "press": "뉴시스"
-        },
-        {
-          "title": "케이휴머스, 해성에어로보틱스 인수 완료",
+          "title": "에코아이, 현성완 대표 신규 선임…\"기후경제 전환 선도기업 도약\"",
           "press": "이데일리"
         },
         {
-          "title": "예탁원, 학교 밖 청소년 꿈드림 장학금 6000만원 후원",
-          "press": "뉴시스"
+          "title": "“현금 충분한데 신주 발행?”…한국거버넌스포럼, SK하이닉스 ADR 상장 방식 반대",
+          "press": "조선비즈"
         },
         {
-          "title": "우리투자증권, '내 손안의 투자 인사이트' 강화…MTS에 AI 리포트 도입",
-          "press": "뉴시스"
+          "title": "네오펙트, 200억원 규모 전환사채권 발행 결정",
+          "press": "이데일리"
+        },
+        {
+          "title": "미래에셋證, ‘퇴직연금 ETF 적립식 서비스’ 오픈",
+          "press": "서울경제"
+        },
+        {
+          "title": "아마존, 휴머노이드 로봇 스타트업 파우나 인수",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-25 10:39"
+    "updated_at": "2026-03-25 14:33"
   }
 ]
