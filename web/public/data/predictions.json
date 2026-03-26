@@ -300,14 +300,14 @@
     "date": "2026-03-26",
     "target_date": "2026-03-27",
     "prediction": "SHORT",
-    "confidence": 0.9497,
-    "probability_long": 0.0503,
-    "probability_short": 0.9497,
-    "kospi_close": 5512.9,
+    "confidence": 0.9464,
+    "probability_long": 0.0536,
+    "probability_short": 0.9464,
+    "kospi_close": 5460.46,
     "sentiment": {
-      "avg_score": 0.1111,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.0889,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -315,27 +315,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1506.180054,
+          "value": 1505.880005,
           "importance": 294,
-          "contribution": 442816.9358,
+          "contribution": 442728.7214,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 79.129998,
+          "value": 76.978069,
           "importance": 181,
-          "contribution": 14322.5297,
+          "contribution": 13933.0305,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 57.094787,
+          "value": 55.512333,
           "importance": 194,
-          "contribution": 11076.3888,
+          "contribution": 10769.3927,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -351,41 +351,41 @@
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 40.571061,
+          "value": 33.158012,
           "importance": 159,
-          "contribution": 6450.7987,
+          "contribution": 5272.1239,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 57.09,
+        "rsi_14": 55.51,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 25.33,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-03-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.3로 다소 불안한 수준입니다.",
+      "summary": "AI 모델은 2026-03-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 23%입니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.3로 다소 불안한 수준입니다.",
       "news_headlines": [
         {
-          "title": "코오롱티슈진, 골관절염 치료제 기대감에 급등…장중 신고가 [이런국장 저런주식]",
+          "title": "아이티센피엔에스, 박원규 대표이사로 변경",
+          "press": "이데일리"
+        },
+        {
+          "title": "에셋플러스자산운용, 이성수 신임 대표 선임",
+          "press": "이데일리"
+        },
+        {
+          "title": "[로터리] AI가 해내지 못하는 것들",
           "press": "서울경제"
         },
         {
-          "title": "대신증권, RIA 이벤트…계좌 개설시 최대 50만원 지원",
-          "press": "뉴시스"
+          "title": "이노와이어리스, 엘아이지아큐버로 상호 변경",
+          "press": "이데일리"
         },
         {
-          "title": "미래에셋증권, '미래에셋 IMA 2호' 2거래일 만에 조기 완판",
-          "press": "뉴시스"
-        },
-        {
-          "title": "구글 '터보퀀트'에 반도체주 삭풍 맞았지만…\"오히려 호재될 것\"",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "“국민연금 일시금보다 연금 수령 유리”…NH證, ‘THE100리포트’ 120호 발간",
+          "title": "한국팩키지, 최경석 대표이사로 변경",
           "press": "이데일리"
         }
       ]
@@ -393,6 +393,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-26 14:37"
+    "updated_at": "2026-03-26 18:18"
   }
 ]
