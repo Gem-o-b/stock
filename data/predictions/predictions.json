@@ -399,14 +399,14 @@
     "date": "2026-03-27",
     "target_date": "2026-03-30",
     "prediction": "SHORT",
-    "confidence": 0.9644,
-    "probability_long": 0.0356,
-    "probability_short": 0.9644,
-    "kospi_close": 5442.51,
+    "confidence": 0.957,
+    "probability_long": 0.043,
+    "probability_short": 0.957,
+    "kospi_close": 5438.87,
     "sentiment": {
-      "avg_score": 0.2044,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.3333,
+      "avg_score": 0.1439,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -414,27 +414,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1507.680054,
+          "value": 1507.880005,
           "importance": 294,
-          "contribution": 443257.9358,
+          "contribution": 443316.7214,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 76.691687,
+          "value": 76.633613,
           "importance": 181,
-          "contribution": 13881.1954,
+          "contribution": 13870.684,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 54.990628,
+          "value": 54.886028,
           "importance": 194,
-          "contribution": 10668.1819,
+          "contribution": 10647.8893,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -450,48 +450,48 @@
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 31.726103,
+          "value": 31.435733,
           "importance": 159,
-          "contribution": 5044.4504,
+          "contribution": 4998.2815,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 54.99,
+        "rsi_14": 54.89,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 27.44,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-03-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 33%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,508원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 27.4로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-03-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,508원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 27.4로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "'시장경보 지정' 전년비 11%↑⋯테마주 급등 사유가 절반",
-          "press": "아이뉴스24"
+          "title": "전쟁도 뚫은 ‘ESS의 힘’ LG엔솔, 16억 달러 조달",
+          "press": "서울경제"
         },
         {
-          "title": "금융위, 경영위기 소상공인 원스톱 지원…'기관 칸막이' 없앤다",
-          "press": "연합뉴스"
+          "title": "미래산업, 정기주총 개최…\"글로벌 반도체 전문가 사외이사 영입\"",
+          "press": "아시아경제"
         },
         {
-          "title": "허진영 펄어비스 대표 \"붉은사막 완성도 높일 것\"",
-          "press": "비즈워치"
+          "title": "'중동·터보퀀트' 악재에도 코스피 5,400선 방어",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "[특징주] 고배당기업 요건 충족…코스맥스, 9% 넘게 급등",
-          "press": "동행미디어 시대"
+          "title": "반도체 투톱에 SK스퀘어까지 담아…상장 일주일만에 순자산 2400억 [ETF 줌인]",
+          "press": "서울경제"
         },
         {
-          "title": "“채비, 코스닥 상장 임박… 전기차 정책 수혜·글로벌 진출 모멘텀 부각 기대”",
-          "press": "조선비즈"
+          "title": "폴레드, 코스닥 상장예비심사 승인…\"프리미엄 육아시장 선도 가속화\"",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-27 15:02"
+    "updated_at": "2026-03-27 18:15"
   }
 ]
