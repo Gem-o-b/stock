@@ -597,14 +597,14 @@
     "date": "2026-03-31",
     "target_date": "2026-04-01",
     "prediction": "SHORT",
-    "confidence": 0.6708,
-    "probability_long": 0.3292,
-    "probability_short": 0.6708,
-    "kospi_close": 5162.13,
+    "confidence": 0.68,
+    "probability_long": 0.32,
+    "probability_short": 0.68,
+    "kospi_close": 5101.02,
     "sentiment": {
-      "avg_score": 0.2444,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.1667,
+      "avg_score": -0.1222,
+      "positive_ratio": 0.1333,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -612,20 +612,11 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1533.380005,
+          "value": 1535.280029,
           "importance": 294,
-          "contribution": 450813.7214,
+          "contribution": 451372.3286,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
-        },
-        {
-          "name": "MACD 시그널",
-          "feature": "macd_signal",
-          "value": 45.053999,
-          "importance": 181,
-          "contribution": 8154.7739,
-          "impact": "LONG",
-          "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "VIX 수준",
@@ -637,59 +628,68 @@
           "description": "높은 공포지수 → 시장 불안"
         },
         {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 44.079025,
+          "importance": 181,
+          "contribution": 7978.3035,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 37.779706,
+          "value": 36.560349,
           "importance": 194,
-          "contribution": 7329.263,
+          "contribution": 7092.7078,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -24.268137,
+          "value": -29.143009,
           "importance": 159,
-          "contribution": 3858.6339,
+          "contribution": 4633.7385,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 37.78,
+        "rsi_14": 36.56,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 30.61,
         "vix_status": "공포",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-04-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,533원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-04-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 30%, 긍정 13%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,535원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "중동발 위기에…정부, 석화업계 나프타 수입 보조 지원 나선다",
-          "press": "이데일리"
-        },
-        {
-          "title": "거침없는 원·달러…17년 만에 장중 1530원도 돌파(종합)",
-          "press": "뉴시스"
-        },
-        {
-          "title": "HD현대중, 지난해 영업이익 2조427억원…주당 3천990원 배당",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "피해기업 수출금융 7.1조...나프타 수입 비용 지원 5000억 [2026년 추가경정예산안]",
+          "title": "외국인 3조 매물 폭탄에 ‘오천피’도 위태…5100선 재이탈 [마켓시그널]",
           "press": "서울경제"
         },
         {
-          "title": "“비트코인·금만이 당신을 지켜줄 것”…중동전쟁에 ‘부자 아빠’ 꺼낸 한마디",
-          "press": "서울경제"
+          "title": "한화자산운용 ‘PLUS 글로벌저작권핵심기업액티브’ 상장",
+          "press": "매일경제"
+        },
+        {
+          "title": "내달 명인제약·큐라티스 등 50개사 3억6000만주 의무보유 해제",
+          "press": "조선비즈"
+        },
+        {
+          "title": "삼성운용 ‘KODEX 미국AI광통신네트워크’ 신규 상장",
+          "press": "매일경제"
+        },
+        {
+          "title": "'셀코리아' 1540원선 넘보는 달러·원…금융위기 이후 최고치 또 경신(종합)",
+          "press": "뉴스1"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-31 12:54"
+    "updated_at": "2026-03-31 14:38"
   }
 ]
