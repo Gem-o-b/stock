@@ -597,14 +597,14 @@
     "date": "2026-03-31",
     "target_date": "2026-04-01",
     "prediction": "LONG",
-    "confidence": 0.7155,
-    "probability_long": 0.7155,
-    "probability_short": 0.2845,
-    "kospi_close": 5099.11,
+    "confidence": 0.7522,
+    "probability_long": 0.7522,
+    "probability_short": 0.2478,
+    "kospi_close": 5063.25,
     "sentiment": {
-      "avg_score": 0.0333,
+      "avg_score": -0.1278,
       "positive_ratio": 0.2,
-      "negative_ratio": 0.1667,
+      "negative_ratio": 0.3667,
       "article_count": 30
     },
     "reasons": {
@@ -612,9 +612,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1534.97998,
+          "value": 1532.180054,
           "importance": 294,
-          "contribution": 451284.1143,
+          "contribution": 450460.9358,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -630,66 +630,66 @@
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 44.048552,
+          "value": 43.476427,
           "importance": 181,
-          "contribution": 7972.7879,
+          "contribution": 7869.2333,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 36.523506,
+          "value": 35.845295,
           "importance": 194,
-          "contribution": 7085.5601,
+          "contribution": 6953.9872,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -29.295374,
+          "value": -32.156001,
           "importance": 159,
-          "contribution": 4657.9645,
+          "contribution": 5112.8041,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 36.52,
+        "rsi_14": 35.85,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 30.61,
         "vix_status": "공포",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-04-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 17%입니다.\n\n[시장 상황] 원/달러 환율이 1,535원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-04-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,532원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "기가레인, 500원→5000원 주식병합 결정",
+          "title": "[마켓인]유가 튀자 크레딧 시장 ‘긴장’… “신용 스프레드 상단 80bp 열어둬야”",
           "press": "이데일리"
         },
         {
-          "title": "KT 박윤영호 첫 조직·인사 개편…임원 30% 축소·AX 성장 무게",
-          "press": "아시아경제"
-        },
-        {
-          "title": "[증권사 단기투자]① 10대社 연 10조 벌었다…1년 새 4배 '껑충'",
-          "press": "블로터"
-        },
-        {
-          "title": "신한투자증권, 개인전문투자자 대상 선물환 매도 상품 출시",
+          "title": "유가 급등에 항공주 '우수수'…'비상경영' 대한항공 3.29%↓(종합)",
           "press": "뉴시스"
         },
         {
-          "title": "'황제주 반납' 삼천당제약, 먹는 비만약 재료 소멸에 하한가",
-          "press": "한국경제"
+          "title": "[특징주] 유가 상승에도 신재생에너지 관련주 하락 전환(종합)",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "트러스톤, 태광산업 주총서 0.3%p차 '석패'…\"결과 떠나 소수주주 의지 확인\"",
+          "press": "이데일리"
+        },
+        {
+          "title": "1,540원 육박한 환율에도 당국 묵묵…신현송도 \"우려 없어\"",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-31 15:16"
+    "updated_at": "2026-03-31 15:44"
   }
 ]
