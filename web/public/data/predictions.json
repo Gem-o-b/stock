@@ -600,11 +600,11 @@
     "confidence": 0.7522,
     "probability_long": 0.7522,
     "probability_short": 0.2478,
-    "kospi_close": 5063.25,
+    "kospi_close": 5052.46,
     "sentiment": {
-      "avg_score": -0.1278,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.3667,
+      "avg_score": -0.18,
+      "positive_ratio": 0.1667,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -612,9 +612,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1532.180054,
+          "value": 1522.180054,
           "importance": 294,
-          "contribution": 450460.9358,
+          "contribution": 447520.9358,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -630,66 +630,66 @@
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 43.476427,
+          "value": 43.304279,
           "importance": 181,
-          "contribution": 7869.2333,
+          "contribution": 7838.0744,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 35.845295,
+          "value": 35.646129,
           "importance": 194,
-          "contribution": 6953.9872,
+          "contribution": 6915.349,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -32.156001,
+          "value": -33.016741,
           "importance": 159,
-          "contribution": 5112.8041,
+          "contribution": 5249.6619,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 35.85,
+        "rsi_14": 35.65,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 30.61,
         "vix_status": "공포",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-04-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,532원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-04-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 30%, 긍정 17%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,522원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 30.6로 매우 높아 글로벌 시장의 불안감이 큽니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[마켓인]유가 튀자 크레딧 시장 ‘긴장’… “신용 스프레드 상단 80bp 열어둬야”",
-          "press": "이데일리"
+          "title": "예탁금 17일간 20조 가까이 이탈... 코스피 바닥일까 더 빠질까 '기로' [환율·증시 '충격파']",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "유가 급등에 항공주 '우수수'…'비상경영' 대한항공 3.29%↓(종합)",
-          "press": "뉴시스"
+          "title": "트러스톤, 태광산업 이사회 입지 위축",
+          "press": "아이뉴스24"
         },
         {
-          "title": "[특징주] 유가 상승에도 신재생에너지 관련주 하락 전환(종합)",
-          "press": "연합뉴스"
+          "title": "넥슨 \"내년 매출 7조원 목표 달성 어려워…포트폴리오 규모 조정\"",
+          "press": "아시아경제"
         },
         {
-          "title": "트러스톤, 태광산업 주총서 0.3%p차 '석패'…\"결과 떠나 소수주주 의지 확인\"",
-          "press": "이데일리"
+          "title": "코스피 '최악의 3월'… 시총 1000조 증발",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "1,540원 육박한 환율에도 당국 묵묵…신현송도 \"우려 없어\"",
-          "press": "연합뉴스"
+          "title": "홈플러스 익스프레스 인수, 전략적투자자 2곳 참여...내일 회생법원에 보고",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-03-31 15:44"
+    "updated_at": "2026-03-31 18:21"
   }
 ]
