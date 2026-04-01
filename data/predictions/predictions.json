@@ -696,14 +696,14 @@
     "date": "2026-04-01",
     "target_date": "2026-04-02",
     "prediction": "SHORT",
-    "confidence": 0.6482,
-    "probability_long": 0.3518,
-    "probability_short": 0.6482,
+    "confidence": 0.9625,
+    "probability_long": 0.0375,
+    "probability_short": 0.9625,
     "kospi_close": 5462.83,
     "sentiment": {
-      "avg_score": 0.1083,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.0456,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -711,9 +711,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1506.47998,
-          "importance": 294,
-          "contribution": 442905.1143,
+          "value": 1506.180054,
+          "importance": 283,
+          "contribution": 426248.9552,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -730,8 +730,8 @@
           "name": "VIX 수준",
           "feature": "vix_level",
           "value": 25.25,
-          "importance": 262,
-          "contribution": 6615.5,
+          "importance": 234,
+          "contribution": 5908.5,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
@@ -739,8 +739,8 @@
           "name": "MACD 시그널",
           "feature": "macd_signal",
           "value": 28.644669,
-          "importance": 181,
-          "contribution": 5184.6852,
+          "importance": 180,
+          "contribution": 5156.0405,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
@@ -748,8 +748,8 @@
           "name": "MACD",
           "feature": "macd",
           "value": -29.993768,
-          "importance": 159,
-          "contribution": 4769.0091,
+          "importance": 160,
+          "contribution": 4799.0029,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
@@ -762,33 +762,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 10%입니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "한앤코, 케이카 8년 만에 '엑시트'",
-          "press": "아이뉴스24"
+          "title": "NICE평가정보, '내 주식 몇 등급' 서비스 시작",
+          "press": "뉴시스"
         },
         {
-          "title": "'4000조원' 세계최대 채권지수에 韓편입…금리·환율↓ '진정세'",
-          "press": "이코노미스트"
+          "title": "거래소, 부산 대학생 파생상품 스터디그룹 모집",
+          "press": "아시아경제"
         },
         {
-          "title": "국내 증시 급등에…코스피 이어 코스닥도 '매수 사이드카'",
-          "press": "파이낸셜뉴스"
+          "title": "거래소, 부산지역 대학생 파생상품 스터디그룹 'KRX 퓨처스타' 모집",
+          "press": "이데일리"
         },
         {
-          "title": "“일상된 사이드카”…코스피 이어 코스닥도 6%대 급등 [투자360]",
-          "press": "헤럴드경제"
+          "title": "아이엠티, 120억 규모 전환사채 발행 결정",
+          "press": "뉴시스"
         },
         {
-          "title": "금감원, '90% 특혜배상' 하나증권 사모펀드 사후검사",
-          "press": "아이뉴스24"
+          "title": "“IB 존재감 커졌지만 몸집은 그대로”…우리투자증권, 자본력 한계 ‘어쩌나’",
+          "press": "디지털데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-01 14:44"
+    "updated_at": "2026-04-01 14:58"
   }
 ]
