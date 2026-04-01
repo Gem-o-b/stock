@@ -696,14 +696,14 @@
     "date": "2026-04-01",
     "target_date": "2026-04-02",
     "prediction": "SHORT",
-    "confidence": 0.9602,
-    "probability_long": 0.0398,
-    "probability_short": 0.9602,
-    "kospi_close": 5462.83,
+    "confidence": 0.9569,
+    "probability_long": 0.0431,
+    "probability_short": 0.9569,
+    "kospi_close": 5478.7,
     "sentiment": {
-      "avg_score": -0.0167,
-      "positive_ratio": 0.1667,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.0444,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -711,18 +711,18 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1507.280029,
+          "value": 1507.349976,
           "importance": 283,
-          "contribution": 426560.2483,
+          "contribution": 426580.0431,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 47.411013,
+          "value": 47.767447,
           "importance": 194,
-          "contribution": 9197.7365,
+          "contribution": 9266.8848,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -738,57 +738,57 @@
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 28.644669,
+          "value": 28.897866,
           "importance": 180,
-          "contribution": 5156.0405,
+          "contribution": 5201.6159,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -29.993768,
+          "value": -28.727785,
           "importance": 160,
-          "contribution": 4799.0029,
+          "contribution": 4596.4456,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 47.41,
+        "rsi_14": 47.77,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 25.25,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 13%입니다.\n\n[시장 상황] 원/달러 환율이 1,507원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 23%입니다.\n\n[시장 상황] 원/달러 환율이 1,507원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "금융위, 회계처리기준 위반 국보에 과징금 5420만원",
-          "press": "뉴시스"
+          "title": "거래소 \"상상인제4호스팩, 상장폐지 우려 예고\"",
+          "press": "이데일리"
         },
         {
-          "title": "이순호 예탁결제원 사장, 청소년 불법도박 근절 캠페인",
-          "press": "뉴스1"
+          "title": "이노진, 4.4억 규모 공급계약 체결",
+          "press": "이데일리"
         },
         {
-          "title": "[특징주] 주가조작 의혹에 불성실 공시…삼천당제약 주가, 또 10% 급락",
-          "press": "동행미디어 시대"
+          "title": "‘1조’ 애큐온캐피탈 매각 예비입찰 ‘흥행’",
+          "press": "매일경제"
         },
         {
-          "title": "코스피 9% 폭등 5500 뚫었다…삼전 14% ‘불기둥’[이런국장 저런주식]",
-          "press": "서울경제"
+          "title": "타이거리서치, 인니 공식 거래소 ICEx와 MOU…“아시아 시장 커버리지 확대”",
+          "press": "매일경제"
         },
         {
-          "title": "HS효성, 효성 60년 역사상 첫 '비(非)오너' 회장 체제 출범",
-          "press": "비즈워치"
+          "title": "시총 상향에 동전주 퇴출까지…율촌 “구조 개선 없인 상장 유지 어려워”",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-01 15:04"
+    "updated_at": "2026-04-01 18:23"
   }
 ]
