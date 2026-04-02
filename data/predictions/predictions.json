@@ -794,15 +794,15 @@
   {
     "date": "2026-04-02",
     "target_date": "2026-04-03",
-    "prediction": "LONG",
-    "confidence": 0.6455,
-    "probability_long": 0.6455,
-    "probability_short": 0.3545,
-    "kospi_close": 5252.46,
+    "prediction": "SHORT",
+    "confidence": 0.8218,
+    "probability_long": 0.1782,
+    "probability_short": 0.8218,
+    "kospi_close": 5224.45,
     "sentiment": {
-      "avg_score": -0.7,
+      "avg_score": -0.5733,
       "positive_ratio": 0.0667,
-      "negative_ratio": 0.7667,
+      "negative_ratio": 0.6667,
       "article_count": 30
     },
     "reasons": {
@@ -810,27 +810,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1522.579956,
-          "importance": 286,
-          "contribution": 435457.8674,
+          "value": 1519.97998,
+          "importance": 310,
+          "contribution": 471193.7939,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 45.250676,
-          "importance": 208,
-          "contribution": 9412.1405,
+          "value": 44.743632,
+          "importance": 203,
+          "contribution": 9082.9574,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -43.087745,
-          "importance": 176,
-          "contribution": 7583.4431,
+          "value": -45.322161,
+          "importance": 170,
+          "contribution": 7704.7673,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -838,56 +838,56 @@
           "name": "VIX 수준",
           "feature": "vix_level",
           "value": 24.540001,
-          "importance": 271,
-          "contribution": 6650.3402,
+          "importance": 248,
+          "contribution": 6085.9202,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 14.500744,
+          "value": 14.053861,
           "importance": 189,
-          "contribution": 2740.6406,
+          "contribution": 2656.1797,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         }
       ],
       "market_summary": {
-        "rsi_14": 45.25,
+        "rsi_14": 44.74,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 24.54,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-04-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 77%, 긍정 7%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,523원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.5로 다소 불안한 수준입니다.",
+      "summary": "AI 모델은 2026-04-03 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 67%, 긍정 7%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,520원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.5로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스닥 매도 사이드카 발동",
-          "press": "데일리안"
+          "title": "트럼프 강경 무드에 커진 실망감…코스피·코스닥, 매도 사이드카",
+          "press": "머니투데이"
         },
         {
-          "title": "[속보] 코스닥 이어 코스피도 매도 사이드카 발동",
-          "press": "연합뉴스TV"
+          "title": "급락장에 한달만에 코스닥 매도 사이드카 발동",
+          "press": "강원도민일보"
         },
         {
-          "title": "NH투자증권, 증권사 최초 ‘금 모으기’ 서비스 출시",
-          "press": "데일리안"
+          "title": "한화투자증권 '국내주식 대여거래 신청 이벤트' 실시",
+          "press": "아시아경제"
         },
         {
-          "title": "[속보] 코스닥 이어 코스피도 매도 사이드카 발동",
-          "press": "매일경제"
+          "title": "반도체가 다 했다···삼전과 하닉 영업익, 코스피 전체 1/3↑",
+          "press": "머니투데이"
         },
         {
-          "title": "[속보] 코스닥, 매도 사이드카 발동",
-          "press": "뉴스1"
+          "title": "거래소, 'ICGN 코리아 컨퍼런스 2026' 개최",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-02 14:50"
+    "updated_at": "2026-04-02 15:01"
   }
 ]
