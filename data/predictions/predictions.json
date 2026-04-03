@@ -894,14 +894,14 @@
     "date": "2026-04-03",
     "target_date": "2026-04-06",
     "prediction": "SHORT",
-    "confidence": 0.9064,
-    "probability_long": 0.0936,
-    "probability_short": 0.9064,
-    "kospi_close": 5365.3,
+    "confidence": 0.8604,
+    "probability_long": 0.1396,
+    "probability_short": 0.8604,
+    "kospi_close": 5382.12,
     "sentiment": {
-      "avg_score": 0.4333,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.0333,
+      "avg_score": 0.371,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -909,27 +909,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1509.280029,
+          "value": 1507.640015,
           "importance": 310,
-          "contribution": 467876.8091,
+          "contribution": 467368.4045,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.393775,
+          "value": 46.743853,
           "importance": 203,
-          "contribution": 9417.9364,
+          "contribution": 9489.0021,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -45.979795,
+          "value": -44.638029,
           "importance": 170,
-          "contribution": 7816.5651,
+          "contribution": 7588.4648,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -953,40 +953,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 46.39,
+        "rsi_14": 46.74,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 23.87,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,509원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 23.9로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,508원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 23.9로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "타임폴리오자산운용, ‘제 11회 로드 투 펀드매니저 모의 투자대회’ 개최",
-          "press": "조선비즈"
+          "title": "“2배 먹자” 레버리지 ETF로 쏠린 개인 자금…손실에도 '추가베팅'",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "코람코, 강남358타워 품는다 [시그널]",
-          "press": "서울경제"
+          "title": "[게시판] 우리카드, 액티브 시니어 특화 신용·체크카드 출시",
+          "press": "연합뉴스"
         },
         {
-          "title": "로아앤코 \"차명거래 악의적 프레임 보도…허위 사실 법적 대응\"",
-          "press": "뉴시스"
+          "title": "'쿠키런: 오븐스매시' 혹평…직접 등판한 조길현 \"책임통감\"",
+          "press": "비즈워치"
         },
         {
-          "title": "NH-아문디운용 “미·이란 전쟁 장기화…‘HALO’ 테마 주목해야”",
-          "press": "헤럴드경제"
+          "title": "기프트레터, '조지앙 로르' 카카오 선물하기 모바일 쿠폰 출시",
+          "press": "머니투데이"
         },
         {
-          "title": "[마켓인]국민연금, 벤처캐피탈에 4000억 지원…총 6개사 선정",
-          "press": "이데일리"
+          "title": "다날엔터테인먼트, 지난해 매출 214억…IP 다각화로 흑자 전환",
+          "press": "머니투데이"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-03 10:38"
+    "updated_at": "2026-04-03 14:37"
   }
 ]
