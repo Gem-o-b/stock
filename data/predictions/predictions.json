@@ -894,13 +894,13 @@
     "date": "2026-04-03",
     "target_date": "2026-04-06",
     "prediction": "SHORT",
-    "confidence": 0.8578,
-    "probability_long": 0.1422,
-    "probability_short": 0.8578,
-    "kospi_close": 5383.0,
+    "confidence": 0.9305,
+    "probability_long": 0.0695,
+    "probability_short": 0.9305,
+    "kospi_close": 5377.3,
     "sentiment": {
-      "avg_score": -0.0267,
-      "positive_ratio": 0.2,
+      "avg_score": 0.1244,
+      "positive_ratio": 0.3333,
       "negative_ratio": 0.2,
       "article_count": 30
     },
@@ -909,27 +909,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1506.280029,
+          "value": 1509.310059,
           "importance": 310,
-          "contribution": 466946.8091,
+          "contribution": 467886.1182,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.762043,
+          "value": 46.644002,
           "importance": 203,
-          "contribution": 9492.6947,
+          "contribution": 9468.7323,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -44.567829,
+          "value": -45.02253,
           "importance": 170,
-          "contribution": 7576.5309,
+          "contribution": 7653.8301,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -953,40 +953,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 46.76,
+        "rsi_14": 46.64,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 23.87,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 20%입니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 23.9로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,509원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 23.9로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "\"저도 '받은 글'인데요\"…달러매각 가짜뉴스, '중간유포자'도 잡는다",
+          "title": "돌아온 외국인 매수에 코스피 '5300 회복'...2.74% 상승 마감",
           "press": "이코노미스트"
         },
         {
-          "title": "제이스텍, 470억 규모 2차전지 설비 공급계약 해지",
-          "press": "이데일리"
+          "title": "홈플 익스프레스 인수전에 경남소재 유통기업도 참전",
+          "press": "매일경제"
         },
         {
-          "title": "상위 1% 서학개미, 테슬라·반도체 던지고 '광통신'에 모였다[마켓PRO]",
-          "press": "한국경제"
+          "title": "'수익률 꼴찌' 韓ETF 사는 글로벌 개미들",
+          "press": "매일경제"
         },
         {
-          "title": "한화솔루션 소액주주 '부글부글'…주주명부 열람에 금감원 탄원까지",
-          "press": "더팩트"
+          "title": "한화솔루션 \"2030년까지 추가 증자 없다\"",
+          "press": "매일경제"
         },
         {
-          "title": "대부협회 \"불법대부업 오사용엔 소송\"…'불법사금융업' 사용요청",
-          "press": "연합뉴스"
+          "title": "달탐사 우주선 발사 성공에 국내 우주항공 관련주 강세",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-03 15:05"
+    "updated_at": "2026-04-03 18:16"
   }
 ]
