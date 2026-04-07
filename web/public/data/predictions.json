@@ -1083,9 +1083,108 @@
         }
       ]
     },
+    "actual": "LONG",
+    "actual_close": 5579.59,
+    "is_correct": false,
+    "updated_at": "2026-04-06 18:25"
+  },
+  {
+    "date": "2026-04-07",
+    "target_date": "2026-04-08",
+    "prediction": "SHORT",
+    "confidence": 0.9151,
+    "probability_long": 0.0849,
+    "probability_short": 0.9151,
+    "kospi_close": 5579.59,
+    "sentiment": {
+      "avg_score": 0.3167,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.0333,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1509.280029,
+          "importance": 310,
+          "contribution": 467876.8091,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 42.796971,
+          "importance": 203,
+          "contribution": 8687.785,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 24.17,
+          "importance": 248,
+          "contribution": 5994.16,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -23.612435,
+          "importance": 170,
+          "contribution": 4014.1139,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -9.459205,
+          "importance": 189,
+          "contribution": 1787.7898,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 42.8,
+        "rsi_signal": "중립",
+        "macd_signal": "매도",
+        "vix_level": 24.17,
+        "vix_status": "불안",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-04-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,509원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "news_headlines": [
+        {
+          "title": "키움증권 발행어음 잔고 1조 돌파…최대 10만 포인트 증정 이벤트",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "조이시티, 신작 출시 준비 ‘속도’…MMORPG ‘임진왜란’ 이달 출격",
+          "press": "매일경제"
+        },
+        {
+          "title": "탑런토탈솔루션, 카메라 기반 사이드미러 수주…中 내수시장 공략",
+          "press": "뉴시스"
+        },
+        {
+          "title": "하나증권, 고객 목소리 직접 듣는다…‘자문단 2기’ 출범",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "오킨스전자, 전 직원 '트리즈씽킹' 자격 취득…실적 상승 이끈 조직 혁신",
+          "press": "머니투데이"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-06 18:25"
+    "updated_at": "2026-04-07 10:39"
   }
 ]
