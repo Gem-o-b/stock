@@ -1092,13 +1092,13 @@
     "date": "2026-04-07",
     "target_date": "2026-04-08",
     "prediction": "SHORT",
-    "confidence": 0.9151,
-    "probability_long": 0.0849,
-    "probability_short": 0.9151,
-    "kospi_close": 5579.59,
+    "confidence": 0.6301,
+    "probability_long": 0.3699,
+    "probability_short": 0.6301,
+    "kospi_close": 5457.84,
     "sentiment": {
-      "avg_score": 0.3167,
-      "positive_ratio": 0.3667,
+      "avg_score": 0.4222,
+      "positive_ratio": 0.4333,
       "negative_ratio": 0.0333,
       "article_count": 30
     },
@@ -1107,18 +1107,18 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1509.280029,
+          "value": 1505.47998,
           "importance": 310,
-          "contribution": 467876.8091,
+          "contribution": 466698.7939,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 42.796971,
+          "value": 39.737185,
           "importance": 203,
-          "contribution": 8687.785,
+          "contribution": 8066.6487,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -1134,57 +1134,57 @@
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -23.612435,
+          "value": -33.324685,
           "importance": 170,
-          "contribution": 4014.1139,
+          "contribution": 5665.1965,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -9.459205,
+          "value": -11.401655,
           "importance": 189,
-          "contribution": 1787.7898,
+          "contribution": 2154.9129,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         }
       ],
       "market_summary": {
-        "rsi_14": 42.8,
-        "rsi_signal": "중립",
+        "rsi_14": 39.74,
+        "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 24.17,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,509원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,505원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "키움증권 발행어음 잔고 1조 돌파…최대 10만 포인트 증정 이벤트",
-          "press": "헤럴드경제"
+          "title": "美 국방부, 트럼프 협상시한일 브리핑 전격 취소…\"이유 밝히지 않아\"",
+          "press": "아시아경제"
         },
         {
-          "title": "조이시티, 신작 출시 준비 ‘속도’…MMORPG ‘임진왜란’ 이달 출격",
+          "title": "지난달 409개사 밸류업 계획 공시…고배당기업 공시 '쑥'",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "세제 혜택에 밸류업 공시 ‘급증’…지난달 409곳 신규 공시",
+          "press": "이데일리"
+        },
+        {
+          "title": "“송금수수료 87% 절감” 원화 스테이블코인, 입법 지연에 글로벌 경쟁 ‘발목’",
           "press": "매일경제"
         },
         {
-          "title": "탑런토탈솔루션, 카메라 기반 사이드미러 수주…中 내수시장 공략",
-          "press": "뉴시스"
-        },
-        {
-          "title": "하나증권, 고객 목소리 직접 듣는다…‘자문단 2기’ 출범",
-          "press": "헤럴드경제"
-        },
-        {
-          "title": "오킨스전자, 전 직원 '트리즈씽킹' 자격 취득…실적 상승 이끈 조직 혁신",
-          "press": "머니투데이"
+          "title": "전산사고 반복에 칼 빼든 금감원… 이찬진 “내부통제 미흡한 IT 사고에 무관용”",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-07 10:39"
+    "updated_at": "2026-04-07 14:39"
   }
 ]
