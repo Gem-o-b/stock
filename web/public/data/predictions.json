@@ -1092,14 +1092,14 @@
     "date": "2026-04-07",
     "target_date": "2026-04-08",
     "prediction": "SHORT",
-    "confidence": 0.5356,
-    "probability_long": 0.4644,
-    "probability_short": 0.5356,
-    "kospi_close": 5453.59,
+    "confidence": 0.8988,
+    "probability_long": 0.1012,
+    "probability_short": 0.8988,
+    "kospi_close": 5494.78,
     "sentiment": {
-      "avg_score": 0.4833,
-      "positive_ratio": 0.5333,
-      "negative_ratio": 0.0333,
+      "avg_score": 0.2267,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -1107,18 +1107,18 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1503.180054,
+          "value": 1497.680054,
           "importance": 310,
-          "contribution": 465985.8167,
+          "contribution": 464280.8167,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 39.624452,
+          "value": 40.69959,
           "importance": 203,
-          "contribution": 8043.7638,
+          "contribution": 8262.0167,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -1134,57 +1134,57 @@
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -33.663717,
+          "value": -30.377905,
           "importance": 170,
-          "contribution": 5722.8318,
+          "contribution": 5164.2438,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -11.469462,
+          "value": -10.812299,
           "importance": 189,
-          "contribution": 2167.7283,
+          "contribution": 2043.5246,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         }
       ],
       "market_summary": {
-        "rsi_14": 39.62,
-        "rsi_signal": "약세",
+        "rsi_14": 40.7,
+        "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 24.17,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,503원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,498원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "거래소, 알파AI에 감사의견 비적정설 조회공시 요구",
+          "title": "부품 원가 상승이 발목…삼성 모바일 1분기 영업이익 둔화",
+          "press": "아시아경제"
+        },
+        {
+          "title": "은퇴 자산가들이 주요고객…'불리기'보다 '지키기'에 초점 [증권가 슈퍼리치 지점]",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "흩어져 있던 자산정보 한 화면에…미래에셋증권 MTS 더 편해졌다",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "파키스탄 중재 기대감에 원·달러 1500원 하회",
+          "press": "서울경제"
+        },
+        {
+          "title": "[마켓인]메가커피, 홈플익스프레스 인수 '청신호'…자체 자금만 1900억",
           "press": "이데일리"
-        },
-        {
-          "title": "거래소, 스코넥에 감사의견 비적정설 조회공시 요구",
-          "press": "이데일리"
-        },
-        {
-          "title": "지난달 밸류업 공시 기업 409社…고배당 세제 혜택 영향",
-          "press": "한국경제"
-        },
-        {
-          "title": "디아이티, 8억 규모 자사주 처분",
-          "press": "이데일리"
-        },
-        {
-          "title": "3월 409곳 밸류업 공시…고배당 세제혜택에 급증",
-          "press": "뉴스1"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-07 15:08"
+    "updated_at": "2026-04-07 18:22"
   }
 ]
