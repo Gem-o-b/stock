@@ -1191,13 +1191,13 @@
     "date": "2026-04-08",
     "target_date": "2026-04-09",
     "prediction": "SHORT",
-    "confidence": 0.7471,
-    "probability_long": 0.2529,
-    "probability_short": 0.7471,
-    "kospi_close": 5896.73,
+    "confidence": 0.8135,
+    "probability_long": 0.1865,
+    "probability_short": 0.8135,
+    "kospi_close": 5872.34,
     "sentiment": {
-      "avg_score": 0.3722,
-      "positive_ratio": 0.5,
+      "avg_score": 0.1267,
+      "positive_ratio": 0.2667,
       "negative_ratio": 0.1,
       "article_count": 30
     },
@@ -1206,84 +1206,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1471.819946,
+          "value": 1478.280029,
           "importance": 310,
-          "contribution": 456264.1833,
+          "contribution": 458266.8091,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 52.614552,
+          "value": 52.157528,
           "importance": 203,
-          "contribution": 10680.754,
+          "contribution": 10587.9782,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 24.17,
+          "value": 25.780001,
           "importance": 248,
-          "contribution": 5994.16,
+          "contribution": 6393.4402,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
         {
-          "name": "MACD",
-          "feature": "macd",
-          "value": 8.826215,
-          "importance": 170,
-          "contribution": 1500.4566,
-          "impact": "LONG",
-          "description": "MACD 양수 → 상승 추세"
-        },
-        {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -6.884596,
+          "value": -7.273725,
           "importance": 189,
-          "contribution": 1301.1887,
+          "contribution": 1374.7339,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 6.880574,
+          "importance": 170,
+          "contribution": 1169.6976,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 52.61,
+        "rsi_14": 52.16,
         "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 24.17,
+        "vix_level": 25.78,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-09 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,472원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 24.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-09 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,478원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 25.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "NH증권, '차량 2부제' 시행…\"에너지 절감 동참\"",
+          "title": "[올댓차이나] 中 증시, 이란전쟁 휴전 합의에 큰폭 상승 마감…창업판 5.91%↑",
           "press": "뉴시스"
         },
         {
-          "title": "휴전 훈풍에 코스피, 15거래일 만에 5900선 탈환",
-          "press": "뉴시스"
+          "title": "이윤수 예탁결제원 신임 사장 취임",
+          "press": "서울경제"
         },
         {
-          "title": "김상훈 KB증권 WM본부장 “韓증시, W자 흐름 전망…유가·반도체에 달렸다”",
-          "press": "디지털타임스"
+          "title": "삼전 이어 SK하이닉스·미래에셋證도 '슈퍼 실적' 쓴다",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "이윤수 예탁결제원 신임 사장 취임…“자본시장 인프라 경쟁력 높일 것”",
-          "press": "이데일리"
+          "title": "미래에셋證, 해외주식 양도세 '원스톱 신고대행'",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "예탁원, 이윤수 신임 사장 취임…\"선진국 수준으로 경쟁력 높일 것\"",
-          "press": "아시아경제"
+          "title": "한달간 거래대금 40兆 줄어든 코스피…'휴전 훈풍' 기대",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-08 14:55"
+    "updated_at": "2026-04-08 18:22"
   }
 ]
