@@ -1488,14 +1488,14 @@
     "date": "2026-04-13",
     "target_date": "2026-04-14",
     "prediction": "SHORT",
-    "confidence": 0.7431,
-    "probability_long": 0.2569,
-    "probability_short": 0.7431,
-    "kospi_close": 5805.99,
+    "confidence": 0.6442,
+    "probability_long": 0.3558,
+    "probability_short": 0.6442,
+    "kospi_close": 5808.62,
     "sentiment": {
-      "avg_score": 0.2889,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.14,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -1503,27 +1503,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1487.680054,
+          "value": 1485.959961,
           "importance": 310,
-          "contribution": 461180.8167,
+          "contribution": 460647.5879,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 55.689323,
+          "value": 55.755516,
           "importance": 203,
-          "contribution": 11304.9325,
+          "contribution": 11318.3697,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 64.753378,
+          "value": 64.963179,
           "importance": 170,
-          "contribution": 11008.0743,
+          "contribution": 11043.7404,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
@@ -1539,48 +1539,48 @@
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 21.111736,
+          "value": 21.153697,
           "importance": 189,
-          "contribution": 3990.1182,
+          "contribution": 3998.0486,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         }
       ],
       "market_summary": {
-        "rsi_14": 55.69,
+        "rsi_14": 55.76,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 19.23,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-14 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,488원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.2로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-04-14 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,486원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.2로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "증시 활황에…1분기 일평균 주식 결제대금 6조5000억",
-          "press": "데일리안"
+          "title": "잠자던 자사주 풀렸다… EB 권리행사 8600억 [자사주 소각 대신 EB행사]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "반도체 중심으로 그룹 재편… 한솔테크닉스는 ‘부채 딜레마’",
-          "press": "조선비즈"
+          "title": "코인원, 자금세탁방지 의무 위반 9만건 적발…3개월 일부 영업정지·과태료 52억",
+          "press": "디지털타임스"
         },
         {
-          "title": "[전기차, 이제는 인프라다⑤]수요는 폭발, 공급은 멈춰…채비의 'J커브' 시작",
-          "press": "아시아경제"
+          "title": "[올댓차이나] 홍콩 증시, 중동 평화협상 결렬에 반락 마감…H주 0.61%↓",
+          "press": "뉴시스"
         },
         {
-          "title": "'롤러코스피'에도 국내 증권사 10곳 중 9곳 매도 리포트 '제로'",
-          "press": "블로터"
+          "title": "EB 권리행사發 물량 부담 '경고등'… \"주가 하락 압박\" [자사주 소각 대신 EB행사]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "스페이스X에 ‘우주 ETF’ 열풍…미래에셋까지 가세",
-          "press": "데일리안"
+          "title": "韓·홍콩 거래소, 대표 반도체 기업 담은 공동 지수 발표",
+          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-13 15:05"
+    "updated_at": "2026-04-13 18:32"
   }
 ]
