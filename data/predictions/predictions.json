@@ -1686,13 +1686,13 @@
     "date": "2026-04-15",
     "target_date": "2026-04-16",
     "prediction": "SHORT",
-    "confidence": 0.8926,
-    "probability_long": 0.1074,
-    "probability_short": 0.8926,
-    "kospi_close": 6140.48,
+    "confidence": 0.8296,
+    "probability_long": 0.1704,
+    "probability_short": 0.8296,
+    "kospi_close": 6091.39,
     "sentiment": {
-      "avg_score": 0.1778,
-      "positive_ratio": 0.3,
+      "avg_score": 0.2105,
+      "positive_ratio": 0.4,
       "negative_ratio": 0.1,
       "article_count": 30
     },
@@ -1701,36 +1701,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1473.589966,
+          "value": 1476.170044,
           "importance": 289,
-          "contribution": 425867.5001,
+          "contribution": 426613.1427,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 117.86613,
+          "value": 113.950119,
           "importance": 188,
-          "contribution": 22158.8325,
+          "contribution": 21422.6224,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 64.948911,
+          "value": 64.175718,
           "importance": 184,
-          "contribution": 11950.5997,
+          "contribution": 11808.332,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 51.105018,
+          "value": 50.321816,
           "importance": 216,
-          "contribution": 11038.684,
+          "contribution": 10869.5123,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
@@ -1745,40 +1745,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 64.95,
+        "rsi_14": 64.18,
         "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 18.36,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,474원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,476원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "신한금융 전직 경영진, 지역사회 봉사활동… 400명에 점심 배식",
-          "press": "한국일보"
+          "title": "삼전닉스, 역대급 실적 전망.. 시가총액 2000兆 다시 돌파",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "예탁원 \"1분기 채권·CD 전자등록발행 147조···전년비 0.6%↑",
-          "press": "머니투데이"
+          "title": "삼성證, 16년연속 S&P 선정 'ESG 우수기업'",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "미래에셋박현주재단, 제35기 미래에셋 해외교환 장학생 선발",
-          "press": "이데일리"
+          "title": "전후 재건 기대감 확산… 건설株 ETF 강세",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "미래에셋박현주재단, 35기 미래에셋 해외교환 장학생 선발",
-          "press": "뉴시스"
+          "title": "미래에셋證, 홍콩 디지털자산 리테일 시장 뚫었다",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "김익래 다우 前 회장, 사람인 공개매수서 목표달성 실패",
-          "press": "조선비즈"
+          "title": "\"주강시장 재편 속 고부가제품으로 승부수\" [fn이사람]",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-15 14:59"
+    "updated_at": "2026-04-15 18:29"
   }
 ]
