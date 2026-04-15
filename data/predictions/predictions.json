@@ -1686,14 +1686,14 @@
     "date": "2026-04-15",
     "target_date": "2026-04-16",
     "prediction": "SHORT",
-    "confidence": 0.9054,
-    "probability_long": 0.0946,
-    "probability_short": 0.9054,
-    "kospi_close": 6151.98,
+    "confidence": 0.854,
+    "probability_long": 0.146,
+    "probability_short": 0.854,
+    "kospi_close": 6140.48,
     "sentiment": {
-      "avg_score": 0.4111,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.0722,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -1701,36 +1701,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1473.280029,
+          "value": 1472.97998,
           "importance": 289,
-          "contribution": 425777.9285,
+          "contribution": 425691.2144,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 118.783509,
+          "value": 117.86613,
           "importance": 188,
-          "contribution": 22331.2998,
+          "contribution": 22158.8325,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 65.125242,
+          "value": 64.948911,
           "importance": 184,
-          "contribution": 11983.0445,
+          "contribution": 11950.5997,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 51.288494,
+          "value": 51.105018,
           "importance": 216,
-          "contribution": 11078.3148,
+          "contribution": 11038.684,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
@@ -1745,40 +1745,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 65.13,
+        "rsi_14": 64.95,
         "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 18.36,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,473원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 17%입니다.\n\n[시장 상황] 원/달러 환율이 1,473원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "중기부 주관 프로그램 선정…카티스 13%↑[특징주]",
+          "title": "'마진율 1%'…건설주, 이란 재건 기대 '과도' [마켓딥다이브]",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "한국 상위 1% 가구 순자산 기준 35억원…자산 83%는 부동산(종합)",
           "press": "이데일리"
         },
         {
-          "title": "미래에셋증권, 홍콩 디지털자산 리테일 시장 진출...국내 최초",
-          "press": "비즈워치"
+          "title": "삼성증권, 중개형ISA 다시 봄 이벤트…\"최대 상품권 60만원\"",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "NH證, 코스피 200 기초자산 ELS 모집…수익률 연 10.41%",
-          "press": "머니투데이"
+          "title": "브로드컴, 메타와 맞춤형 AI 칩 계약…시간외 3% 상승",
+          "press": "한국경제"
         },
         {
-          "title": "삼성SDS, KKR 손잡고 1.22조 조달…AI·M&A 기대에 장중 20% 급등[이런저런 국장주식]",
-          "press": "서울경제"
-        },
-        {
-          "title": "넷마블, ‘몬길:STAR DIVE’ ‘몬길’ 명맥 잇는다…글로벌 정식 출시",
-          "press": "매일경제"
+          "title": "‘10만 텔레콤’ 시대 열리나…SKT 시총 20조 돌파 \"AI·실적·배당 삼박자 랠리\"",
+          "press": "디지털데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-15 10:38"
+    "updated_at": "2026-04-15 14:46"
   }
 ]
