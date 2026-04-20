@@ -1983,13 +1983,13 @@
     "date": "2026-04-20",
     "target_date": "2026-04-21",
     "prediction": "LONG",
-    "confidence": 0.9491,
-    "probability_long": 0.9491,
-    "probability_short": 0.0509,
-    "kospi_close": 6235.57,
+    "confidence": 0.9828,
+    "probability_long": 0.9828,
+    "probability_short": 0.0172,
+    "kospi_close": 6219.09,
     "sentiment": {
-      "avg_score": 0.3067,
-      "positive_ratio": 0.3667,
+      "avg_score": 0.5499,
+      "positive_ratio": 0.6667,
       "negative_ratio": 0.0333,
       "article_count": 30
     },
@@ -1998,36 +1998,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1475.47998,
+          "value": 1476.380005,
           "importance": 289,
-          "contribution": 426413.7144,
+          "contribution": 426673.8214,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 180.179844,
+          "value": 178.8652,
           "importance": 188,
-          "contribution": 33873.8106,
+          "contribution": 33626.6576,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 106.402755,
+          "value": 106.139826,
           "importance": 216,
-          "contribution": 22982.9951,
+          "contribution": 22926.2025,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 79.143081,
+          "value": 78.97236,
           "importance": 184,
-          "contribution": 14562.3269,
+          "contribution": 14530.9141,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -2042,40 +2042,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 79.14,
+        "rsi_14": 78.97,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 17.48,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-21 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,475원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-21 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,476원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "‘120만닉스’ 향해 달리는 SK하이닉스...엔비디아 납품 양산에 신고가[이런국장 저런주식]",
-          "press": "서울경제"
+          "title": "“코스피 8000~8500까지 본다”…골드만·JP모건 ‘눈높이 상향’",
+          "press": "매일경제"
         },
         {
-          "title": "코스피 현금배당 35조 돌파…역대 최고치",
-          "press": "뉴시스"
-        },
-        {
-          "title": "프로티아, 1분기 영업익 7억5900만원…전년비 84.4% 증가",
-          "press": "한국경제"
-        },
-        {
-          "title": "거래소, 전국 대학생 증권·파생상품 경시대회 개최",
+          "title": "한국투자증권, IRP 가입자 52만명 돌파…“증권업권 최대”",
           "press": "조선비즈"
         },
         {
-          "title": "벤츠, C클래스 전기차 데뷔무대로 韓시장 콕 집은 이유",
-          "press": "비즈워치"
+          "title": "현대건설, 압구정3구역 재건축 우선협상대상자로 선정",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "증시 반등에 밀린 金… 시장 거래대금 47% 줄고 관망세로",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "금리 향방 안갯속… 돈 몰리는 초단기채 ETF",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-20 15:05"
+    "updated_at": "2026-04-20 18:32"
   }
 ]
