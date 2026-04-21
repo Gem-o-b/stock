@@ -2082,14 +2082,14 @@
     "date": "2026-04-21",
     "target_date": "2026-04-22",
     "prediction": "LONG",
-    "confidence": 0.9524,
-    "probability_long": 0.9524,
-    "probability_short": 0.0476,
-    "kospi_close": 6335.55,
+    "confidence": 0.8525,
+    "probability_long": 0.8525,
+    "probability_short": 0.1475,
+    "kospi_close": 6370.15,
     "sentiment": {
-      "avg_score": 0.4844,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.1,
+      "avg_score": 0.1956,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -2097,36 +2097,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1471.97998,
+          "value": 1468.079956,
           "importance": 289,
-          "contribution": 425402.2144,
+          "contribution": 424275.1073,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 198.199627,
+          "value": 200.959741,
           "importance": 188,
-          "contribution": 37261.5298,
+          "contribution": 37780.4312,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 124.551786,
+          "value": 125.103809,
           "importance": 216,
-          "contribution": 26903.1859,
+          "contribution": 27022.4228,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 75.148658,
+          "value": 75.643349,
           "importance": 184,
-          "contribution": 13827.3531,
+          "contribution": 13918.3762,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -2141,40 +2141,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 75.15,
+        "rsi_14": 75.64,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 18.87,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-22 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,472원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.9로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-22 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,468원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.9로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "벤츠 \"한국 기업과 파트너십 확대\"…2차전지주 급등세 [특징주]",
-          "press": "데일리안"
-        },
-        {
-          "title": "[특징주] '캐즘 터널' 빠져나오나…2차전지주 동반 강세(종합)",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "황성엽 금투협 회장, '청소년 불법도박 근절 릴레이 캠페인' 동참",
-          "press": "아시아경제"
-        },
-        {
-          "title": "한투운용 글로벌 AI·반도체 펀드 2종, 3년 만에 합산 순자산 1조 돌파",
+          "title": "배터리솔루션즈, BYD와 LFP 폐배터리 재활용 계약 체결",
           "press": "머니투데이"
         },
         {
-          "title": "키움증권, 연금저축 이벤트…최대 100만원 상품권 지급",
-          "press": "뉴시스"
+          "title": "신한투자증권 \"원리금비보장 DC형 퇴직연금 수익률 업계 1위\"",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "'비상경영 종지부' 롯데쇼핑, 해외서 수익 수확기 진입",
+          "press": "동행미디어 시대"
+        },
+        {
+          "title": "차세대 애널리스트 찾는다…한투證, '제9회 리서치 챌린지' 개최",
+          "press": "머니투데이"
+        },
+        {
+          "title": "iM증권, 국내주식 1억원 이상 입고 시 40만원 제공",
+          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-21 10:39"
+    "updated_at": "2026-04-21 14:47"
   }
 ]
