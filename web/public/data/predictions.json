@@ -2379,14 +2379,14 @@
     "date": "2026-04-24",
     "target_date": "2026-04-27",
     "prediction": "LONG",
-    "confidence": 0.9086,
-    "probability_long": 0.9086,
-    "probability_short": 0.0914,
-    "kospi_close": 6470.58,
+    "confidence": 0.8784,
+    "probability_long": 0.8784,
+    "probability_short": 0.1216,
+    "kospi_close": 6475.63,
     "sentiment": {
-      "avg_score": 0.5278,
-      "positive_ratio": 0.6333,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.3533,
+      "positive_ratio": 0.5667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -2394,36 +2394,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1481.880005,
+          "value": 1483.72998,
           "importance": 289,
-          "contribution": 428263.3214,
+          "contribution": 428797.9644,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 247.389253,
+          "value": 247.792102,
           "importance": 188,
-          "contribution": 46509.1795,
+          "contribution": 46584.9151,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 179.960483,
+          "value": 180.041053,
           "importance": 216,
-          "contribution": 38871.4643,
+          "contribution": 38888.8674,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 86.74908,
+          "value": 87.065824,
           "importance": 184,
-          "contribution": 15961.8307,
+          "contribution": 16020.1116,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -2438,40 +2438,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 86.75,
+        "rsi_14": 87.07,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 19.31,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-04-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 63%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,482원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-04-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,484원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "하나증권, WM 수익확대 1분기 영업익 전년比 48%↑",
-          "press": "아이뉴스24"
+          "title": "\"이러다 개미만 밤 샌다\"…주식거래 12시간 연장에 주주들 반발",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "회계기준원, 송기명 지속가능성기준위 비상임위원 선임",
-          "press": "뉴시스"
-        },
-        {
-          "title": "‘티니핑 입은 타이거즈’ 돌아왔다…SAMG엔터×KIA ‘티니핑 데이’ 진행",
-          "press": "이데일리"
-        },
-        {
-          "title": "동국제강, 수출로 1분기 실적 반등…영업익 404%↑",
+          "title": "하이브 방시혁 의장 구속 면해…檢 “영장 반려, 보완수사 요구”",
           "press": "디지털데일리"
         },
         {
-          "title": "경기도 '극저신용대출 2.0' 사업 확대에 도의회 국힘 제동",
-          "press": "연합뉴스"
+          "title": "우리투자증권, 1분기 순이익 140억원…전년比 976% ↑",
+          "press": "조선비즈"
+        },
+        {
+          "title": "하나증권, 1분기 순이익 1028억원…전년 동기 대비 37.7%↑",
+          "press": "조선비즈"
+        },
+        {
+          "title": "美 AI 올라타는 ETF…미래에셋은 밸류체인, 키움은 고베타로 승부",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-24 15:01"
+    "updated_at": "2026-04-24 18:30"
   }
 ]
