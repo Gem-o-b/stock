@@ -2775,14 +2775,14 @@
     "date": "2026-04-30",
     "target_date": "2026-05-01",
     "prediction": "LONG",
-    "confidence": 0.7983,
-    "probability_long": 0.7983,
-    "probability_short": 0.2017,
-    "kospi_close": 6636.11,
+    "confidence": 0.9126,
+    "probability_long": 0.9126,
+    "probability_short": 0.0874,
+    "kospi_close": 6598.87,
     "sentiment": {
-      "avg_score": 0.1844,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.2,
+      "avg_score": 0.2878,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -2790,36 +2790,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1483.619995,
+          "value": 1477.339966,
           "importance": 289,
-          "contribution": 428766.1786,
+          "contribution": 426951.2501,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 286.459723,
+          "value": 283.48901,
           "importance": 188,
-          "contribution": 53854.4279,
+          "contribution": 53295.9339,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 239.198846,
+          "value": 238.604704,
           "importance": 216,
-          "contribution": 51666.9508,
+          "contribution": 51538.616,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 86.803227,
+          "value": 83.84621,
           "importance": 184,
-          "contribution": 15971.7939,
+          "contribution": 15427.7027,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -2834,40 +2834,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 86.8,
+        "rsi_14": 83.85,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 18.81,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-05-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,484원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.8로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다.",
+      "summary": "AI 모델은 2026-05-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,477원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.8로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다.",
       "news_headlines": [
         {
-          "title": "HMM 본사 결국 부산행…노사 전격 합의",
-          "press": "비즈워치"
+          "title": "“청소년 노린 도박 막자”…카카오페이증권, 근절 캠페인 참여",
+          "press": "데일리안"
         },
         {
-          "title": "현대바이오랜드, 1분기 순이익 52억 '흑자전환'",
-          "press": "이데일리"
+          "title": "삼성바이오 노사, 마지막 면담 '빈손'…\"내일 총파업\"(종합)",
+          "press": "뉴시스"
         },
         {
-          "title": "LG CNS, 영업익 20% 뛰었다…DC 수주 효과 덕분",
-          "press": "비즈워치"
+          "title": "빗썸도 5년치 재산상 이익 공시…\"일관된 정보 위해 재공시\"",
+          "press": "연합뉴스"
         },
         {
-          "title": "FIU, '두나무 영업 일부정지 처분 취소' 판결에 항소",
-          "press": "아시아경제"
+          "title": "카카오페이證 신호철 대표, ‘청소년 불법도박 근절’ 릴레이 캠페인 동참",
+          "press": "조선비즈"
         },
         {
-          "title": "대한항공, 英 스카이트랙스 선정 ‘5성 항공사’… 6년 연속",
-          "press": "서울경제"
+          "title": "현대오토에버 1분기 영업익 212억원…작년보다 20.7%↓(종합)",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-04-30 15:15"
+    "updated_at": "2026-04-30 18:38"
   }
 ]
