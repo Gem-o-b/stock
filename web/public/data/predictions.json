@@ -3270,14 +3270,14 @@
     "date": "2026-05-07",
     "target_date": "2026-05-08",
     "prediction": "LONG",
-    "confidence": 0.8574,
-    "probability_long": 0.8574,
-    "probability_short": 0.1426,
-    "kospi_close": 7499.05,
+    "confidence": 0.8539,
+    "probability_long": 0.8539,
+    "probability_short": 0.1461,
+    "kospi_close": 7490.05,
     "sentiment": {
-      "avg_score": 0.3844,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.0333,
+      "avg_score": 0.4633,
+      "positive_ratio": 0.5667,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -3285,36 +3285,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1453.939941,
+          "value": 1451.01001,
           "importance": 285,
-          "contribution": 414372.8833,
+          "contribution": 413537.8528,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 397.976593,
+          "value": 397.258644,
           "importance": 167,
-          "contribution": 66462.091,
+          "contribution": 66342.1935,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 297.513902,
+          "value": 297.370312,
           "importance": 198,
-          "contribution": 58907.7526,
+          "contribution": 58879.3218,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 92.390715,
+          "value": 92.349244,
           "importance": 210,
-          "contribution": 19402.0502,
+          "contribution": 19393.3412,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -3329,40 +3329,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 92.39,
+        "rsi_14": 92.35,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 17.39,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-05-08 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,454원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.4로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-05-08 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,451원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.4로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "HD한국조선해양, 1분기 영업익 57.8%↑…친환경 선박·해양플랜트 실적 견인",
+          "title": "[올댓차이나] 홍콩 증시, 중동전쟁 종식 기대에 상승 마감…H주 1.35%↑",
+          "press": "뉴시스"
+        },
+        {
+          "title": "“‘삼전닉스’ 놓쳤는데 뭐 사야 되죠?” 개미들 멘붕…전문가가 꼽은 다음 주도주는 바로",
+          "press": "서울경제"
+        },
+        {
+          "title": "[종합] HD한국조선해양, 해양플랜트 존재감 커졌다…중동 프로젝트 훈풍",
           "press": "디지털데일리"
         },
         {
-          "title": "반도체 숨고르는 사이 건설·원전 '질주'…종전 기대에 방산 '하락세'",
-          "press": "뉴스1"
+          "title": "하림 '홈플 익스' 1200억에 인수",
+          "press": "매일경제"
         },
         {
-          "title": "[그래픽] 주요국 주식 자산효과",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "권대영 부위원장, '금투업권 모험자본 역량강화 협의체' 모두발언",
-          "press": "뉴스1"
-        },
-        {
-          "title": "모두발언하는 권대영 금융위 부위원장",
-          "press": "뉴스1"
+          "title": "‘부럽다 못해 화날 지경’ 코스닥은 왜 이래?…‘7500피’ 지켜보다 화병 날 뻔",
+          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-07 15:20"
+    "updated_at": "2026-05-07 18:49"
   }
 ]
