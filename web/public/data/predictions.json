@@ -3261,9 +3261,108 @@
         }
       ]
     },
+    "actual": "SHORT",
+    "actual_close": 7336.71,
+    "is_correct": false,
+    "updated_at": "2026-05-06 18:44"
+  },
+  {
+    "date": "2026-05-07",
+    "target_date": "2026-05-08",
+    "prediction": "LONG",
+    "confidence": 0.7326,
+    "probability_long": 0.7326,
+    "probability_short": 0.2674,
+    "kospi_close": 7336.71,
+    "sentiment": {
+      "avg_score": 0.5478,
+      "positive_ratio": 0.6333,
+      "negative_ratio": 0.1667,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1448.380005,
+          "importance": 285,
+          "contribution": 412788.3014,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 385.026393,
+          "importance": 167,
+          "contribution": 64299.4077,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 294.923862,
+          "importance": 198,
+          "contribution": 58394.9247,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 89.070088,
+          "importance": 210,
+          "contribution": 18704.7186,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 17.389999,
+          "importance": 290,
+          "contribution": 5043.0998,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 89.07,
+        "rsi_signal": "과매수",
+        "macd_signal": "매수",
+        "vix_level": 17.39,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-05-08 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 63%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,448원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.4로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "news_headlines": [
+        {
+          "title": "[제이알리츠 회생 쇼크]③ 미래에셋운용 ETF 238억 '진퇴양난'",
+          "press": "블로터"
+        },
+        {
+          "title": "베어링 고배당 펀드, 모펀드 기준 순자산 1조원 돌파",
+          "press": "아시아경제"
+        },
+        {
+          "title": "미래에셋, ISA 고객자산 15조 돌파…3개월만에 5조 증가",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "유진證 \"롯데관광개발, 연내 리파이낸싱 통한 수익성 개선\"",
+          "press": "뉴시스"
+        },
+        {
+          "title": "동진쎄미켐 1분기 영업이익 666억원…작년 동기 대비 39.4%↑",
+          "press": "연합뉴스"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-06 18:44"
+    "updated_at": "2026-05-07 10:40"
   }
 ]
