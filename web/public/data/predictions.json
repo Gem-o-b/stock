@@ -3765,14 +3765,14 @@
     "date": "2026-05-14",
     "target_date": "2026-05-15",
     "prediction": "LONG",
-    "confidence": 0.8373,
-    "probability_long": 0.8373,
-    "probability_short": 0.1627,
-    "kospi_close": 7891.7,
+    "confidence": 0.6674,
+    "probability_long": 0.6674,
+    "probability_short": 0.3326,
+    "kospi_close": 7981.41,
     "sentiment": {
-      "avg_score": 0.35,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.1,
+      "avg_score": 0.3422,
+      "positive_ratio": 0.5,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -3780,36 +3780,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1490.280029,
+          "value": 1491.699951,
           "importance": 285,
-          "contribution": 424729.8083,
+          "contribution": 425134.4861,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 524.057923,
+          "value": 531.214277,
           "importance": 167,
-          "contribution": 87517.6732,
+          "contribution": 88712.7842,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 429.119716,
+          "value": 430.550986,
           "importance": 198,
-          "contribution": 84965.7037,
+          "contribution": 85249.0953,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 86.545128,
+          "value": 87.118248,
           "importance": 210,
-          "contribution": 18174.4769,
+          "contribution": 18294.8321,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -3824,40 +3824,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 86.55,
+        "rsi_14": 87.12,
         "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 17.87,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-05-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,490원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.9로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-05-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,492원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.9로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "'연금형 반도체 ETF' 뜬다...'RISE 삼성전자SK하이닉스채권혼합50 ETF' 에 개미 뭉칫돈",
-          "press": "파이낸셜뉴스"
+          "title": "美주식분석 AI모델 개발 고3 “투자 정보 비대칭 허물 것”",
+          "press": "매일경제"
         },
         {
-          "title": "베일 벗은 ‘삼전닉스 레버리지 ETF’…미래에셋운용 ‘최저 보수’",
-          "press": "이데일리"
+          "title": "'2배 매운맛' 삼전닉스, 27일 나온다…어떤 것 고를까",
+          "press": "아이뉴스24"
         },
         {
-          "title": "비츠로셀, 119억원 규모 손해배상청구 소송 제기돼",
-          "press": "이데일리"
+          "title": "대미투자·달러 맞바꾸나…이재명표 ‘톱 다운’ 협상법 눈길",
+          "press": "서울경제"
         },
         {
-          "title": "재난 현장도 로켓배송…쿠팡, 긴급구호 시스템 가동",
-          "press": "동행미디어 시대"
+          "title": "반도체·유통·로봇 신고가 랠리…삼성전자 역사적 신고가 돌파 [매경 자이앤트]",
+          "press": "매일경제"
         },
         {
-          "title": "덕우전자, 1분기 매출 519억…전년 대비 30%↑",
-          "press": "이데일리"
+          "title": "[올댓차이나] 中 증시, 상승 출발 후 차익실현 매도에 반락 마감…창업판 2.16%↓",
+          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-14 15:28"
+    "updated_at": "2026-05-14 18:45"
   }
 ]
