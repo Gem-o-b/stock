@@ -3864,14 +3864,14 @@
     "date": "2026-05-15",
     "target_date": "2026-05-18",
     "prediction": "LONG",
-    "confidence": 0.6854,
-    "probability_long": 0.6854,
-    "probability_short": 0.3146,
-    "kospi_close": 7623.1,
+    "confidence": 0.8046,
+    "probability_long": 0.8046,
+    "probability_short": 0.1954,
+    "kospi_close": 7400.7,
     "sentiment": {
-      "avg_score": 0.3311,
-      "positive_ratio": 0.5333,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.4308,
+      "positive_ratio": 0.5667,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -3879,36 +3879,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1504.280029,
+          "value": 1500.880005,
           "importance": 285,
-          "contribution": 428719.8083,
+          "contribution": 427750.8014,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 447.299485,
+          "value": 443.751223,
           "importance": 198,
-          "contribution": 88565.298,
+          "contribution": 87862.7421,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 514.293478,
+          "value": 496.552168,
           "importance": 167,
-          "contribution": 85887.0109,
+          "contribution": 82924.212,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 73.837217,
+          "value": 67.590751,
           "importance": 210,
-          "contribution": 15505.8155,
+          "contribution": 14194.0576,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -3923,40 +3923,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 73.84,
-        "rsi_signal": "과매수",
+        "rsi_14": 67.59,
+        "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 17.26,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-05-18 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,504원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.3로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-05-18 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,501원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "농심 1분기 영업익 674억원… 전년비 20.3% 증가",
-          "press": "동행미디어 시대"
+          "title": "코스콤, '체크 엑스퍼트 플러스' 개편... 시각화·채권 데이터 강화",
+          "press": "한국경제"
         },
         {
-          "title": "'팔천피' 찍고 7300선 곤두박질…외인 순매도에 환율 1500원 돌파(종합)",
-          "press": "뉴스1"
+          "title": "NH-아문디운용, ‘HANARO Fn K-반도체 ETF’ 순자산 3조원 돌파",
+          "press": "조선비즈"
         },
         {
-          "title": "레전드아카데미, 생활체육 프로젝트 'PLUS82 RUN CLUB' 론칭",
-          "press": "머니투데이"
+          "title": "스페이스X 상장 아직인데…수익률 상위권 휩쓴 '우주 ETF'",
+          "press": "한국경제"
         },
         {
-          "title": "환율 한달만에 1500원 돌파, 코스피는 '급락'",
-          "press": "뉴스1"
+          "title": "SK하이닉스 300만원 간다…KB증권 “올해 영업익, 글로벌 4위”",
+          "press": "데일리안"
         },
         {
-          "title": "8천피 찍은 코스피, 7500 이하로 급락",
-          "press": "뉴스1"
+          "title": "삼전닉스 이어 삼전현차까지…몸집 커진 채권혼합ETF",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-15 15:17"
+    "updated_at": "2026-05-15 15:30"
   }
 ]
