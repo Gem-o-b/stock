@@ -3963,14 +3963,14 @@
     "date": "2026-05-18",
     "target_date": "2026-05-19",
     "prediction": "LONG",
-    "confidence": 0.8432,
-    "probability_long": 0.8432,
-    "probability_short": 0.1568,
-    "kospi_close": 7375.69,
+    "confidence": 0.5549,
+    "probability_long": 0.5549,
+    "probability_short": 0.4451,
+    "kospi_close": 7502.89,
     "sentiment": {
-      "avg_score": 0.5222,
-      "positive_ratio": 0.6667,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.3533,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.0333,
       "article_count": 30
     },
     "reasons": {
@@ -3978,36 +3978,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1504.97998,
+          "value": 1499.780029,
           "importance": 285,
-          "contribution": 428919.2944,
+          "contribution": 427437.3083,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 449.668812,
+          "value": 451.698214,
           "importance": 198,
-          "contribution": 89034.4248,
+          "contribution": 89436.2463,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 467.437312,
+          "value": 477.584321,
           "importance": 167,
-          "contribution": 78062.0312,
+          "contribution": 79756.5816,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 66.958331,
+          "value": 70.174315,
           "importance": 210,
-          "contribution": 14061.2494,
+          "contribution": 14736.6062,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -4022,40 +4022,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 66.96,
-        "rsi_signal": "강세",
+        "rsi_14": 70.17,
+        "rsi_signal": "과매수",
         "macd_signal": "매수",
         "vix_level": 18.43,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-05-19 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,505원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-05-19 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,500원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매수 구간으로, 단기 조정 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "삼성중공업, 1조1242억 규모 LNG운반선 3척 수주",
-          "press": "한국경제"
+          "title": "LB세미콘, 1분기 영업이익 76억 흑자전환",
+          "press": "이데일리"
         },
         {
-          "title": "원·달러 환율 1,500원↑ '상승세'",
+          "title": "거래소, 상장사 임직원에 '직무 맞춤형 불공정거래 예방교육'",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "\"K-뷰티 덕에\"…케어랩스, 1분기 영업이익 225%↑",
           "press": "뉴시스"
         },
         {
-          "title": "원·달러 환율, 0.4원 오른 1501.2원 개장",
-          "press": "뉴시스"
+          "title": "[특징주] 아리바이오 “단독 상장 검토” 소식에…소룩스 한때 25% 급락",
+          "press": "조선비즈"
         },
         {
-          "title": "원·달러 환율 1,500원↑ '상승세'",
-          "press": "뉴시스"
-        },
-        {
-          "title": "원·달러 환율, 0.4원 오른 1501.2원 개장",
-          "press": "뉴시스"
+          "title": "신영수 대한통운 대표 \"물류 미래 바꾸는 혁신, 작은 성공에서 시작\"",
+          "press": "동행미디어 시대"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-18 10:47"
+    "updated_at": "2026-05-18 15:30"
   }
 ]
