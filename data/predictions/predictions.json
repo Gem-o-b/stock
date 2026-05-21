@@ -4259,15 +4259,15 @@
   {
     "date": "2026-05-21",
     "target_date": "2026-05-22",
-    "prediction": "LONG",
-    "confidence": 0.736,
-    "probability_long": 0.736,
-    "probability_short": 0.264,
-    "kospi_close": 7789.26,
+    "prediction": "SHORT",
+    "confidence": 0.9277,
+    "probability_long": 0.0723,
+    "probability_short": 0.9277,
+    "kospi_close": 7815.59,
     "sentiment": {
-      "avg_score": 0.2667,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.0,
+      "avg_score": 0.2089,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -4275,36 +4275,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1505.189941,
-          "importance": 285,
-          "contribution": 428979.1333,
+          "value": 1504.52002,
+          "importance": 293,
+          "contribution": 440824.3657,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 428.212923,
-          "importance": 198,
-          "contribution": 84786.1588,
+          "value": 428.633003,
+          "importance": 182,
+          "contribution": 78011.2065,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 395.43152,
-          "importance": 167,
-          "contribution": 66037.0638,
+          "value": 397.531919,
+          "importance": 177,
+          "contribution": 70363.1496,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 66.995952,
-          "importance": 210,
-          "contribution": 14069.1499,
+          "value": 67.262714,
+          "importance": 235,
+          "contribution": 15806.7378,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -4312,47 +4312,47 @@
           "name": "VIX 수준",
           "feature": "vix_level",
           "value": 17.440001,
-          "importance": 290,
-          "contribution": 5057.6002,
+          "importance": 246,
+          "contribution": 4290.2401,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 67.0,
+        "rsi_14": 67.26,
         "rsi_signal": "강세",
         "macd_signal": "매도",
         "vix_level": 17.44,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-05-22 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 0%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,505원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-05-22 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,505원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "김영성 KB자산운용 대표 \"상품·운용 경쟁력 강화해 도약의 해로\"",
-          "press": "한국경제"
+          "title": "철회 아닌 유보된 파업…조합원 투표 부결되면 바로 파업?",
+          "press": "MBN"
         },
         {
-          "title": "[코스닥] 49.90포인트(4.73%) 오른 1105.97 마감",
-          "press": "서울경제"
+          "title": "메모리 6억 원·적자 사업부도 1억 6천…특별경영성과급 모두 주식으로",
+          "press": "MBN"
         },
         {
-          "title": "[속보]코스피, 8.42% 오른 7815.59 마감…코스닥도 4.73% 상승",
+          "title": "총파업 90분 전 극적 타결…'성과주의 원칙' 양보해 파국 막았다",
+          "press": "MBN"
+        },
+        {
+          "title": "석유 최고가격제 5번 연속 ‘동결’…고시는 한 달 단위로 전환",
           "press": "이데일리"
         },
         {
-          "title": "[코스피] 606.64포인트(8.42%) 오른 7815.59 마감",
-          "press": "서울경제"
-        },
-        {
-          "title": "[달러·원] 환율 0.7원 내린 1506.1원 마감",
-          "press": "뉴스1"
+          "title": "'급락' 예상 못한 빚투 개미들…3일간 3000억 '강제청산'",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-21 15:37"
+    "updated_at": "2026-05-21 19:13"
   }
 ]
