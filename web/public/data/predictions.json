@@ -4453,5 +4453,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-05-22 19:03"
+  },
+  {
+    "date": "2026-05-25",
+    "target_date": "2026-05-26",
+    "prediction": "SHORT",
+    "confidence": 0.7017,
+    "probability_long": 0.2983,
+    "probability_short": 0.7017,
+    "kospi_close": 7847.71,
+    "sentiment": {
+      "avg_score": 0.05,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.3667,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1504.400024,
+          "importance": 293,
+          "contribution": 440789.2072,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 423.380607,
+          "importance": 182,
+          "contribution": 77055.2704,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 402.371021,
+          "importance": 177,
+          "contribution": 71219.6708,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 69.527404,
+          "importance": 235,
+          "contribution": 16338.94,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 16.700001,
+          "importance": 246,
+          "contribution": 4108.2002,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 69.53,
+        "rsi_signal": "강세",
+        "macd_signal": "매도",
+        "vix_level": 16.7,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-05-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 37%입니다.\n\n[시장 상황] 원/달러 환율이 1,504원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.7로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.4%, 나스닥 +0.2%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "news_headlines": [
+        {
+          "title": "휴온스글로벌 “휴온스랩 합병, 승계와 무관…주주보호책 곧 공개”",
+          "press": "이데일리"
+        },
+        {
+          "title": "중동 훈풍에 '불기둥'…日닛케이 장중 최고치 경신",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "“여기는 주가 빠졌네”…‘삼전닉스’ 10조원 넘게 판 외국인들 산 종목",
+          "press": "매일경제"
+        },
+        {
+          "title": "코스피 사상 최고치 랠리에…일평균 거래대금 처음으로 40조 돌파",
+          "press": "조선비즈"
+        },
+        {
+          "title": "日닛케이지수 65,000 돌파…장중 최고치 연달아 경신(종합)",
+          "press": "연합뉴스"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-05-25 10:48"
   }
 ]
