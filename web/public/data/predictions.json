@@ -4754,15 +4754,15 @@
   {
     "date": "2026-05-28",
     "target_date": "2026-05-29",
-    "prediction": "SHORT",
-    "confidence": 0.5431,
-    "probability_long": 0.4569,
-    "probability_short": 0.5431,
-    "kospi_close": 7946.47,
+    "prediction": "LONG",
+    "confidence": 0.854,
+    "probability_long": 0.854,
+    "probability_short": 0.146,
+    "kospi_close": 8185.29,
     "sentiment": {
-      "avg_score": 0.0667,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.1722,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -4770,36 +4770,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1501.97998,
+          "value": 1502.050049,
           "importance": 293,
-          "contribution": 440080.1343,
+          "contribution": 440100.6643,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
-          "name": "MACD 시그널",
-          "feature": "macd_signal",
-          "value": 426.155348,
-          "importance": 182,
-          "contribution": 77560.2732,
-          "impact": "LONG",
-          "description": "MACD 시그널 양수 → 매수 신호"
-        },
-        {
           "name": "MACD",
           "feature": "macd",
-          "value": 428.451336,
+          "value": 447.502504,
           "importance": 177,
-          "contribution": 75835.8865,
+          "contribution": 79207.9433,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 429.965581,
+          "importance": 182,
+          "contribution": 78253.7358,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 57.684615,
+          "value": 62.72923,
           "importance": 235,
-          "contribution": 13555.8844,
+          "contribution": 14741.3691,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -4814,40 +4814,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 57.68,
-        "rsi_signal": "중립",
+        "rsi_14": 62.73,
+        "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 16.29,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-05-29 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 13%입니다.\n\n[시장 상황] 원/달러 환율이 1,502원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-05-29 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,502원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스닥, 1104.36 마감…전 거래일보다 2.54% 하락",
-          "press": "동행미디어 시대"
+          "title": "\"땡큐 잠실빌딩\" 삼성FN리츠, 자산 1조원 돌파 [fn마켓워치]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "[코스닥] 28.77포인트(2.54%) 내린 1104.36 마감",
+          "title": "국민연금, 국내주식 한도 5.9%P 올린다[시그널]",
           "press": "서울경제"
         },
         {
-          "title": "[속보] 7841.01까지 밀렸던 코스피, 8185.29 마감…0.53% 하락",
-          "press": "동행미디어 시대"
+          "title": "JP모건 \"한은, 예상보다 매파적…금리인상 더 빠르고 강할 것\"",
+          "press": "뉴시스"
         },
         {
-          "title": "[오늘의 증시] 5월 28일 코스피 코스닥",
+          "title": "휴온스글로벌, 7월 임시주총…\"합병 의견 들을 것\"",
+          "press": "뉴시스"
+        },
+        {
+          "title": "[그래픽] 국민연금 기금운용 계획",
           "press": "뉴스1"
-        },
-        {
-          "title": "코스피, 소폭 내렸지만 8,000선은 사수…코스닥 2.5% 하락",
-          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-28 15:38"
+    "updated_at": "2026-05-28 19:25"
   }
 ]
