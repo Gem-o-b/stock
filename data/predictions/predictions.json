@@ -4754,15 +4754,15 @@
   {
     "date": "2026-05-28",
     "target_date": "2026-05-29",
-    "prediction": "LONG",
-    "confidence": 0.6215,
-    "probability_long": 0.6215,
-    "probability_short": 0.3785,
-    "kospi_close": 8237.82,
+    "prediction": "SHORT",
+    "confidence": 0.5431,
+    "probability_long": 0.4569,
+    "probability_short": 0.5431,
+    "kospi_close": 7946.47,
     "sentiment": {
-      "avg_score": 0.3422,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.1,
+      "avg_score": 0.4556,
+      "positive_ratio": 0.5667,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -4770,36 +4770,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1505.680054,
+          "value": 1502.579956,
           "importance": 293,
-          "contribution": 441164.2557,
+          "contribution": 440255.9271,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
-          "name": "MACD",
-          "feature": "macd",
-          "value": 451.692932,
-          "importance": 177,
-          "contribution": 79949.6489,
-          "impact": "LONG",
-          "description": "MACD 양수 → 상승 추세"
-        },
-        {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 430.803667,
+          "value": 426.155348,
           "importance": 182,
-          "contribution": 78406.2673,
+          "contribution": 77560.2732,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 428.451336,
+          "importance": 177,
+          "contribution": 75835.8865,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 63.865104,
+          "value": 57.684615,
           "importance": 235,
-          "contribution": 15008.2994,
+          "contribution": 13555.8844,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -4814,40 +4814,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 63.87,
-        "rsi_signal": "강세",
+        "rsi_14": 57.68,
+        "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 16.29,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-05-29 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,506원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-05-29 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,503원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "SK증권, 주식대여서비스 가입 이벤트 진행",
-          "press": "파이낸셜뉴스"
+          "title": "신현송 \"적절한 시기 금리 인상\"…연내 두 차례 인상 무게",
+          "press": "한국일보"
         },
         {
-          "title": "한국 딜로이트 그룹, 신규 경영진 출범…성장 드라이브 시동",
+          "title": "국민성장펀드, 판매회사 변경 가능…금투협 규정 손질",
+          "press": "조선비즈"
+        },
+        {
+          "title": "금투협, 국민성장펀드 판매사 변경 허용 추진",
+          "press": "뉴시스"
+        },
+        {
+          "title": "카티스, 네이버 AI데이터센터에 물리보안 구축 추진",
           "press": "이데일리"
         },
         {
-          "title": "코스피 숨고르기?...외국인은 2조 던지는 중 [fn오전시황]",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "코스피, 하락 출발 후 반등…수급 공방 속 개인이 지수 견인 [투자360]",
-          "press": "헤럴드경제"
-        },
-        {
-          "title": "[기자수첩]\"AI가 다 해오는데\"…VC가 다시 답해야 할 질문",
-          "press": "아시아경제"
+          "title": "두산, SK실트론 인수 6월 유력…‘반도체 기업’ 전환 임박 [시그널]",
+          "press": "서울경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-28 10:40"
+    "updated_at": "2026-05-28 15:28"
   }
 ]
