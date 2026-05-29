@@ -4854,14 +4854,14 @@
     "date": "2026-05-29",
     "target_date": "2026-06-01",
     "prediction": "SHORT",
-    "confidence": 0.8769,
-    "probability_long": 0.1231,
-    "probability_short": 0.8769,
-    "kospi_close": 8452.47,
+    "confidence": 0.9036,
+    "probability_long": 0.0964,
+    "probability_short": 0.9036,
+    "kospi_close": 8476.15,
     "sentiment": {
-      "avg_score": 0.0,
-      "positive_ratio": 0.0667,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.2867,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -4869,36 +4869,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1506.97998,
+          "value": 1507.97998,
           "importance": 293,
-          "contribution": 441545.1343,
+          "contribution": 441838.1343,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 470.317829,
+          "value": 472.206832,
           "importance": 177,
-          "contribution": 83246.2557,
+          "contribution": 83580.6092,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 438.036031,
+          "value": 438.413831,
           "importance": 182,
-          "contribution": 79722.5576,
+          "contribution": 79791.3173,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 65.96045,
+          "value": 66.227906,
           "importance": 235,
-          "contribution": 15500.7057,
+          "contribution": 15563.5578,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -4913,40 +4913,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 65.96,
+        "rsi_14": 66.23,
         "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 15.74,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-06-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 7%, 부정 7%입니다.\n\n[시장 상황] 원/달러 환율이 1,507원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-06-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,508원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스피, 또 최고치…8476.15로 장 마감",
-          "press": "디지털타임스"
+          "title": "[특징주] 삼성전기, 현대차 제치고 '시총 4위'…200만원 첫돌파(종합3보)",
+          "press": "연합뉴스"
         },
         {
-          "title": "코스피 8476p 마감…이틀 만에 또 사상 최고치(2보)",
-          "press": "뉴스1"
-        },
-        {
-          "title": "원·달러 환율, 5.1원 오른 1507.9원 마감(종합)",
-          "press": "뉴시스"
-        },
-        {
-          "title": "코스피, 3.55% 오른 8,476.15 마감…사상 최고치 경신",
+          "title": "코스피, 또 최고치 경신…삼전 시총 2천조 시대",
           "press": "연합뉴스TV"
         },
         {
-          "title": "[속보] 코스피, 또 최고치 경신…8476.15 마감",
-          "press": "국민일보"
+          "title": "100만원 때 “지금 들어가기엔 비싸죠?”…보름만에 200만원도 넘은 주식",
+          "press": "매일경제"
+        },
+        {
+          "title": "[올댓차이나] 홍콩 증시, 美 증시 강세로 기술주에 저가 매수 선행 반등 마감…H주 0.73%↑",
+          "press": "뉴시스"
+        },
+        {
+          "title": "'출시 5일새 완판' 국민참여성장펀드…서민 비중 39%",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-05-29 15:40"
+    "updated_at": "2026-05-29 19:18"
   }
 ]
