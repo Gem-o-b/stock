@@ -5744,15 +5744,15 @@
   {
     "date": "2026-06-11",
     "target_date": "2026-06-12",
-    "prediction": "LONG",
-    "confidence": 0.8685,
-    "probability_long": 0.8685,
-    "probability_short": 0.1315,
-    "kospi_close": 7700.41,
+    "prediction": "SHORT",
+    "confidence": 0.5557,
+    "probability_long": 0.4443,
+    "probability_short": 0.5557,
+    "kospi_close": 7763.95,
     "sentiment": {
-      "avg_score": 0.4825,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.1532,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -5760,84 +5760,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1532.579956,
+          "value": 1530.530029,
           "importance": 262,
-          "contribution": 401535.9485,
+          "contribution": 400998.8677,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 391.029237,
+          "value": 392.04298,
           "importance": 198,
-          "contribution": 77423.7889,
+          "contribution": 77624.5101,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 265.37134,
+          "value": 270.440058,
           "importance": 218,
-          "contribution": 57850.9521,
+          "contribution": 58955.9326,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 56.134845,
+          "value": 56.923307,
           "importance": 223,
-          "contribution": 12518.0705,
+          "contribution": 12693.8975,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 19.870001,
+          "value": 22.219999,
           "importance": 265,
-          "contribution": 5265.5502,
+          "contribution": 5888.2998,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 56.13,
+        "rsi_14": 56.92,
         "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 19.87,
-        "vix_status": "안정",
+        "vix_level": 22.22,
+        "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-06-12 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,533원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-06-12 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,531원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 22.2로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[포토] 하나은행 딜링룸",
-          "press": "이데일리"
+          "title": "KB증권 잠실지점, 하반기 투자 세미나 내일 개최",
+          "press": "뉴시스"
         },
         {
-          "title": "[포토] 코스피 코스닥 동반 상승",
-          "press": "이데일리"
+          "title": "거래소, 신임 코스닥시장위원장에 김우찬 고려대 교수 추천",
+          "press": "뉴시스"
         },
         {
-          "title": "中개미들, 스페이스X·오픈AI 투자 위해 '코인 우회로' 찾았다",
-          "press": "뉴스1"
+          "title": "TIGER 커버드콜 6월 분배금 주당 215원 지급",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "[포토] 코스피 7763.95, 코스닥 996.93",
-          "press": "이데일리"
+          "title": "[뉴스추적] 1조도 예상됐는데, 왜? / 소송하면 과징금 줄어드나? / 미국이 또 움질일까?",
+          "press": "MBN"
         },
         {
-          "title": "[포토] 코스피 지수 7763.95",
-          "press": "이데일리"
+          "title": "기자 71명 '취업 제한' 명단에…쿠팡, 추가 위법 사실 드러나",
+          "press": "MBN"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-11 15:57"
+    "updated_at": "2026-06-11 19:29"
   }
 ]
