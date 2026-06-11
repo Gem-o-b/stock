@@ -5745,14 +5745,14 @@
     "date": "2026-06-11",
     "target_date": "2026-06-12",
     "prediction": "LONG",
-    "confidence": 0.8187,
-    "probability_long": 0.8187,
-    "probability_short": 0.1813,
-    "kospi_close": 7794.25,
+    "confidence": 0.8628,
+    "probability_long": 0.8628,
+    "probability_short": 0.1372,
+    "kospi_close": 7700.41,
     "sentiment": {
-      "avg_score": 0.1944,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.2111,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -5760,84 +5760,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1526.880005,
+          "value": 1529.790039,
           "importance": 262,
-          "contribution": 400042.5613,
+          "contribution": 400804.9902,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 392.526399,
+          "value": 391.029237,
           "importance": 198,
-          "contribution": 77720.2271,
+          "contribution": 77423.7889,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 272.857152,
+          "value": 265.37134,
           "importance": 218,
-          "contribution": 59482.8591,
+          "contribution": 57850.9521,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 57.246502,
+          "value": 56.134845,
           "importance": 223,
-          "contribution": 12765.97,
+          "contribution": 12518.0705,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 22.219999,
+          "value": 19.870001,
           "importance": 265,
-          "contribution": 5888.2998,
+          "contribution": 5265.5502,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 57.25,
+        "rsi_14": 56.13,
         "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 22.22,
-        "vix_status": "불안",
+        "vix_level": 19.87,
+        "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-06-12 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,527원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 22.2로 다소 불안한 수준입니다.",
+      "summary": "AI 모델은 2026-06-12 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,530원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "스페이스X 상장 D-1…청약 막판 뭉칫돈 몰릴까",
-          "press": "더팩트"
-        },
-        {
-          "title": "국내 금값, 1g당 20만원선 아래로…작년 12월 이후 처음",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "코스피 7400 깨졌다가 7800 터치…‘롤러코스터 장세’에 투자자 혼란↑ [투자360]",
-          "press": "헤럴드경제"
-        },
-        {
-          "title": "오늘의 메모[6월 12일]",
+          "title": "[코스닥] 45.30포인트(4.76%) 오른 996.93 마감",
           "press": "서울경제"
         },
         {
-          "title": "에이팩트, 250억 CB 납입 완료…AI 메모리 수요 대응 증설 본격화",
+          "title": "[속보]코스피, 0.43% 오른 7763.95..코스닥, 4%대 급등 마감",
           "press": "이데일리"
+        },
+        {
+          "title": "[코스닥] 45.30p(4.76%) 오른 996.93 마감",
+          "press": "뉴스1"
+        },
+        {
+          "title": "[코스피] 33.13p(0.43%) 오른 7763.95 마감",
+          "press": "뉴스1"
+        },
+        {
+          "title": "[코스피] 33.13포인트(0.43%) 오른 7763.95 마감",
+          "press": "서울경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-11 10:55"
+    "updated_at": "2026-06-11 15:36"
   }
 ]
