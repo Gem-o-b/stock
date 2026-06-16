@@ -6042,14 +6042,14 @@
     "date": "2026-06-16",
     "target_date": "2026-06-17",
     "prediction": "LONG",
-    "confidence": 0.7439,
-    "probability_long": 0.7439,
-    "probability_short": 0.2561,
-    "kospi_close": 8700.99,
+    "confidence": 0.8994,
+    "probability_long": 0.8994,
+    "probability_short": 0.1006,
+    "kospi_close": 8726.52,
     "sentiment": {
-      "avg_score": 0.3333,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.1,
+      "avg_score": 0.2,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -6057,84 +6057,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1513.599976,
+          "value": 1512.040039,
           "importance": 262,
-          "contribution": 396563.1936,
+          "contribution": 396154.4902,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 311.23933,
+          "value": 313.275911,
           "importance": 218,
-          "contribution": 67850.1739,
+          "contribution": 68294.1486,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 341.789519,
+          "value": 342.196835,
           "importance": 198,
-          "contribution": 67674.3248,
+          "contribution": 67754.9734,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 57.956305,
+          "value": 58.216064,
           "importance": 223,
-          "contribution": 12924.2561,
+          "contribution": 12982.1822,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 16.200001,
+          "value": 17.68,
           "importance": 265,
-          "contribution": 4293.0002,
+          "contribution": 4685.2001,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 57.96,
+        "rsi_14": 58.22,
         "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 16.2,
+        "vix_level": 17.68,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-06-17 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,514원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-06-17 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,512원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "뉴로핏, 권역거점병원 3곳 '의료AI' 공급사 선정",
-          "press": "뉴시스"
+          "title": "대웅 건강관리 웰다, KT 임직원 대상 혈당 관리 캠페인",
+          "press": "비즈워치"
         },
         {
-          "title": "'군체' 스크린X·4DX 글로벌 흥행…아시아 3개국 역대 한국영화 1위",
-          "press": "머니투데이"
+          "title": "[특징주] 레인보우로보틱스, 장중 7%대 급락 중",
+          "press": "연합뉴스"
         },
         {
-          "title": "한투, 中 1위 국태해통과 첫 ‘투자전략포럼’ 개최",
+          "title": "미래에셋증권 “스페이스X 청약 투자자에 금전적 보상 검토”",
+          "press": "디지털데일리"
+        },
+        {
+          "title": "라이프자산운용·이화여대, MOU 체결…여성 거버넌스 전문인력 양성",
           "press": "서울경제"
         },
         {
-          "title": "미래에셋증권, 주식·펀드가 이끈 운용 실적…실제 회수력 '관전 포인트'",
-          "press": "블로터"
-        },
-        {
-          "title": "케이엔에스, 올해 신규 수주 460억원 돌파…\"하반기 실적 성장 기대\"",
-          "press": "아시아경제"
+          "title": "에이스토리, 드라마 '크래시 시즌2' 방영권 라이센스 계약",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-16 10:58"
+    "updated_at": "2026-06-16 15:30"
   }
 ]
