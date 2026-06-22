@@ -6438,14 +6438,14 @@
     "date": "2026-06-22",
     "target_date": "2026-06-23",
     "prediction": "LONG",
-    "confidence": 0.8504,
-    "probability_long": 0.8504,
-    "probability_short": 0.1496,
-    "kospi_close": 9213.72,
+    "confidence": 0.8781,
+    "probability_long": 0.8781,
+    "probability_short": 0.1219,
+    "kospi_close": 9073.88,
     "sentiment": {
-      "avg_score": 0.5311,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.0,
+      "avg_score": 0.3444,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -6453,36 +6453,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1536.780029,
+          "value": 1536.880005,
           "importance": 262,
-          "contribution": 402636.3677,
+          "contribution": 402662.5613,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 428.457267,
+          "value": 417.30194,
           "importance": 218,
-          "contribution": 93403.6843,
+          "contribution": 90971.8228,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 373.987005,
+          "value": 371.755939,
           "importance": 198,
-          "contribution": 74049.4269,
+          "contribution": 73607.6759,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 55.575217,
+          "value": 53.88465,
           "importance": 223,
-          "contribution": 12393.2734,
+          "contribution": 12016.2769,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -6497,40 +6497,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 55.58,
+        "rsi_14": 53.88,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 16.4,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-06-23 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 0%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,537원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-06-23 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,537원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "\"300만닉스 코앞\"…SK하이닉스·SK스퀘어 또 '신고가'",
-          "press": "뉴시스"
+          "title": "한국주택금융공사, 노부모 부양 가구·녹색 건축물 보증료 우대",
+          "press": "부산일보"
         },
         {
-          "title": "\"돈 버는게 힘들어요\"…이억원 \"그래서 청년미래적금 준비했습니다\"",
-          "press": "비즈워치"
+          "title": "\"드러누워서라도 막았어야…\" 이찬진, 변동성 키운 '레버리지 상품' 반성문",
+          "press": "한국일보"
         },
         {
-          "title": "한투운용, 반도체·전력 ETF 2종 출시…\"AI 슈퍼사이클의 핵심\"",
-          "press": "머니투데이"
+          "title": "이찬진 \"중앙그룹, 부도 직전까지 채권 판매⋯경위 조사\"",
+          "press": "아이뉴스24"
         },
         {
-          "title": "삼전닉스·수출액 훈풍에 코스닥 반도체도 '방긋'…파두 15%↑",
-          "press": "머니투데이"
+          "title": "‘부산금융박물관로드’, 유아~성인 맞춤형 금융교육 프로그램으로 확대 개편",
+          "press": "부산일보"
         },
         {
-          "title": "거래소, 내달 1일 코스닥 30주년 기념식",
-          "press": "한국경제TV"
+          "title": "'수익률 348%' 빽가도 삼전 물었다…증권가 전망은 '낙관론'",
+          "press": "이코노미스트"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-22 10:55"
+    "updated_at": "2026-06-22 15:29"
   }
 ]

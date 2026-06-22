@@ -1,11 +1,11 @@
 {
   "date": "2026-06-22",
-  "kospi_close": 9213.72,
+  "kospi_close": 9073.88,
   "kospi_open": 8954.43,
-  "kospi_high": 9214.72,
+  "kospi_high": 9253.0,
   "kospi_low": 8900.68,
-  "kospi_volume": 125294601,
-  "usdkrw": 1536.78,
+  "kospi_volume": 338700554,
+  "usdkrw": 1536.88,
   "sp500": 7500.58,
   "nasdaq": 26517.93,
   "vix": 16.4,
@@ -429,9 +429,9 @@
     {
       "time": "2026-06-22",
       "open": 8954.43,
-      "high": 9214.72,
+      "high": 9253.0,
       "low": 8900.68,
-      "close": 9213.72
+      "close": 9073.88
     }
   ]
 }
