@@ -6636,14 +6636,14 @@
     "date": "2026-06-24",
     "target_date": "2026-06-25",
     "prediction": "LONG",
-    "confidence": 0.7217,
-    "probability_long": 0.7217,
-    "probability_short": 0.2783,
+    "confidence": 0.581,
+    "probability_long": 0.581,
+    "probability_short": 0.419,
     "kospi_close": 8453.44,
     "sentiment": {
-      "avg_score": 0.2111,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.2024,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -6651,9 +6651,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1540.079956,
+          "value": 1541.579956,
           "importance": 262,
-          "contribution": 403500.9485,
+          "contribution": 403893.9485,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -6702,33 +6702,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-06-25 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,540원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-06-25 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,542원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 19.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "배터리솔루션즈, CIS케미칼과 LFP 재활용 MOU 체결",
-          "press": "머니투데이"
+          "title": "시공테크, 88억원 규모 '2027 베오그라드엑스포 한국관' 계약 체결",
+          "press": "이데일리"
         },
         {
-          "title": "영우디에스피, 55억 규모 스마트 로봇 이송 시스템 공급계약",
-          "press": "헤럴드경제"
+          "title": "이찬진 “회계부정, 예방적 감독체계로 전환”",
+          "press": "매일경제"
         },
         {
-          "title": "수소전기차 넘어 '수소동력차'까지…미래 교통 청사진",
-          "press": "비즈워치"
+          "title": "영우디에스피, 55억 규모 스마트 로봇 이송 시스템 공급 계약",
+          "press": "이데일리"
         },
         {
-          "title": "거래소, 부산 어르신 탁구대회 개최 지원",
+          "title": "[특징주] '바이오 USA' 참석 바이오주 강세…삼바 9%대 급등",
           "press": "연합뉴스"
         },
         {
-          "title": "한미그룹, 임직원 자녀 대상 자원순환 캠페인 열어",
-          "press": "비즈워치"
+          "title": "오스템, 30억 규모 자사주 취득 신탁 계약",
+          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-24 15:01"
+    "updated_at": "2026-06-24 15:24"
   }
 ]
