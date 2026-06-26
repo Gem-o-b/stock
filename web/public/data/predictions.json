@@ -6834,14 +6834,14 @@
     "date": "2026-06-26",
     "target_date": "2026-06-29",
     "prediction": "LONG",
-    "confidence": 0.989,
-    "probability_long": 0.989,
-    "probability_short": 0.011,
-    "kospi_close": 8306.18,
+    "confidence": 0.9795,
+    "probability_long": 0.9795,
+    "probability_short": 0.0205,
+    "kospi_close": 8411.21,
     "sentiment": {
-      "avg_score": -0.0233,
-      "positive_ratio": 0.1667,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.2437,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -6849,36 +6849,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1535.380005,
+          "value": 1537.199951,
           "importance": 262,
-          "contribution": 402269.5613,
+          "contribution": 402746.3872,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 341.072344,
+          "value": 342.748036,
           "importance": 198,
-          "contribution": 67532.3241,
+          "contribution": 67864.1112,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 285.291284,
+          "value": 293.669745,
           "importance": 218,
-          "contribution": 62193.4998,
+          "contribution": 64020.0044,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 58.842912,
+          "value": 60.203767,
           "importance": 223,
-          "contribution": 13121.9693,
+          "contribution": 13425.4401,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -6893,40 +6893,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 58.84,
-        "rsi_signal": "중립",
+        "rsi_14": 60.2,
+        "rsi_signal": "강세",
         "macd_signal": "매도",
         "vix_level": 18.89,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-06-29 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 23%입니다.\n\n[시장 상황] 원/달러 환율이 1,535원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-06-29 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,537원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "'코스닥 상장법인 공시담당자 워크숍' 개회합니다",
-          "press": "뉴스1"
-        },
-        {
-          "title": "2026 코스닥 상장법인 공시담당자 워크숍",
-          "press": "뉴스1"
-        },
-        {
-          "title": "한국비엔씨, 의약품 회수·폐기 명령 취소 소송 상고심 승소",
+          "title": "“드디어 내린다” 석유 최고가격, 150원 전격 인하…휘발유 1800원대로",
           "press": "이데일리"
         },
         {
-          "title": "센티언트 재단, 4천200만 달러 오픈소스 AGI 프로그램 가동",
-          "press": "한국경제TV"
+          "title": "금감원 나선 뒤에야…서진시스템, 분기 보고서 정정[마켓인]",
+          "press": "이데일리"
         },
         {
-          "title": "인텍플러스, 140억원 규모 반도체 검사장비 공급계약",
-          "press": "이데일리"
+          "title": "넥스트레이드, 3분기 거래대상서 32개 종목 제외…신규 편입은 없어",
+          "press": "아시아경제"
+        },
+        {
+          "title": "스페이스X 다음 4조원 잭팟?…앤트로픽 IPO 앞두고 SKT 주목 [투자360]",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "KB증권, 1조원 규모 유상증자 결정…\"IMA·발행어음 기반 마련\"",
+          "press": "뉴스1"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-26 15:27"
+    "updated_at": "2026-06-26 19:03"
   }
 ]
