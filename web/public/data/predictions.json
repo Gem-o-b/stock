@@ -7032,51 +7032,51 @@
     "date": "2026-06-30",
     "target_date": "2026-07-01",
     "prediction": "LONG",
-    "confidence": 0.983,
-    "probability_long": 0.983,
-    "probability_short": 0.017,
-    "kospi_close": 8293.87,
+    "confidence": 0.9116,
+    "probability_long": 0.9116,
+    "probability_short": 0.0884,
+    "kospi_close": 8625.22,
     "sentiment": {
-      "avg_score": 0.0,
-      "positive_ratio": 0.0,
-      "negative_ratio": 0.0,
-      "article_count": 0
+      "avg_score": 0.1889,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.1,
+      "article_count": 30
     },
     "reasons": {
       "top_factors": [
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1543.180054,
+          "value": 1548.400024,
           "importance": 262,
-          "contribution": 404313.1741,
+          "contribution": 405680.8064,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 304.608848,
+          "value": 309.895344,
           "importance": 198,
-          "contribution": 60312.5519,
+          "contribution": 61359.2781,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 219.609005,
+          "value": 246.041483,
           "importance": 218,
-          "contribution": 47874.763,
+          "contribution": 53637.0434,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 57.649782,
+          "value": 61.737656,
           "importance": 223,
-          "contribution": 12855.9015,
+          "contribution": 13767.4973,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -7091,19 +7091,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 57.65,
-        "rsi_signal": "중립",
+        "rsi_14": 61.74,
+        "rsi_signal": "강세",
         "macd_signal": "매도",
         "vix_level": 17.65,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-07-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘은 주요 뉴스가 수집되지 않았습니다.\n\n[시장 상황] 원/달러 환율이 1,543원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
-      "news_headlines": []
+      "summary": "AI 모델은 2026-07-01 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,548원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.6로 시장이 비교적 안정적입니다.",
+      "news_headlines": [
+        {
+          "title": "내달 41개사 2억514만주 의무보유등록 해제…코스닥 비중 94%",
+          "press": "매일경제"
+        },
+        {
+          "title": "IBK투자증권, 최광진 대표이사 신규 선임",
+          "press": "뉴시스"
+        },
+        {
+          "title": "NH투자증권, 신재욱·배광수 각자대표 체제 공식 출범",
+          "press": "뉴시스"
+        },
+        {
+          "title": "“해외주식·ETF 열풍에 증권거래세 400% 폭증”…올해 누적 세수 벌써 200조",
+          "press": "매일경제"
+        },
+        {
+          "title": "\"IRP 옮기면 100만원 캐시백\"...SK증권, 'IRP 연금저축' 고객 유치전",
+          "press": "파이낸셜뉴스"
+        }
+      ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-06-30 10:46"
+    "updated_at": "2026-06-30 15:01"
   }
 ]
