@@ -7131,14 +7131,14 @@
     "date": "2026-07-01",
     "target_date": "2026-07-02",
     "prediction": "LONG",
-    "confidence": 0.8948,
-    "probability_long": 0.8948,
-    "probability_short": 0.1052,
+    "confidence": 0.8757,
+    "probability_long": 0.8757,
+    "probability_short": 0.1243,
     "kospi_close": 8348.41,
     "sentiment": {
-      "avg_score": 0.2111,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.0333,
+      "avg_score": 0.3444,
+      "positive_ratio": 0.5,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -7146,9 +7146,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1552.219971,
+          "value": 1555.680054,
           "importance": 262,
-          "contribution": 406681.6323,
+          "contribution": 407588.1741,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -7197,33 +7197,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,552원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,556원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "엠게임, 19억 규모 자사주 소각 결정",
+          "title": "5대 은행 가계대출 다시 급증…11개월 만 최대",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "파마리서치, 美 화장품 제조사 인수…\"리쥬란 수요 대응\"",
+          "press": "아시아경제"
+        },
+        {
+          "title": "코람코, 남대문 옆 '에티버스타워' 리모델링…\"자산가치 제고\"",
+          "press": "머니투데이"
+        },
+        {
+          "title": "美 AI에 가려졌던 유럽증시, 유가 하락 타고 기지개",
           "press": "이데일리"
         },
         {
-          "title": "코스피 3배 ETF에 또 50배…해외거래소 ‘150배 베팅’ 판 깔았다",
-          "press": "디지털타임스"
-        },
-        {
-          "title": "신복위 신속채무조정 채권 매각 제한…성실상환자 불이익 방지",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "HLB이노베이션, 대표이사에 진양곤 HLB 회장 선임",
-          "press": "이데일리"
-        },
-        {
-          "title": "코리아에셋투자증권, 손동희·이상환 사외이사 재선임",
-          "press": "이데일리"
+          "title": "테슬라 모델Y 매주 쏜다…신한 ‘SOL LINK계좌’ 출시 행사",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-01 15:09"
+    "updated_at": "2026-07-01 15:33"
   }
 ]
