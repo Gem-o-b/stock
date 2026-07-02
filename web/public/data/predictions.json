@@ -7230,14 +7230,14 @@
     "date": "2026-07-02",
     "target_date": "2026-07-03",
     "prediction": "LONG",
-    "confidence": 0.7327,
-    "probability_long": 0.7327,
-    "probability_short": 0.2673,
-    "kospi_close": 7891.43,
+    "confidence": 0.9667,
+    "probability_long": 0.9667,
+    "probability_short": 0.0333,
+    "kospi_close": 7648.09,
     "sentiment": {
-      "avg_score": 0.1444,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.2667,
+      "avg_score": -0.1644,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.3667,
       "article_count": 30
     },
     "reasons": {
@@ -7245,36 +7245,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1553.790039,
+          "value": 1547.180054,
           "importance": 254,
-          "contribution": 394662.6699,
+          "contribution": 392983.7336,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 255.812693,
+          "value": 251.930345,
           "importance": 173,
-          "contribution": 44255.5959,
+          "contribution": 43583.9497,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": 135.952602,
+          "value": 116.540864,
           "importance": 175,
-          "contribution": 23791.7053,
+          "contribution": 20394.6511,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.987261,
+          "value": 44.196338,
           "importance": 190,
-          "contribution": 8927.5796,
+          "contribution": 8397.3042,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -7289,40 +7289,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 46.99,
+        "rsi_14": 44.2,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 16.59,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,554원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,547원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "“메가 프로젝트, 주주에게도 설명하라”…삼전닉스 주주들 ‘반발’",
-          "press": "매일경제"
+          "title": "‘메타’작 당한 삼전닉스… 퍼렇게 멍들었다",
+          "press": "국민일보"
         },
         {
-          "title": "'TIGER 미국S&P500 ETF', 역대 최단 기간 순자산 20조 돌파",
-          "press": "머니투데이"
+          "title": "신한·키움증권, 금감원 검사 받는다…JTBC 채권 판매 점검",
+          "press": "데일리안"
         },
         {
-          "title": "트럼프, 코인으로 14억달러 벌었는데...투자자는 3분의 2가 '손실'",
-          "press": "한국일보"
+          "title": "‘한미약품 차남’ 임종훈, 지주사 지분 2.5% 매각… 경영권 갈등 정리 수순",
+          "press": "서울경제"
         },
         {
-          "title": "‘JTBC 채권 사태’ 칼 빼든 금감원…신한·키움증권 전격 검사",
-          "press": "디지털타임스"
+          "title": "한미 창업주 차남, 한미사이언스 지분 2.5% 매각",
+          "press": "연합뉴스"
         },
         {
-          "title": "KCGI운용, 독립계 첫 TDF ‘1조 클럽’ 입성",
-          "press": "조선비즈"
+          "title": "[올댓차이나] 홍콩 증시, 기술주·소비주에 저가 매수로 반등…H주 0.72%↑",
+          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-02 15:19"
+    "updated_at": "2026-07-02 19:00"
   }
 ]
