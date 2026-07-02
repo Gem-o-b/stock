@@ -7221,9 +7221,108 @@
         }
       ]
     },
+    "actual": "SHORT",
+    "actual_close": 7786.09,
+    "is_correct": false,
+    "updated_at": "2026-07-01 19:19"
+  },
+  {
+    "date": "2026-07-02",
+    "target_date": "2026-07-03",
+    "prediction": "LONG",
+    "confidence": 0.7085,
+    "probability_long": 0.7085,
+    "probability_short": 0.2915,
+    "kospi_close": 7786.09,
+    "sentiment": {
+      "avg_score": 0.2133,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.1,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1553.630005,
+          "importance": 254,
+          "contribution": 394622.0212,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 254.132055,
+          "importance": 173,
+          "contribution": 43964.8455,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 127.549411,
+          "importance": 175,
+          "contribution": 22321.1469,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 45.736977,
+          "importance": 190,
+          "contribution": 8690.0255,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 16.59,
+          "importance": 258,
+          "contribution": 4280.22,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 45.74,
+        "rsi_signal": "중립",
+        "macd_signal": "매도",
+        "vix_level": 16.59,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-07-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,554원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "삼성 KODEX AI반도체TOP2플러스, 순자산 5조원 돌파…리모델링 이후 개인 순매수 1조 몰려",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "오늘의 메모[7월 3일]",
+          "press": "서울경제"
+        },
+        {
+          "title": "나무증권 신규·휴면고객, 국내 주식·ETF 거래수수료 '2년 무료'",
+          "press": "뉴스1"
+        },
+        {
+          "title": "두나무앤파트너스, 에어스메디컬 후속 투자… 누적 투자액 97억",
+          "press": "서울경제"
+        },
+        {
+          "title": "토마토시스템 \"美 헬스케어 특허 장벽 구축…V28 HCC 개편 최대 수혜 기대\"",
+          "press": "머니투데이"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-01 19:19"
+    "updated_at": "2026-07-02 10:46"
   }
 ]
