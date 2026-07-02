@@ -7230,14 +7230,14 @@
     "date": "2026-07-02",
     "target_date": "2026-07-03",
     "prediction": "LONG",
-    "confidence": 0.7053,
-    "probability_long": 0.7053,
-    "probability_short": 0.2947,
+    "confidence": 0.7327,
+    "probability_long": 0.7327,
+    "probability_short": 0.2673,
     "kospi_close": 7891.43,
     "sentiment": {
-      "avg_score": 0.2063,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.2,
+      "avg_score": 0.1444,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -7245,9 +7245,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1554.380005,
+          "value": 1553.790039,
           "importance": 254,
-          "contribution": 394812.5212,
+          "contribution": 394662.6699,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -7296,33 +7296,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,554원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,554원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "빗썸, 거래유의 코인 입출금 '해프닝'…원인 파악 중",
-          "press": "데일리안"
-        },
-        {
-          "title": "염블리 “9천피 너무 급하게 와…이번 조정, 대외 충격 아닌 단순 수급 과정”",
+          "title": "“메가 프로젝트, 주주에게도 설명하라”…삼전닉스 주주들 ‘반발’",
           "press": "매일경제"
         },
         {
-          "title": "SK하닉, 충청 거점에 100조 투자…곽노정 \"즉시 건설 가능\"",
-          "press": "비즈워치"
+          "title": "'TIGER 미국S&P500 ETF', 역대 최단 기간 순자산 20조 돌파",
+          "press": "머니투데이"
         },
         {
-          "title": "'완전한 액티브 ETF' 하반기 입법 속도...기존 상품 적용은 쟁점",
-          "press": "한국경제"
+          "title": "트럼프, 코인으로 14억달러 벌었는데...투자자는 3분의 2가 '손실'",
+          "press": "한국일보"
         },
         {
-          "title": "최광진 IBK證 신임 대표 “종투사 도약·중기금융 강화할 것”",
-          "press": "서울경제"
+          "title": "‘JTBC 채권 사태’ 칼 빼든 금감원…신한·키움증권 전격 검사",
+          "press": "디지털타임스"
+        },
+        {
+          "title": "KCGI운용, 독립계 첫 TDF ‘1조 클럽’ 입성",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-02 14:59"
+    "updated_at": "2026-07-02 15:19"
   }
 ]
