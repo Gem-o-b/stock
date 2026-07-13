@@ -7923,14 +7923,14 @@
     "date": "2026-07-13",
     "target_date": "2026-07-14",
     "prediction": "LONG",
-    "confidence": 0.938,
-    "probability_long": 0.938,
-    "probability_short": 0.062,
+    "confidence": 0.959,
+    "probability_long": 0.959,
+    "probability_short": 0.041,
     "kospi_close": 7244.49,
     "sentiment": {
-      "avg_score": -0.3956,
-      "positive_ratio": 0.1,
-      "negative_ratio": 0.5333,
+      "avg_score": -0.245,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.5,
       "article_count": 30
     },
     "reasons": {
@@ -7938,9 +7938,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1505.280029,
+          "value": 1498.680054,
           "importance": 254,
-          "contribution": 382341.1274,
+          "contribution": 380664.7336,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -7989,33 +7989,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-14 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 53%, 긍정 10%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,505원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-14 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 50%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,499원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스피, 8% 급락에 서킷브레이커 발동",
-          "press": "파이낸셜뉴스"
+          "title": "기업공시 [7월 13일]",
+          "press": "서울경제"
         },
         {
-          "title": "美 13% 급등, 韓 13% 폭락…'190만닉스' 무너진 까닭은",
-          "press": "더팩트"
+          "title": "‘단 17거래일만’ 구천피서 육천피로…코스피, 날개 없는 추락 [투자360]",
+          "press": "헤럴드경제"
         },
         {
-          "title": "[속보] 코스피, 낙폭 8%대로 확대…서킷브레이커 발동",
-          "press": "매일경제"
+          "title": "삼성전기 앞다퉈 담았다가…반도체 ETF 줄줄이 ‘휘청’",
+          "press": "이데일리"
         },
         {
-          "title": "키움證 \"롯데관광개발, 마카오 대비 저평가…고성장 지속\"",
-          "press": "뉴시스"
+          "title": "FIU 점검 대비한다…금투협, AML 심화 교육 개설",
+          "press": "데일리안"
         },
         {
-          "title": "[속보]코스피, 서킷브레이커 발동",
-          "press": "아시아경제"
+          "title": "금감원장 \"운용사 거짓·과장 광고 엄중한 사안…자정 노력 필요\"",
+          "press": "데일리안"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-13 13:32"
+    "updated_at": "2026-07-13 16:50"
   }
 ]
