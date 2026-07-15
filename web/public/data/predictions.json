@@ -8121,13 +8121,13 @@
     "date": "2026-07-15",
     "target_date": "2026-07-16",
     "prediction": "LONG",
-    "confidence": 0.9828,
-    "probability_long": 0.9828,
-    "probability_short": 0.0172,
-    "kospi_close": 7413.26,
+    "confidence": 0.9899,
+    "probability_long": 0.9899,
+    "probability_short": 0.0101,
+    "kospi_close": 7289.16,
     "sentiment": {
-      "avg_score": 0.3111,
-      "positive_ratio": 0.3667,
+      "avg_score": 0.5133,
+      "positive_ratio": 0.6667,
       "negative_ratio": 0.1,
       "article_count": 30
     },
@@ -8136,36 +8136,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1487.390015,
+          "value": 1488.900024,
           "importance": 254,
-          "contribution": 377797.0637,
+          "contribution": 378180.6062,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -266.537248,
+          "value": -276.436963,
           "importance": 175,
-          "contribution": 46644.0185,
+          "contribution": 48376.4686,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -117.213406,
+          "value": -119.193349,
           "importance": 173,
-          "contribution": 20277.9193,
+          "contribution": 20620.4495,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 32.077237,
+          "value": 30.025365,
           "importance": 190,
-          "contribution": 6094.6751,
+          "contribution": 5704.8193,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -8180,40 +8180,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 32.08,
+        "rsi_14": 30.03,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 17.16,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-07-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,487원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-07-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,489원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 17.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스피, 6.24% 급등해 7284 마감…‘7천피’ 탈환",
-          "press": "매일경제"
+          "title": "이 대통령 \"단일종목 레버리지 보완책 마련해야\"",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "[오늘의 증시] 7월 15일 코스피 코스닥",
-          "press": "뉴스1"
-        },
-        {
-          "title": "거래소, 코넥스협회·글로벌 선도기업협회와 '상장 활성화' MOU",
+          "title": "환율, 이달 들어 70원 급락…1400원대 안착하나",
           "press": "이데일리"
         },
         {
-          "title": "[속보] 코스피, 6.24% 급등해 7,284 마감…'7천피' 탈환",
-          "press": "한국경제"
+          "title": "코스피, 반도체 훈풍에 6% 급등…'7천피' 회복",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "[속보]코스피, 6.24% 오른 7284.41 마감…코스닥은 829.43",
-          "press": "이데일리"
+          "title": "국힘, 李대통령 '적극적 빚 탕감' 발언에 \"성실한 국민 모욕\"",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "알지노믹스, 로킷헬스케어와 RNA 기반 항노화 기술 공동개발 ‘맞손’",
+          "press": "서울경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-15 15:38"
+    "updated_at": "2026-07-15 16:16"
   }
 ]
