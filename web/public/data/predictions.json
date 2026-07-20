@@ -8418,14 +8418,14 @@
     "date": "2026-07-20",
     "target_date": "2026-07-21",
     "prediction": "LONG",
-    "confidence": 0.9779,
-    "probability_long": 0.9779,
-    "probability_short": 0.0221,
-    "kospi_close": 6591.24,
+    "confidence": 0.9759,
+    "probability_long": 0.9759,
+    "probability_short": 0.0241,
+    "kospi_close": 6515.09,
     "sentiment": {
-      "avg_score": 0.0987,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.3,
+      "avg_score": -0.2044,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.4,
       "article_count": 30
     },
     "reasons": {
@@ -8433,36 +8433,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1479.579956,
+          "value": 1479.47998,
           "importance": 254,
-          "contribution": 375813.3088,
+          "contribution": 375787.915,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -354.825946,
+          "value": -360.90059,
           "importance": 175,
-          "contribution": 62094.5406,
+          "contribution": 63157.6033,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -197.264301,
+          "value": -198.47923,
           "importance": 173,
-          "contribution": 34126.7241,
+          "contribution": 34336.9068,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 28.837339,
+          "value": 28.331005,
           "importance": 190,
-          "contribution": 5479.0944,
+          "contribution": 5382.8909,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -8477,40 +8477,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 28.84,
+        "rsi_14": 28.33,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
         "vix_level": 16.73,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-21 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 30%입니다.\n\n[시장 상황] 원/달러 환율이 1,480원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.7로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-21 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 40%, 긍정 23%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,479원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.7로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "에이텀, 베트남 자회사 900만 달러 출자전환…\"재무구조 개선·생산 경쟁력 강화\"",
-          "press": "머니투데이"
-        },
-        {
-          "title": "\"가만히 있었는데 2억 홀랑 까먹어\"…김재원, 레버리지ETF '정조준'",
-          "press": "한국경제TV"
-        },
-        {
-          "title": "산업부, 중동 전쟁 대응 직원 45명 특별포상",
+          "title": "가비아, 최대주주 변경 수반 주식양수도 계약 체결",
           "press": "이데일리"
         },
         {
-          "title": "에이텀, 베트남 자회사 누적 900만 달러 출자전환…\"재무구조 개선·생산 경쟁력 강화\"",
-          "press": "아시아경제"
+          "title": "中 '키미 K3 공개' 누적된 반도체주 악재…24만전자·170만닉스 추락[핫종목](종합)",
+          "press": "뉴스1"
         },
         {
-          "title": "에이텀, 베트남 자회사에 500만달러 추가 출자전환… “재무구조·경쟁력 강화“",
-          "press": "조선비즈"
+          "title": "또 사이드카…안 잡히는 변동성, 얼어붙은 투자심리",
+          "press": "머니투데이"
+        },
+        {
+          "title": "골든돔 올라탄 필리조선소…한화시스템 반전 계기 될까",
+          "press": "이데일리"
+        },
+        {
+          "title": "힘스, 110.4억 규모 OLED 디스플레이 장비 공급 계약 체결",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-20 13:36"
+    "updated_at": "2026-07-20 16:43"
   }
 ]
