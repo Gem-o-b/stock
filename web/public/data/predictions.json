@@ -8814,14 +8814,14 @@
     "date": "2026-07-24",
     "target_date": "2026-07-27",
     "prediction": "LONG",
-    "confidence": 0.9904,
-    "probability_long": 0.9904,
-    "probability_short": 0.0096,
-    "kospi_close": 6728.97,
+    "confidence": 0.9917,
+    "probability_long": 0.9917,
+    "probability_short": 0.0083,
+    "kospi_close": 6690.62,
     "sentiment": {
-      "avg_score": -0.0003,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.4333,
+      "avg_score": 0.0792,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -8829,36 +8829,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1464.76001,
+          "value": 1460.880005,
           "importance": 254,
-          "contribution": 372049.0425,
+          "contribution": 371063.5212,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -360.399963,
+          "value": -363.459223,
           "importance": 175,
-          "contribution": 63069.9936,
+          "contribution": 63605.364,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -297.314659,
+          "value": -297.926511,
           "importance": 173,
-          "contribution": 51435.436,
+          "contribution": 51541.2864,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 32.72223,
+          "value": 32.406312,
           "importance": 190,
-          "contribution": 6217.2238,
+          "contribution": 6157.1992,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -8873,40 +8873,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 32.72,
+        "rsi_14": 32.41,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 18.7,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 43%입니다.\n\n[시장 상황] 원/달러 환율이 1,465원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.7로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-07-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 27%입니다.\n\n[시장 상황] 원/달러 환율이 1,461원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "하나증권 상반기 순익 3000억 근접…반년 만에 지난해 연간 실적 추월",
-          "press": "블로터"
+          "title": "유가 급등에 코스피 5% 급락…'삼전닉스' 레버리지 대책 다음 주 조기 시행",
+          "press": "MBN"
         },
         {
-          "title": "우리투자증권, 상반기 순영업수익 1462억…전년比 58.7%↑",
+          "title": "호르무즈도 홍해도 막혀…두 달 만에 100달러 넘은 국제유가",
+          "press": "MBN"
+        },
+        {
+          "title": "잡히지 않는 롤러코스피…단일종목 레버리지 과열 조기차단",
+          "press": "서울경제"
+        },
+        {
+          "title": "규합위,'대주주 적격성' 개선권고…두나무·네이버 '숨통'",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "두나무 품는 네이버 '청신호'…특금법 예외 규정 신설 권고",
           "press": "뉴시스"
-        },
-        {
-          "title": "거래소 \"라온피플, 29일부터 주권매매거래정지\"",
-          "press": "이데일리"
-        },
-        {
-          "title": "현대위아, 美 관세에 2분기 영업이익 11%↓…방산 매출은 15% 증가",
-          "press": "디지털데일리"
-        },
-        {
-          "title": "최태원·노소영 '세기의 이혼' 판결 나오자 SKT 5% 급등[핫종목]",
-          "press": "뉴스1"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-24 16:33"
+    "updated_at": "2026-07-24 19:52"
   }
 ]
