@@ -8913,13 +8913,13 @@
     "date": "2026-07-27",
     "target_date": "2026-07-28",
     "prediction": "LONG",
-    "confidence": 0.9948,
-    "probability_long": 0.9948,
-    "probability_short": 0.0052,
-    "kospi_close": 6634.47,
+    "confidence": 0.991,
+    "probability_long": 0.991,
+    "probability_short": 0.009,
+    "kospi_close": 6744.8,
     "sentiment": {
-      "avg_score": 0.5689,
-      "positive_ratio": 0.7,
+      "avg_score": 0.3422,
+      "positive_ratio": 0.5333,
       "negative_ratio": 0.1,
       "article_count": 30
     },
@@ -8928,84 +8928,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1466.73999,
+          "value": 1469.48999,
           "importance": 254,
-          "contribution": 372551.9575,
+          "contribution": 373250.4575,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -370.549034,
+          "value": -361.74778,
           "importance": 175,
-          "contribution": 64846.081,
+          "contribution": 63305.8616,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -312.451016,
+          "value": -310.690765,
           "importance": 173,
-          "contribution": 54054.0257,
+          "contribution": 53749.5023,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 32.250912,
+          "value": 33.62494,
           "importance": 190,
-          "contribution": 6127.6733,
+          "contribution": 6388.7386,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 18.700001,
+          "value": 18.58,
           "importance": 258,
-          "contribution": 4824.6002,
+          "contribution": 4793.64,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 32.25,
+        "rsi_14": 33.62,
         "rsi_signal": "약세",
         "macd_signal": "매도",
-        "vix_level": 18.7,
+        "vix_level": 18.58,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-07-28 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 70%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,467원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-07-28 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,469원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 18.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "한국 폭음 OECD 5위…30대 이상 女 고위험음주도 늘었다",
-          "press": "서울경제"
-        },
-        {
-          "title": "푹푹 찌는 폭염…파세코·위닉스 냉방가전株 강세[핫종목]",
-          "press": "뉴스1"
-        },
-        {
-          "title": "\"금융권 유일\"…미래에셋증권, 2분기 퇴직연금 10조원 증가",
-          "press": "데일리안"
-        },
-        {
-          "title": "미래에셋증권, 2분기 퇴직연금 10조 늘었다…전 금융권 ‘유일’",
+          "title": "[단독] 순천향병원 30년 간접납품사 동하메디칼, 매물로",
           "press": "매일경제"
         },
         {
-          "title": "고팍스, 신임 대표에 김나영 전 AWS코리아 금융사업개발 총괄 선임",
-          "press": "동행미디어 시대"
+          "title": "[단독] ‘해외에만 써라’ KIC 3000억... 도미누스, 멕시코에 첫 베팅",
+          "press": "조선비즈"
+        },
+        {
+          "title": "'한달새 결제액 4배↑' 다시 미국주식 찾는 개미들",
+          "press": "머니투데이"
+        },
+        {
+          "title": "금감원 특사경, 엘앤에프 정정공시 관련 수사...거래소 압수수색",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "이러다 일본도 한국처럼 되면 어쩌나…“코스피를 봐라” 경고 나온 이유",
+          "press": "서울경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-07-27 13:37"
+    "updated_at": "2026-07-27 17:04"
   }
 ]
