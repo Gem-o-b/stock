@@ -9408,14 +9408,14 @@
     "date": "2026-08-03",
     "target_date": "2026-08-04",
     "prediction": "SHORT",
-    "confidence": 0.9726,
-    "probability_long": 0.0274,
-    "probability_short": 0.9726,
-    "kospi_close": 6246.63,
+    "confidence": 0.9797,
+    "probability_long": 0.0203,
+    "probability_short": 0.9797,
+    "kospi_close": 6257.45,
     "sentiment": {
-      "avg_score": -0.1124,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.3667,
+      "avg_score": -0.0111,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -9423,36 +9423,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1429.5,
+          "value": 1426.73999,
           "importance": 269,
-          "contribution": 384535.5,
+          "contribution": 383793.0574,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -469.480407,
+          "value": -468.617273,
           "importance": 206,
-          "contribution": 96712.9638,
+          "contribution": 96535.1582,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -423.490922,
+          "value": -423.318296,
           "importance": 187,
-          "contribution": 79192.8025,
+          "contribution": 79160.5213,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 44.176329,
+          "value": 44.275916,
           "importance": 248,
-          "contribution": 10955.7297,
+          "contribution": 10980.4272,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -9467,40 +9467,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 44.18,
+        "rsi_14": 44.28,
         "rsi_signal": "중립",
         "macd_signal": "매도",
         "vix_level": 15.99,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 33%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,430원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 27%입니다.\n\n[시장 상황] 원/달러 환율이 1,427원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "李 지시에… 오늘부터 ‘쪼개기 상장’ 제동, 대주주 의결권 3%로",
-          "press": "국민일보"
-        },
-        {
-          "title": "“약발 먹혔나”…예탁금 3천만원 묶자 ‘삼전닉스’ 레버리지 90% 급감",
-          "press": "디지털타임스"
-        },
-        {
-          "title": "“코스피 6000선은 매수 기회…연내 9300선 회복 가능”",
-          "press": "디지털타임스"
-        },
-        {
-          "title": "[퇴근길머니] 코스피, 역사적 반등 뒤 약세…환율 1,300원대 가나",
+          "title": "코스피, 역대급 폭등 후 5% 급락…6,200선 후퇴",
           "press": "연합뉴스TV"
         },
         {
-          "title": "'예탁금 3천만' 상향 후 단일레버리지 거래 10분의 1로 축소",
-          "press": "연합뉴스TV"
+          "title": "외국인 공매도 2년來 최고…삼성전자에 무슨 일이 [B급기자의 B급리포트]",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "[데일리안 오늘뉴스 종합] 국민의힘 \"정부 세제개편안, 역대 최악\"...부동산이 삼킨 세제개편, 與 \"단일종목 레버리지 국정조사, 정치공세\"…국민의힘 \"단독 추진\" 등",
+          "press": "데일리안"
+        },
+        {
+          "title": "코스피 떨어지는데…“다시 9000 간다, 사라” 모건스탠리 '비중 확대' 권한 이유",
+          "press": "전자신문"
+        },
+        {
+          "title": "“아까운 사업부 팔더라도 투자 의욕”...하반기 국내 M&A시장 주도 업종은",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-03 17:31"
+    "updated_at": "2026-08-03 21:10"
   }
 ]
