@@ -9507,14 +9507,14 @@
     "date": "2026-08-04",
     "target_date": "2026-08-05",
     "prediction": "SHORT",
-    "confidence": 0.9118,
-    "probability_long": 0.0882,
-    "probability_short": 0.9118,
-    "kospi_close": 6171.06,
+    "confidence": 0.8378,
+    "probability_long": 0.1622,
+    "probability_short": 0.8378,
+    "kospi_close": 6187.0,
     "sentiment": {
-      "avg_score": 0.16,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.4598,
+      "positive_ratio": 0.6667,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -9522,84 +9522,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1432.420044,
+          "value": 1431.579956,
           "importance": 269,
-          "contribution": 385320.9918,
+          "contribution": 385095.0082,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -458.758678,
+          "value": -457.487111,
           "importance": 206,
-          "contribution": 94504.2878,
+          "contribution": 94242.345,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -430.406372,
+          "value": -430.152059,
           "importance": 187,
-          "contribution": 80485.9916,
+          "contribution": 80438.435,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 42.910047,
+          "value": 43.051945,
           "importance": 248,
-          "contribution": 10641.6917,
+          "contribution": 10676.8824,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 15.86,
+          "value": 15.99,
           "importance": 243,
-          "contribution": 3853.9799,
+          "contribution": 3885.5699,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 42.91,
+        "rsi_14": 43.05,
         "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 15.86,
+        "vix_level": 15.99,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-05 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,432원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-05 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,432원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "금리 불안에 회사채 개점휴업…증시 불장에 단기사채·CP 사상 최대",
-          "press": "머니투데이"
+          "title": "\"삼성·현대차 집중 투자\"…우리운용, 피지컬AI 액티브 ETF 출시",
+          "press": "한국경제"
         },
         {
-          "title": "\"효율·성과 두마리 토끼\"…AI전환 나선 제약바이오",
-          "press": "뉴시스"
+          "title": "삼성증권, 상반기 순이익 9391억원…전년比 94.4%↑",
+          "press": "디지털데일리"
         },
         {
-          "title": "웰크론한텍, PF 리스크 털고 799억 대형 수주 [공시록]",
-          "press": "파이낸셜뉴스"
+          "title": "삼성증권, 2분기 영업익 6758억원…역대 최대 경신",
+          "press": "아시아경제"
         },
         {
-          "title": "맥쿼리, 얼라인에 재반박…“가비아 공개매수 중요정보 모두 공시”[시그널]",
-          "press": "서울경제"
+          "title": "달러·원 환율, 저가 매수에 상승…미·일 공조 개입은 하단 제한(종합)",
+          "press": "뉴스1"
         },
         {
-          "title": "코스피 보합권…코스닥 5% 급등에 또 매수 사이드카",
-          "press": "연합뉴스TV"
+          "title": "“SK하닉 420만→280만 원” 증권가, 줄줄이 목표가 낮춰",
+          "press": "문화일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-04 13:15"
+    "updated_at": "2026-08-04 16:18"
   }
 ]
