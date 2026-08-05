@@ -9606,14 +9606,14 @@
     "date": "2026-08-05",
     "target_date": "2026-08-06",
     "prediction": "SHORT",
-    "confidence": 0.8605,
-    "probability_long": 0.1395,
-    "probability_short": 0.8605,
-    "kospi_close": 6546.64,
+    "confidence": 0.9398,
+    "probability_long": 0.0602,
+    "probability_short": 0.9398,
+    "kospi_close": 6626.18,
     "sentiment": {
-      "avg_score": 0.1326,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.2,
+      "avg_score": 0.4347,
+      "positive_ratio": 0.7333,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -9621,36 +9621,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1422.47998,
+          "value": 1425.380005,
           "importance": 269,
-          "contribution": 382647.1147,
+          "contribution": 383427.2213,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -404.27367,
+          "value": -397.928598,
           "importance": 206,
-          "contribution": 83280.3759,
+          "contribution": 81973.2913,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -422.781692,
+          "value": -421.512677,
           "importance": 187,
-          "contribution": 79060.1763,
+          "contribution": 78822.8707,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 42.000638,
+          "value": 42.984074,
           "importance": 248,
-          "contribution": 10416.1581,
+          "contribution": 10660.0503,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -9665,40 +9665,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 42.0,
+        "rsi_14": 42.98,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 16.5,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,422원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-06 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 73%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,425원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 16.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "이지스아시아, 도쿄 롯폰기에 프리미엄 임대주거 선보인다",
-          "press": "이코노미스트"
+          "title": "에이펙스에셋, 금융 전문가 위한 'ETF 사관학교' 28일 개최",
+          "press": "이데일리"
         },
         {
-          "title": "미래에셋 'TIGER 미국배당다우존스 ETF', 개인 순매수 1조 돌파",
-          "press": "이코노미스트"
+          "title": "코스피, 반도체 훈풍에 힘입어 4% 가까이 상승",
+          "press": "부산일보"
         },
         {
-          "title": "“ELS 낙인 임박하면 알려준다”…금감원, 파생상품 투자자 보호 강화",
-          "press": "디지털데일리"
+          "title": "아이비젼웍스, 반도체 웨이퍼 검사장비 개발 본격화",
+          "press": "이데일리"
         },
         {
-          "title": "“하루 단위 입주도 가능”…이지스아시아, 롯폰기 임대주택 바꾼다",
-          "press": "한국경제TV"
+          "title": "대우건설 목표가 줄상향…\"하반기 수주 모멘텀\"",
+          "press": "한국경제"
         },
         {
-          "title": "제2의 홍콩H지수 ELS' 막는다…'투자자 보호' 전면 손질",
-          "press": "한국경제TV"
+          "title": "반등 이어 3% 급등한 코스피…상승탄력 키우며 고점 높여가나(종합)",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-05 13:11"
+    "updated_at": "2026-08-05 16:19"
   }
 ]
