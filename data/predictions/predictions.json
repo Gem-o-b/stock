@@ -9696,23 +9696,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6306.81,
+    "is_correct": true,
     "updated_at": "2026-08-05 20:11"
   },
   {
     "date": "2026-08-06",
     "target_date": "2026-08-07",
     "prediction": "SHORT",
-    "confidence": 0.7339,
-    "probability_long": 0.2661,
-    "probability_short": 0.7339,
-    "kospi_close": 6598.26,
+    "confidence": 0.7766,
+    "probability_long": 0.2234,
+    "probability_short": 0.7766,
+    "kospi_close": 6306.81,
     "sentiment": {
-      "avg_score": -0.1227,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.4333,
+      "avg_score": 0.1827,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -9720,36 +9720,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1428.430054,
+          "value": 1425.280029,
           "importance": 269,
-          "contribution": 384247.6844,
+          "contribution": 383400.3279,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -400.155835,
+          "value": -384.674348,
           "importance": 206,
-          "contribution": 82432.102,
+          "contribution": 79242.9157,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -421.958125,
+          "value": -414.501369,
           "importance": 187,
-          "contribution": 78906.1693,
+          "contribution": 77511.7561,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 42.642691,
+          "value": 44.279387,
           "importance": 248,
-          "contribution": 10575.3874,
+          "contribution": 10981.288,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -9764,40 +9764,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 42.64,
+        "rsi_14": 44.28,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.81,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-08-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 43%, 긍정 27%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,428원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -0.2%, 나스닥 -0.8%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 30%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,425원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[경제읽기] 코스피, 장중 5%대 급락…하루 만에 매도사이드카",
-          "press": "연합뉴스TV"
+          "title": "한투증권 상반기 영업익만 2조 '역대 최대'…불장에 실적 '껑충'",
+          "press": "블로터"
         },
         {
-          "title": "토스증권, 누적 가입자 1000만명 돌파…\"국민 5명 중 1명 이용\"",
+          "title": "코스피 흔들려도 코스닥 800선 회복…저가매수세 유입",
+          "press": "비즈워치"
+        },
+        {
+          "title": "다시 번진 '반도체 실망감'…코스피 상승분 대부분 반납",
+          "press": "머니투데이"
+        },
+        {
+          "title": "코스피 4.58% 급락 6296.38 마감…코스닥 0.26% 상승",
+          "press": "강원도민일보"
+        },
+        {
+          "title": "한투증권, 상반기 영업이익 2.1조…전년比 89.1%↑",
           "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "신한證, IRP 수수료 무료·대출금리 인하…고객 투자비용 절감 확대",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "\"또 사이드카야\"…·코스피, 반도체 약세에 4%대 하락한 6300선 [fn오전시황]",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "상상인증권 \"Sh수협은행과 지분 매각 협의 중…확정 사항 없어\"",
-          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-06 13:14"
+    "updated_at": "2026-08-06 16:21"
   }
 ]
