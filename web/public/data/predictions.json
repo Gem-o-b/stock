@@ -9903,14 +9903,14 @@
     "date": "2026-08-10",
     "target_date": "2026-08-11",
     "prediction": "SHORT",
-    "confidence": 0.8791,
-    "probability_long": 0.1209,
-    "probability_short": 0.8791,
-    "kospi_close": 6284.12,
+    "confidence": 0.8611,
+    "probability_long": 0.1389,
+    "probability_short": 0.8611,
+    "kospi_close": 6276.38,
     "sentiment": {
-      "avg_score": 0.0856,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.3,
+      "avg_score": 0.2367,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -9918,36 +9918,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1415.189941,
+          "value": 1416.47998,
           "importance": 269,
-          "contribution": 380686.0942,
+          "contribution": 381033.1147,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -396.265783,
+          "value": -396.38927,
           "importance": 187,
-          "contribution": 74101.7014,
+          "contribution": 74124.7935,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -356.283348,
+          "value": -356.900784,
           "importance": 206,
-          "contribution": 73394.3696,
+          "contribution": 73521.5614,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 44.242528,
+          "value": 44.135183,
           "importance": 248,
-          "contribution": 10972.147,
+          "contribution": 10945.5254,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -9962,40 +9962,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 44.24,
+        "rsi_14": 44.14,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 14.9,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-08-11 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 30%입니다.\n\n[시장 상황] 원/달러 환율이 1,415원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-08-11 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,416원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "증시 변동성 줄이려면…외국 전문가의 조언",
-          "press": "아시아경제"
-        },
-        {
-          "title": "'부동산 투자라 안전?' 금감원 \"해외부동산펀드, 원금 손실 가능\"",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "“부동산 펀드, 안전자산 아냐”…금감원, 원금손실·환매 지연 주의",
-          "press": "조선비즈"
-        },
-        {
-          "title": "상위 1% 투자자 다시 K푸드 매수…‘불닭신화’ 삼양식품 1위 [주식 초고수는 지금]",
+          "title": "스페이스X 악재 딛고 반등하자…국내 투자 VC도 주가 급등 [줍줍리포트]",
           "press": "서울경제"
         },
         {
-          "title": "“부동산 펀드도 전액 손실 볼 수 있어…만기시 투자금 회수 지연 가능성 염두해야”",
-          "press": "서울경제"
+          "title": "미래에셋증권, 8월 개인투자용 국채 청약 실시",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "대동, 2분기 영업익 64% 증가…매출 4천671억원으로 '역대 최대'",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "레버리지 대책 발표 뒤 변동성지수 '뚝'…5월 이후 처음 70선 아래로",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "에프앤가이드, MSCI 출신 김태우 인덱스사업본부장 선임",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-10 12:11"
+    "updated_at": "2026-08-10 14:58"
   }
 ]
