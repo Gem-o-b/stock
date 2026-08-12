@@ -10101,14 +10101,14 @@
     "date": "2026-08-12",
     "target_date": "2026-08-13",
     "prediction": "SHORT",
-    "confidence": 0.9807,
-    "probability_long": 0.0193,
-    "probability_short": 0.9807,
-    "kospi_close": 6605.34,
+    "confidence": 0.931,
+    "probability_long": 0.069,
+    "probability_short": 0.931,
+    "kospi_close": 6579.04,
     "sentiment": {
-      "avg_score": 0.4111,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.0833,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -10116,36 +10116,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1415.579956,
+          "value": 1415.430054,
           "importance": 269,
-          "contribution": 380791.0082,
+          "contribution": 380750.6844,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -365.258911,
+          "value": -365.678512,
           "importance": 187,
-          "contribution": 68303.4164,
+          "contribution": 68381.8818,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -292.193096,
+          "value": -294.291102,
           "importance": 206,
-          "contribution": 60191.7778,
+          "contribution": 60623.967,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 43.856163,
+          "value": 43.484606,
           "importance": 248,
-          "contribution": 10876.3283,
+          "contribution": 10784.1824,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -10160,40 +10160,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 43.86,
+        "rsi_14": 43.48,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.28,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-13 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,416원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-13 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 23%입니다.\n\n[시장 상황] 원/달러 환율이 1,415원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 15.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "미래에셋증권 2분기 순이익 1.9조원…5대은행 모두 제치고 금융권 1위 등극",
-          "press": "한국경제"
+          "title": "상폐 카운트다운…'동전주·시총 미달' 경고장 받은 36곳 어디?",
+          "press": "더팩트"
         },
         {
-          "title": "온코닉테라퓨틱스, 자큐보 처방 확대로 상반기 역대 최대 실적",
-          "press": "서울경제"
+          "title": "미래에셋증권, 업계 최초 2분기 연속 순이익 '1조원' 돌파",
+          "press": "아시아경제"
         },
         {
-          "title": "피엔티, 2분기 매출 1176억…영업이익 37억",
+          "title": "바로팜·크리에이츠·진코스텍, 코스닥 상장예심 통과",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "19일부터 단일종목 레버리지 사려면… ‘5일 모의투자’ 필수",
+          "press": "동아일보"
+        },
+        {
+          "title": "[마켓인]DB증권, 2000억 규모 회사채 발행 나서",
           "press": "이데일리"
-        },
-        {
-          "title": "빅테크 실적발 훈풍에 장비株 강세…미래산업 16%·네오셈 9%↑[코주부]",
-          "press": "서울경제"
-        },
-        {
-          "title": "1000원 못 넘으면 휴지조각?…\"상폐기준 보완 필요\" 요청에 한 총리 응답할까?",
-          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-12 15:16"
+    "updated_at": "2026-08-12 18:52"
   }
 ]
