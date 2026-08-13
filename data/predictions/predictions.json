@@ -10191,23 +10191,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 6833.0,
+    "is_correct": false,
     "updated_at": "2026-08-12 18:52"
   },
   {
     "date": "2026-08-13",
     "target_date": "2026-08-14",
     "prediction": "SHORT",
-    "confidence": 0.7539,
-    "probability_long": 0.2461,
-    "probability_short": 0.7539,
-    "kospi_close": 6579.04,
+    "confidence": 0.968,
+    "probability_long": 0.032,
+    "probability_short": 0.968,
+    "kospi_close": 6833.0,
     "sentiment": {
-      "avg_score": 0.4208,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.3,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -10215,36 +10215,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1412.180054,
+          "value": 1415.839966,
           "importance": 269,
-          "contribution": 379876.4344,
+          "contribution": 380860.9508,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -365.678512,
+          "value": -340.525969,
           "importance": 187,
-          "contribution": 68381.8818,
+          "contribution": 63678.3563,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -294.291102,
+          "value": -239.915797,
           "importance": 206,
-          "contribution": 60623.967,
+          "contribution": 49422.6542,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 43.484606,
+          "value": 51.862764,
           "importance": 248,
-          "contribution": 10784.1824,
+          "contribution": 12861.9655,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -10259,40 +10259,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 43.48,
+        "rsi_14": 51.86,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 14.55,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-14 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,412원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.6로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.3%, 나스닥 +0.5%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-14 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,416원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[단독]코빗 인수 끝낸 미래에셋, 500억 수혈…디지털자산 사업 속도",
-          "press": "뉴스1"
+          "title": "인바이오, 상반기 매출·영업익 두 자릿수 성장",
+          "press": "아시아경제"
         },
         {
-          "title": "[데스크칼럼] 섶을 지고 불길로 뛰어들다 멈춤",
-          "press": "헤럴드경제"
+          "title": "'증시 상승 기대감' CB 날개…EB는 급감[fn마켓워치]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "월세 낼 돈으로 빌라·오피스텔 매입... 보금자리론 '결혼 페널티' 없애",
-          "press": "한국일보"
+          "title": "'탱크데이'에 발목 잡힌 스타벅스, 진출 27년 만에 첫 분기 적자",
+          "press": "연합뉴스"
         },
         {
-          "title": "가계대출 총량 30조원 추가… 이주비·잔금대출 지원 확대",
-          "press": "조선일보"
+          "title": "가상자산사업자 28곳 전면 재신고…대주주까지 심사",
+          "press": "데일리안"
         },
         {
-          "title": "올해 가계대출 증가율 목표 2배 상향...대출 오픈런·뺑뺑이 없앤다",
-          "press": "한국일보"
+          "title": "광림, 전남개발공사와 맞손…160MW 영광 해상풍력 공동개발 본격화",
+          "press": "아시아경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-13 12:27"
+    "updated_at": "2026-08-13 15:02"
   }
 ]
