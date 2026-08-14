@@ -10299,14 +10299,14 @@
     "date": "2026-08-14",
     "target_date": "2026-08-17",
     "prediction": "SHORT",
-    "confidence": 0.9169,
-    "probability_long": 0.0831,
-    "probability_short": 0.9169,
-    "kospi_close": 6912.87,
+    "confidence": 0.868,
+    "probability_long": 0.132,
+    "probability_short": 0.868,
+    "kospi_close": 6936.97,
     "sentiment": {
-      "avg_score": 0.3694,
-      "positive_ratio": 0.5333,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.72,
+      "positive_ratio": 0.7667,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -10314,36 +10314,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1412.699951,
+          "value": 1412.079956,
           "importance": 269,
-          "contribution": 380016.2869,
+          "contribution": 379849.5082,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -310.555597,
+          "value": -310.171095,
           "importance": 187,
-          "contribution": 58073.8966,
+          "contribution": 58001.9948,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -189.419451,
+          "value": -187.496944,
           "importance": 206,
-          "contribution": 39020.4069,
+          "contribution": 38624.3704,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 52.04771,
+          "value": 52.347057,
           "importance": 248,
-          "contribution": 12907.8322,
+          "contribution": 12982.0701,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -10358,40 +10358,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 52.05,
+        "rsi_14": 52.35,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 14.63,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-17 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,413원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-17 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 77%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,412원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "정부 ‘주가 누르기 방지안’ 평가기간 확대",
-          "press": "문화일보"
+          "title": "에이럭스, 상반기 매출 371억 원…전년 대비 55% 증가",
+          "press": "한국경제"
         },
         {
-          "title": "6월 통화량, 1년전보다 6% 늘어…기업으로 45조원 몰렸다",
-          "press": "조선일보"
+          "title": "엠게임, 상반기 매출 455억·영업익 56억…“하반기 신작 출시로 실적 개선”",
+          "press": "매일경제"
         },
         {
-          "title": "외환시장 24시간 개장 이후 일평균 거래량 10% 증가",
-          "press": "연합뉴스"
+          "title": "SCL사이언스, 상반기 별도 매출 108억원… 전년比 116%↑·영업익 흑자전환",
+          "press": "머니투데이"
         },
         {
-          "title": "[올댓차이나] 홍콩 증시, 기술주에 이익매물로 나흘째 하락 출발… H주 0.62%↓",
-          "press": "뉴시스"
+          "title": "제노코, 상반기 손실폭 축소…“하반기 제작·양산 전환 확대”",
+          "press": "이데일리"
         },
         {
-          "title": "반도체 주춤한 사이 '질주'…대박 난 ETF 봤더니",
-          "press": "한국경제TV"
+          "title": "DB증권, 상반기 순이익 708억원…전년比 49.4% 증가",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-14 12:24"
+    "updated_at": "2026-08-14 15:02"
   }
 ]
