@@ -10596,14 +10596,14 @@
     "date": "2026-08-19",
     "target_date": "2026-08-20",
     "prediction": "SHORT",
-    "confidence": 0.6318,
-    "probability_long": 0.3682,
-    "probability_short": 0.6318,
-    "kospi_close": 6494.8,
+    "confidence": 0.632,
+    "probability_long": 0.368,
+    "probability_short": 0.632,
+    "kospi_close": 6471.17,
     "sentiment": {
-      "avg_score": 0.0278,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.4,
+      "avg_score": 0.4937,
+      "positive_ratio": 0.6667,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -10611,36 +10611,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1397.089966,
+          "value": 1394.650024,
           "importance": 269,
-          "contribution": 375817.2008,
+          "contribution": 375160.8566,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -250.257585,
+          "value": -250.634587,
           "importance": 187,
-          "contribution": 46798.1683,
+          "contribution": 46868.6679,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -144.116008,
+          "value": -146.001022,
           "importance": 206,
-          "contribution": 29687.8976,
+          "contribution": 30076.2106,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 62.629322,
+          "value": 62.182996,
           "importance": 248,
-          "contribution": 15532.0718,
+          "contribution": 15421.383,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -10655,40 +10655,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 62.63,
+        "rsi_14": 62.18,
         "rsi_signal": "강세",
         "macd_signal": "매수",
         "vix_level": 15.84,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-08-20 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 40%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-08-20 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "트럼프 \"캐나다 50% 관세 시행 사흘간 유예\"",
-          "press": "아시아경제"
-        },
-        {
-          "title": "한국피아이엠, 상반기 수주잔고 전년比 18.9% ↑",
-          "press": "아시아경제"
-        },
-        {
-          "title": "코스피 상장사 상반기 영업익 3배 급증…'삼전닉스' 실적 견인",
-          "press": "한국경제TV"
-        },
-        {
-          "title": "\"영웅문S# '간편모드' 얼마나 편하길래\"…이용자 170만명 돌파",
+          "title": "SK하이닉스의 역대 최대 주주환원…증권가 \"강력한 주가 모멘텀\"",
           "press": "머니투데이"
         },
         {
-          "title": "유니슨 최대주주, 장내매수로 지분 22.09%까지 확대",
+          "title": "中유니트리, 상장 첫날 460% 급등…창업자 90허우 최대부호 등극(종합)",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "‘반도체 달러’에 환율 1400원 깨졌다…“1350원까지 열려”",
           "press": "이데일리"
+        },
+        {
+          "title": "[투자의 창] 금융의 본질과 투자",
+          "press": "서울경제"
+        },
+        {
+          "title": "S&P \"SK하이닉스 신용등급 A-로 상향...슈퍼사이클 이어질 것\"",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-19 14:33"
+    "updated_at": "2026-08-19 18:21"
   }
 ]
