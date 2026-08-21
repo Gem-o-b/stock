@@ -10794,13 +10794,13 @@
     "date": "2026-08-21",
     "target_date": "2026-08-24",
     "prediction": "SHORT",
-    "confidence": 0.9332,
-    "probability_long": 0.0668,
-    "probability_short": 0.9332,
-    "kospi_close": 6881.59,
+    "confidence": 0.7525,
+    "probability_long": 0.2475,
+    "probability_short": 0.7525,
+    "kospi_close": 6881.38,
     "sentiment": {
-      "avg_score": 0.1367,
-      "positive_ratio": 0.3667,
+      "avg_score": 0.1646,
+      "positive_ratio": 0.3,
       "negative_ratio": 0.1333,
       "article_count": 30
     },
@@ -10809,36 +10809,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1380.47998,
+          "value": 1381.319946,
           "importance": 269,
-          "contribution": 371349.1147,
+          "contribution": 371575.0656,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -195.706129,
+          "value": -195.709479,
           "importance": 187,
-          "contribution": 36597.0461,
+          "contribution": 36597.6726,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -85.304529,
+          "value": -85.321281,
           "importance": 206,
-          "contribution": 17572.7329,
+          "contribution": 17576.1839,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 55.389391,
+          "value": 55.385861,
           "importance": 248,
-          "contribution": 13736.5689,
+          "contribution": 13735.6936,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -10860,33 +10860,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-24 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 16.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-24 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 16.0로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "40조 쏜 하닉, 다음은 삼전…‘150조 기대’에 주가 퀀텀점프",
-          "press": "헤럴드경제"
+          "title": "아리바이오랩, 알츠하이머 백신 개발 본격화",
+          "press": "이데일리"
         },
         {
-          "title": "코스피, 혼조속 상승 탄력 모색…코스닥 5%대 급락",
-          "press": "연합뉴스"
+          "title": "“수익 났다” 42% “손실 봤다” 40%…개미들, 대통령 평가도 극과 극 [한국갤럽]",
+          "press": "매일경제"
         },
         {
-          "title": "IBK證, 국내 스팩 분산투자 ‘블랙넘버스 랩’ 출시",
-          "press": "헤럴드경제"
+          "title": "NH투자증권 \"디폴트옵션 적극투자형 3년 수익률 90.15%\"",
+          "press": "이데일리"
         },
         {
-          "title": "교육교부금 내국세 연동제 폐지…내년 교부금 20조 감축할 듯",
-          "press": "한국경제"
-        },
-        {
-          "title": "삼전닉스 강세에 코스피 상승 전환…코스닥은 5%대 급락 [fn오전시황]",
+          "title": "美 국채금리 부담에도…코스피, 삼전닉스 강세에 강보합[fn오후시황]",
           "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "6월 국내은행 대출 연체율 0.56%",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-21 11:23"
+    "updated_at": "2026-08-21 14:07"
   }
 ]
