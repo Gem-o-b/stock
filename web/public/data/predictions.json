@@ -10893,14 +10893,14 @@
     "date": "2026-08-24",
     "target_date": "2026-08-25",
     "prediction": "SHORT",
-    "confidence": 0.8939,
-    "probability_long": 0.1061,
-    "probability_short": 0.8939,
-    "kospi_close": 6796.21,
+    "confidence": 0.9356,
+    "probability_long": 0.0644,
+    "probability_short": 0.9356,
+    "kospi_close": 6707.48,
     "sentiment": {
-      "avg_score": 0.2667,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.0667,
+      "avg_score": 0.1011,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -10908,38 +10908,38 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1378.469971,
+          "value": 1378.709961,
           "importance": 269,
-          "contribution": 370808.4221,
+          "contribution": 370872.9795,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -169.511464,
+          "value": -170.927099,
           "importance": 187,
-          "contribution": 31698.6437,
+          "contribution": 31963.3675,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
-          "name": "RSI(14)",
-          "feature": "rsi_14",
-          "value": 60.929259,
-          "importance": 248,
-          "contribution": 15110.4562,
-          "impact": "LONG",
-          "description": "RSI 높음 → 과매수 구간"
-        },
-        {
           "name": "MACD",
           "feature": "macd",
-          "value": -66.734126,
+          "value": -73.812303,
           "importance": 206,
-          "contribution": 13747.23,
+          "contribution": 15205.3344,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 58.812057,
+          "importance": 248,
+          "contribution": 14585.3902,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
@@ -10952,40 +10952,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 60.93,
-        "rsi_signal": "강세",
+        "rsi_14": 58.81,
+        "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.13,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-08-25 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.1로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-08-25 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.1로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "[부고] 고영집(한양증권 감사본부 전무)씨 모친상",
-          "press": "연합뉴스"
+          "title": "350조 굴리는 KIC 운용 사령탑 다시 찾는다…CIO 인선 '두 번째 승부' [fn마켓워치]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "갤럭시아머니트리-센트비, '편의점충전' 서비스 오픈",
-          "press": "뉴시스"
-        },
-        {
-          "title": "美재무 \"날 밝으면 '경제적 디데이' 시작\"…이란 외 제3국도 타깃",
-          "press": "아시아경제"
-        },
-        {
-          "title": "에브리봇, 中 PIA 오토메이션과 사업협력 방안 논의",
-          "press": "뉴시스"
-        },
-        {
-          "title": "디지털엑스, 원화마켓 전 종목 거래수수료 1년간 무료",
+          "title": "DB증권, '부산 탄소감축 사업 STO 설명회'…확장 전략 논의",
           "press": "더팩트"
+        },
+        {
+          "title": "금투협, K자본시장포럼서 ISA·연금 등 개선 논의…중장기 로드맵 마련",
+          "press": "동행미디어 시대"
+        },
+        {
+          "title": "\"닌텐도 이용자도 홀렸다\"…더 단단해진 네오위즈 'P의 거짓'",
+          "press": "비즈워치"
+        },
+        {
+          "title": "레이 달리오 \"3년 내 美부채위기 올 수도…금 10~15% 담아라\"",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-24 11:22"
+    "updated_at": "2026-08-24 14:21"
   }
 ]
