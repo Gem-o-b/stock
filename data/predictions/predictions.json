@@ -10992,14 +10992,14 @@
     "date": "2026-08-25",
     "target_date": "2026-08-26",
     "prediction": "SHORT",
-    "confidence": 0.7113,
-    "probability_long": 0.2887,
-    "probability_short": 0.7113,
-    "kospi_close": 6682.75,
+    "confidence": 0.6311,
+    "probability_long": 0.3689,
+    "probability_short": 0.6311,
+    "kospi_close": 6742.74,
     "sentiment": {
-      "avg_score": 0.2556,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.0844,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -11007,38 +11007,38 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1383.97998,
+          "value": 1384.050049,
           "importance": 269,
-          "contribution": 372290.6147,
+          "contribution": 372309.4631,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -150.585539,
+          "value": -149.628433,
           "importance": 187,
-          "contribution": 28159.4957,
+          "contribution": 27980.517,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
-          "name": "MACD",
-          "feature": "macd",
-          "value": -68.547935,
-          "importance": 206,
-          "contribution": 14120.8746,
-          "impact": "SHORT",
-          "description": "MACD 음수 → 하락 추세"
-        },
-        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 56.536871,
+          "value": 57.650431,
           "importance": 248,
-          "contribution": 14021.1441,
+          "contribution": 14297.3069,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -63.762408,
+          "importance": 206,
+          "contribution": 13135.0561,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "VIX 수준",
@@ -11051,40 +11051,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 56.54,
+        "rsi_14": 57.65,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.85,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.9로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-08-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "랠리 이어가는 비트코인 석 달 만에 8만달러 재진입",
-          "press": "연합뉴스"
+          "title": "현대차證 리서치센터장에 장문수",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "10억 이상 고액자산가 포트폴리오 봤더니…역시나 삼전닉스",
-          "press": "연합뉴스"
+          "title": "삼전닉스에 美국채까지 담았다…미래에셋, 채권혼합 ETF 상장",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "'삼전닉스' 낙폭 줄이며 코스피 상승 전환…6700선 회복[장중시황]",
-          "press": "뉴스1"
+          "title": "스팩합병 기업, 코스닥 안착 어렵네… 3곳중 1곳 상폐 위기",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "자산 30억 이상 큰손들은 ‘이 종목’ 담았다…2030 ‘최애 주식’은 SK하이닉스",
-          "press": "서울경제"
+          "title": "공장 판 돈도 영업손익에 포함… 상장사 '셈법' 바뀐다",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "파마리서치메디케어, 맞춤형 홈케어 솔루션 ‘리쥬비-에스 마스크 4종’ 출시",
-          "press": "서울경제"
+          "title": "고금리 훈풍? 우량 회사채에 기관 뭉칫돈 몰린다",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-25 14:33"
+    "updated_at": "2026-08-25 18:23"
   }
 ]
