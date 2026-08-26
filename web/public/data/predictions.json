@@ -11091,14 +11091,14 @@
     "date": "2026-08-26",
     "target_date": "2026-08-27",
     "prediction": "SHORT",
-    "confidence": 0.9019,
-    "probability_long": 0.0981,
-    "probability_short": 0.9019,
-    "kospi_close": 6750.97,
+    "confidence": 0.9669,
+    "probability_long": 0.0331,
+    "probability_short": 0.9669,
+    "kospi_close": 6864.77,
     "sentiment": {
-      "avg_score": -0.0056,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.2,
+      "avg_score": 0.1333,
+      "positive_ratio": 0.1667,
+      "negative_ratio": 0.0333,
       "article_count": 30
     },
     "reasons": {
@@ -11106,36 +11106,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1382.47998,
+          "value": 1385.180054,
           "importance": 269,
-          "contribution": 371887.1147,
+          "contribution": 372613.4344,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -130.472327,
+          "value": -128.656715,
           "importance": 187,
-          "contribution": 24398.3252,
+          "contribution": 24058.8056,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 53.353007,
+          "value": 55.573168,
           "importance": 248,
-          "contribution": 13231.5456,
+          "contribution": 13782.1456,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -53.847903,
+          "value": -44.76984,
           "importance": 206,
-          "contribution": 11092.668,
+          "contribution": 9222.5871,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -11150,33 +11150,33 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 53.35,
+        "rsi_14": 55.57,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.45,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "“금리 오를 때는 ‘이 종목’도 오른다”…증권가가 콕 집은 방어주의 정체는",
-          "press": "서울경제"
-        },
-        {
-          "title": "외환시장 야간 연장 이후…우리은행·농협 거래 활발",
-          "press": "서울경제"
-        },
-        {
-          "title": "\"한국서 매주 딜 하나씩..\" 씨티證, 600억달러 주관 'IB 선두' [fn마켓워치]",
+          "title": "대한제당, '서울 알짜 부동산' 활용법 다시 짠다…잠실·역삼 등 3곳 가치제고 검토 [fn마켓워치]",
           "press": "파이낸셜뉴스"
         },
         {
-          "title": "[헤럴드광장] 이영의 AI 식탁① - AI가 바꿀 새로운 정치",
-          "press": "헤럴드경제"
+          "title": "[머니톡스] 과열 불은 끄되 방화복 입혀야…통화와 재정의 '공조'",
+          "press": "연합뉴스"
         },
         {
-          "title": "SK바이오팜, 뇌전증 신약 ‘오파칼림’ 최대 1.1조원에 도입",
+          "title": "엑세쏘바이오파마, 신약 후보물질 IBD 동물모델서 장 점막 보호 가능성 확인",
+          "press": "이데일리"
+        },
+        {
+          "title": "씨티, 韓 IB 리그테이블 1위…올해 600억弗 조달 주관",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "아이언디바이스, PCIM 2026서 휴머노이드용 초소형 GaN 솔루션 공개",
           "press": "이데일리"
         }
       ]
@@ -11184,6 +11184,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-26 11:25"
+    "updated_at": "2026-08-26 14:07"
   }
 ]
