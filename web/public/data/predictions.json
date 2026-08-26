@@ -11091,13 +11091,13 @@
     "date": "2026-08-26",
     "target_date": "2026-08-27",
     "prediction": "SHORT",
-    "confidence": 0.9656,
-    "probability_long": 0.0344,
-    "probability_short": 0.9656,
-    "kospi_close": 6864.77,
+    "confidence": 0.9356,
+    "probability_long": 0.0644,
+    "probability_short": 0.9356,
+    "kospi_close": 6808.21,
     "sentiment": {
-      "avg_score": 0.2667,
-      "positive_ratio": 0.3,
+      "avg_score": 0.3178,
+      "positive_ratio": 0.4,
       "negative_ratio": 0.0333,
       "article_count": 30
     },
@@ -11106,36 +11106,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1385.410034,
+          "value": 1384.619995,
           "importance": 269,
-          "contribution": 372675.2992,
+          "contribution": 372462.7787,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -128.656715,
+          "value": -129.559096,
           "importance": 187,
-          "contribution": 24058.8056,
+          "contribution": 24227.551,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 55.573168,
+          "value": 54.496777,
           "importance": 248,
-          "contribution": 13782.1456,
+          "contribution": 13515.2006,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -44.76984,
+          "value": -49.281749,
           "importance": 206,
-          "contribution": 9222.5871,
+          "contribution": 10152.0403,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -11150,40 +11150,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 55.57,
+        "rsi_14": 54.5,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.45,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "나신평, '흡수 합병' SKIET 신용등급 상향 검토 등재",
-          "press": "연합뉴스"
+          "title": "한화투증 \"사회공헌, 가족과 함께\"",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 종료…오는 11월 톱라인 발표",
-          "press": "머니투데이"
+          "title": "휴온스, 주가 하락·주주 반대에 휴온스랩 합병 철회",
+          "press": "서울경제"
         },
         {
-          "title": "美 스테이블코인 공세에 국회도 속도…가상자산 공청회 열리나",
-          "press": "뉴시스"
+          "title": "대신자산신탁, 부산 센텀시티서 복합개발 추진",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "엔비디아 실적발표 한국어로 듣는다…신한투자증권 ‘어닝콜 라이브’ 출시",
-          "press": "디지털타임스"
+          "title": "올 427조 불어난 운용자산…'빅10'이 76% 차지",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "엔씨, 글로벌 공략 포문…‘아이온2’ 10월 5일 정식 출시",
-          "press": "매일경제"
+          "title": "'韓지수 3배 레버리지' 사러 미국행… 한달간 5500억 몰렸다",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-26 14:36"
+    "updated_at": "2026-08-26 18:29"
   }
 ]
