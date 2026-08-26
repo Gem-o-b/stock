@@ -11091,13 +11091,13 @@
     "date": "2026-08-26",
     "target_date": "2026-08-27",
     "prediction": "SHORT",
-    "confidence": 0.9669,
-    "probability_long": 0.0331,
-    "probability_short": 0.9669,
+    "confidence": 0.9656,
+    "probability_long": 0.0344,
+    "probability_short": 0.9656,
     "kospi_close": 6864.77,
     "sentiment": {
-      "avg_score": 0.1333,
-      "positive_ratio": 0.1667,
+      "avg_score": 0.2667,
+      "positive_ratio": 0.3,
       "negative_ratio": 0.0333,
       "article_count": 30
     },
@@ -11106,9 +11106,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1385.180054,
+          "value": 1385.410034,
           "importance": 269,
-          "contribution": 372613.4344,
+          "contribution": 372675.2992,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11157,33 +11157,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-08-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "대한제당, '서울 알짜 부동산' 활용법 다시 짠다…잠실·역삼 등 3곳 가치제고 검토 [fn마켓워치]",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "[머니톡스] 과열 불은 끄되 방화복 입혀야…통화와 재정의 '공조'",
+          "title": "나신평, '흡수 합병' SKIET 신용등급 상향 검토 등재",
           "press": "연합뉴스"
         },
         {
-          "title": "엑세쏘바이오파마, 신약 후보물질 IBD 동물모델서 장 점막 보호 가능성 확인",
-          "press": "이데일리"
+          "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 종료…오는 11월 톱라인 발표",
+          "press": "머니투데이"
         },
         {
-          "title": "씨티, 韓 IB 리그테이블 1위…올해 600억弗 조달 주관",
-          "press": "연합뉴스"
+          "title": "美 스테이블코인 공세에 국회도 속도…가상자산 공청회 열리나",
+          "press": "뉴시스"
         },
         {
-          "title": "아이언디바이스, PCIM 2026서 휴머노이드용 초소형 GaN 솔루션 공개",
-          "press": "이데일리"
+          "title": "엔비디아 실적발표 한국어로 듣는다…신한투자증권 ‘어닝콜 라이브’ 출시",
+          "press": "디지털타임스"
+        },
+        {
+          "title": "엔씨, 글로벌 공략 포문…‘아이온2’ 10월 5일 정식 출시",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-26 14:07"
+    "updated_at": "2026-08-26 14:36"
   }
 ]
