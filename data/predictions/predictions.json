@@ -11289,14 +11289,14 @@
     "date": "2026-08-28",
     "target_date": "2026-08-31",
     "prediction": "SHORT",
-    "confidence": 0.6316,
-    "probability_long": 0.3684,
-    "probability_short": 0.6316,
-    "kospi_close": 6879.87,
+    "confidence": 0.5522,
+    "probability_long": 0.4478,
+    "probability_short": 0.5522,
+    "kospi_close": 6912.37,
     "sentiment": {
-      "avg_score": 0.0556,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.2,
+      "avg_score": 0.1667,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -11304,84 +11304,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1380.780029,
+          "value": 1381.790039,
           "importance": 269,
-          "contribution": 371429.8279,
+          "contribution": 371701.5205,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -109.978961,
+          "value": -109.460443,
           "importance": 187,
-          "contribution": 20566.0658,
+          "contribution": 20469.1028,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 63.864692,
+          "value": 64.414315,
           "importance": 248,
-          "contribution": 15838.4435,
+          "contribution": 15974.7502,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -31.658421,
+          "value": -29.065828,
           "importance": 206,
-          "contribution": 6521.6346,
+          "contribution": 5987.5606,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 14.49,
+          "value": 14.62,
           "importance": 243,
-          "contribution": 3521.0699,
+          "contribution": 3552.66,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 63.86,
+        "rsi_14": 64.41,
         "rsi_signal": "강세",
         "macd_signal": "매수",
-        "vix_level": 14.49,
+        "vix_level": 14.62,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-31 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.6%, 나스닥 +1.3%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-31 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.6로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.6%, 나스닥 +1.3%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[르포]SK하이닉스가 짓는 미국 첫 HBM 공장 가보니…2029년부터 양산",
+          "title": "“해외 감평사 못 믿겠다”…제이알리츠가 쏘아올린 공 ‘감정가 신뢰’",
+          "press": "이데일리"
+        },
+        {
+          "title": "변동장에 연금 지킨다… TDF ETF 뭉칫돈",
+          "press": "머니투데이"
+        },
+        {
+          "title": "금리인상에 엔비디아 효과 '무색'… 칠천피 탈환 실패",
+          "press": "머니투데이"
+        },
+        {
+          "title": "\"삼전닉스 손절? 앱 닫으세요\"…상투 잡은 개미, 투자 전략은[부꾸미]",
+          "press": "머니투데이"
+        },
+        {
+          "title": "[현장]곽노정 \"반도체 강세 이어질 것\"…추가 투자 어디든 열려 있어",
           "press": "아시아경제"
-        },
-        {
-          "title": "인적분할 한화·카카오, 주가 엇갈린 까닭은?",
-          "press": "조선일보"
-        },
-        {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 8월 27일자",
-          "press": "조선일보"
-        },
-        {
-          "title": "투자 대박에… 보험사 상반기 순익 9조",
-          "press": "조선일보"
-        },
-        {
-          "title": "[주요경제지표] 2026년 8월 27일자",
-          "press": "조선일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-28 01:13"
+    "updated_at": "2026-08-28 04:18"
   }
 ]
