@@ -11289,14 +11289,14 @@
     "date": "2026-08-28",
     "target_date": "2026-08-31",
     "prediction": "SHORT",
-    "confidence": 0.5889,
-    "probability_long": 0.4111,
-    "probability_short": 0.5889,
+    "confidence": 0.6316,
+    "probability_long": 0.3684,
+    "probability_short": 0.6316,
     "kospi_close": 6879.87,
     "sentiment": {
-      "avg_score": 0.0778,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.0556,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -11304,9 +11304,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1381.579956,
+          "value": 1380.780029,
           "importance": 269,
-          "contribution": 371645.0082,
+          "contribution": 371429.8279,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11340,9 +11340,9 @@
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 14.48,
+          "value": 14.49,
           "importance": 243,
-          "contribution": 3518.6399,
+          "contribution": 3521.0699,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
@@ -11351,37 +11351,37 @@
         "rsi_14": 63.86,
         "rsi_signal": "강세",
         "macd_signal": "매수",
-        "vix_level": 14.48,
+        "vix_level": 14.49,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-08-31 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.6%, 나스닥 +1.2%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-08-31 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.6%, 나스닥 +1.3%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "고금리 버티려면…보·은·주 잡아라",
-          "press": "중앙일보"
+          "title": "[르포]SK하이닉스가 짓는 미국 첫 HBM 공장 가보니…2029년부터 양산",
+          "press": "아시아경제"
         },
         {
-          "title": "\"차라리 퇴사\" 금감원 노조 지방이전 반발 '격화'…정치권서도 반대 목소리",
-          "press": "더팩트"
+          "title": "인적분할 한화·카카오, 주가 엇갈린 까닭은?",
+          "press": "조선일보"
         },
         {
-          "title": "“주가는 이 난리인데” 우량등급 기업은 더 늘었다고? [투자360]",
-          "press": "헤럴드경제"
+          "title": "[주식 매매 상위 종목 및 환율] 2026년 8월 27일자",
+          "press": "조선일보"
         },
         {
-          "title": "[속보]엔비디아 호실적에 뉴욕증시 상승 출발…나스닥 0.8%↑",
-          "press": "뉴시스"
+          "title": "투자 대박에… 보험사 상반기 순익 9조",
+          "press": "조선일보"
         },
         {
-          "title": "\"그들을 감동시켰다\"…삼전닉스 개미들 환호한 '파격 전망' [분석+]",
-          "press": "한국경제"
+          "title": "[주요경제지표] 2026년 8월 27일자",
+          "press": "조선일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-28 00:26"
+    "updated_at": "2026-08-28 01:13"
   }
 ]
