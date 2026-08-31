@@ -11393,9 +11393,9 @@
     "probability_short": 0.7211,
     "kospi_close": 6820.02,
     "sentiment": {
-      "avg_score": 0.0833,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.2333,
+      "avg_score": -0.0,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -11403,9 +11403,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1367.73999,
+          "value": 1367.02002,
           "importance": 269,
-          "contribution": 367922.0574,
+          "contribution": 367728.3853,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11454,33 +11454,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-09-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.4로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-09-01 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
+        {
+          "title": "케빈 워시의 첫 잭슨홀 연설…매파 발언 속에 숨은 진짜 메시지는 [불앤베어 플러스]",
+          "press": "매일경제"
+        },
+        {
+          "title": "개미 계좌는 온통 ‘파란불’인데…증권거래세만 401% 폭증",
+          "press": "문화일보"
+        },
+        {
+          "title": "[美특징주]델테크놀로지, AI 서버 수요 강력…개장전 약보합",
+          "press": "이데일리"
+        },
+        {
+          "title": "\"AI·레버리지로 글로벌 시장조정 위험\"…영국 중앙은행장 경고",
+          "press": "연합뉴스"
+        },
         {
           "title": "소비 '뚝' 수출 호황에도 꽉 닫힌 지갑…한은 \"선제 대응\" 너무 빨랐나",
           "press": "MBN"
-        },
-        {
-          "title": "잠 깨워주고 심박수까지 측정…'슬립테크'가 뜬다",
-          "press": "MBN"
-        },
-        {
-          "title": "[올댓차이나] 대만 증시, 美 장기금리 부담 닷새 만에 반락…0.44%↓",
-          "press": "뉴시스"
-        },
-        {
-          "title": "HD건설기계, 인도 생산기지 구축에 877억원 투자",
-          "press": "동행미디어 시대"
-        },
-        {
-          "title": "[美특징주]마이크로소프트, AI 유통으로 新매출 기대↑-JMP 증권",
-          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-08-31 20:06"
+    "updated_at": "2026-08-31 20:26"
   }
 ]
