@@ -11487,14 +11487,14 @@
     "date": "2026-09-01",
     "target_date": "2026-09-02",
     "prediction": "SHORT",
-    "confidence": 0.7208,
-    "probability_long": 0.2792,
-    "probability_short": 0.7208,
+    "confidence": 0.8833,
+    "probability_long": 0.1167,
+    "probability_short": 0.8833,
     "kospi_close": 6835.8,
     "sentiment": {
-      "avg_score": 0.2292,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.1,
+      "avg_score": 0.0633,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -11502,9 +11502,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1373.180054,
+          "value": 1371.400024,
           "importance": 269,
-          "contribution": 369385.4344,
+          "contribution": 368906.6066,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11553,33 +11553,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-09-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-09-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "코스피 6,800선 회복…삼전닉스 자사주 매입 효과",
-          "press": "연합뉴스TV"
-        },
-        {
-          "title": "[르포]KT 터에 '윤슬' 입은 자이…목동 수주 전초기지?",
-          "press": "비즈워치"
-        },
-        {
-          "title": "‘코스피보다 더 낫다’ 8월에만 2조원 폭풍매수…코스닥에 몰려가는 개미들 [투자360]",
+          "title": "‘따따상’ 축포도 이젠 옛말…얼어붙은 IPO 시장 [투자360]",
           "press": "헤럴드경제"
         },
         {
-          "title": "한전, 채권 입찰방식 개편…\"신용엔 우호적 영향\" [클릭 e종목]",
-          "press": "아시아경제"
+          "title": "룰루레몬, 실적 하회 전망…'알로' 등 경쟁사에 시장 점유율 빼앗겨 --제프리스",
+          "press": "이데일리"
         },
         {
-          "title": "HD현대중공업 임단협 결렬, 2일부터 부분파업",
-          "press": "동행미디어 시대"
+          "title": "[속보]뉴욕증시, 美이란 충돌·유가 상승에 하락 출발…나스닥 1.2%↓",
+          "press": "뉴시스"
+        },
+        {
+          "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+]",
+          "press": "한국경제"
+        },
+        {
+          "title": "[개장전특징주]애플, 로빈후드, 델, 팔로알토",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-01 18:49"
+    "updated_at": "2026-09-01 22:45"
   }
 ]
