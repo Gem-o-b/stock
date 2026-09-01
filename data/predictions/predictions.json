@@ -11487,12 +11487,12 @@
     "date": "2026-09-01",
     "target_date": "2026-09-02",
     "prediction": "SHORT",
-    "confidence": 0.641,
-    "probability_long": 0.359,
-    "probability_short": 0.641,
+    "confidence": 0.7208,
+    "probability_long": 0.2792,
+    "probability_short": 0.7208,
     "kospi_close": 6835.8,
     "sentiment": {
-      "avg_score": 0.2559,
+      "avg_score": 0.2292,
       "positive_ratio": 0.4333,
       "negative_ratio": 0.1,
       "article_count": 30
@@ -11502,9 +11502,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1373.359985,
+          "value": 1373.180054,
           "importance": 269,
-          "contribution": 369433.8361,
+          "contribution": 369385.4344,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11556,30 +11556,30 @@
       "summary": "AI 모델은 2026-09-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
+          "title": "코스피 6,800선 회복…삼전닉스 자사주 매입 효과",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "[르포]KT 터에 '윤슬' 입은 자이…목동 수주 전초기지?",
+          "press": "비즈워치"
+        },
+        {
+          "title": "‘코스피보다 더 낫다’ 8월에만 2조원 폭풍매수…코스닥에 몰려가는 개미들 [투자360]",
+          "press": "헤럴드경제"
+        },
+        {
           "title": "한전, 채권 입찰방식 개편…\"신용엔 우호적 영향\" [클릭 e종목]",
           "press": "아시아경제"
         },
         {
           "title": "HD현대중공업 임단협 결렬, 2일부터 부분파업",
           "press": "동행미디어 시대"
-        },
-        {
-          "title": "5년 만에 18조 넘어선 TDF… 투자자금 80%가 빅5에 '쏠림'",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "인재 빨아들이는 한화엔진... 중소협력사는 경쟁력 흔들",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "국내 들어오는 메타 CDS… 최대변수는 '회수율 0%' 조건",
-          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-01 18:34"
+    "updated_at": "2026-09-01 18:49"
   }
 ]
