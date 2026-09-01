@@ -11478,23 +11478,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6779.87,
+    "is_correct": true,
     "updated_at": "2026-08-31 20:26"
   },
   {
     "date": "2026-09-01",
     "target_date": "2026-09-02",
-    "prediction": "LONG",
-    "confidence": 0.5805,
-    "probability_long": 0.5805,
-    "probability_short": 0.4195,
-    "kospi_close": 6820.02,
+    "prediction": "SHORT",
+    "confidence": 0.682,
+    "probability_long": 0.318,
+    "probability_short": 0.682,
+    "kospi_close": 6779.87,
     "sentiment": {
-      "avg_score": -0.0148,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.3,
+      "avg_score": 0.1333,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -11502,84 +11502,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1367.689941,
+          "value": 1370.97998,
           "importance": 269,
-          "contribution": 367908.5942,
+          "contribution": 368793.6147,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 61.757635,
+          "value": 59.83943,
           "importance": 248,
-          "contribution": 15315.8935,
+          "contribution": 14840.1787,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -76.704789,
+          "value": -63.775071,
           "importance": 187,
-          "contribution": 14343.7956,
+          "contribution": 11925.9382,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 15.19,
+          "value": 14.92,
           "importance": 243,
-          "contribution": 3691.1699,
+          "contribution": 3625.56,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -15.052958,
+          "value": -12.056197,
           "importance": 206,
-          "contribution": 3100.9094,
+          "contribution": 2483.5766,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 61.76,
-        "rsi_signal": "강세",
+        "rsi_14": 59.84,
+        "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 15.19,
+        "vix_level": 14.92,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -0.5%, 나스닥 -0.4%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
+      "summary": "AI 모델은 2026-09-02 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "원화는 거꾸로 강세, 엔화 흐름과 ‘디커플링’… 100엔당 원화 환율 25개월 만에 850원대로",
-          "press": "조선일보"
+          "title": "넷마블 ‘나혼렙’ 비롯 韓 IP 3종 외자판호 발급",
+          "press": "매일경제"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 8월 31일자",
-          "press": "조선일보"
+          "title": "현대차증권, IB '투톱' 승부수…IPO·M&A까지 노린다",
+          "press": "데일리안"
         },
         {
-          "title": "은행주, 고금리 타고 날았다… 기관들 순매수 돌아서",
-          "press": "국민일보"
+          "title": "한솔아이원스, 주간 실현수익 1위 기록 [MK시그널]",
+          "press": "매일경제"
         },
         {
-          "title": "고수익보다 장기투자… 주식시장에 머물러야 수익 거둔다",
-          "press": "동아일보"
+          "title": "스페이스X 과장 광고 재발 방지… 증권·운용사 광고, 협회 광고위가 심사",
+          "press": "한국일보"
         },
         {
-          "title": "월배당 상품 고를땐, 재원-총수익률-세금까지 살펴야",
-          "press": "동아일보"
+          "title": "앤스로픽, 람다와 48조 클라우드 계약…데이터센터 용량 확보",
+          "press": "아시아경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-01 01:28"
+    "updated_at": "2026-09-01 15:05"
   }
 ]
