@@ -11586,14 +11586,14 @@
     "date": "2026-09-02",
     "target_date": "2026-09-03",
     "prediction": "LONG",
-    "confidence": 0.9253,
-    "probability_long": 0.9253,
-    "probability_short": 0.0747,
+    "confidence": 0.9415,
+    "probability_long": 0.9415,
+    "probability_short": 0.0585,
     "kospi_close": 6562.72,
     "sentiment": {
-      "avg_score": 0.0593,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.0644,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -11601,9 +11601,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1364.670044,
+          "value": 1362.880005,
           "importance": 288,
-          "contribution": 393024.9727,
+          "contribution": 392509.4414,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11652,33 +11652,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 17%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "결제주기 당기려다 외국인 떠날라… T+1 속도전에 증권가 긴장",
-          "press": "한국일보"
+          "title": "\"삼전닉스 더 떨어지면 큰일\"…브로드컴에 반도체주 달렸다 [분석+]",
+          "press": "한국경제"
         },
         {
-          "title": "증선위, 금양 경영진 무더기 징계 ‘철퇴’…“허위 매출·감사 방해”",
-          "press": "디지털타임스"
+          "title": "\"코인으로 돈 버는 시대 끝났다\"…금융사가 가상자산에 뛰어드는 이유",
+          "press": "뉴시스"
         },
         {
-          "title": "신약 임상결과 미리 알고 차명계좌로 '꿀꺽'했다 덜미",
-          "press": "데일리안"
+          "title": "환율 떨어질 땐 ‘H’ 꼭 확인…같은 S&P ETF인데 수익률 8%P나 차이[투자360]",
+          "press": "헤럴드경제"
         },
         {
-          "title": "해외 자회사 몸값 상승...해외주식 신고 61.3조 ‘역대 최대’",
-          "press": "서울경제"
+          "title": "증선위, '회계처리기준 위반' 금양에 과징금…검찰 고발도",
+          "press": "한국경제"
         },
         {
-          "title": "[기자의 눈] 금감원에 전문가가 사라진다면",
-          "press": "서울경제"
+          "title": "금융당국, 금양 허위매출 회계 반영 적발…대표이사 고발",
+          "press": "머니투데이"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-02 18:21"
+    "updated_at": "2026-09-02 22:02"
   }
 ]
