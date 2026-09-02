@@ -11586,14 +11586,14 @@
     "date": "2026-09-02",
     "target_date": "2026-09-03",
     "prediction": "LONG",
-    "confidence": 0.7729,
-    "probability_long": 0.7729,
-    "probability_short": 0.2271,
-    "kospi_close": 6627.22,
+    "confidence": 0.9253,
+    "probability_long": 0.9253,
+    "probability_short": 0.0747,
+    "kospi_close": 6562.72,
     "sentiment": {
-      "avg_score": 0.169,
-      "positive_ratio": 0.2333,
-      "negative_ratio": 0.1,
+      "avg_score": 0.1206,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -11601,29 +11601,38 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1367.680054,
+          "value": 1364.900024,
           "importance": 288,
-          "contribution": 393891.8555,
+          "contribution": 393091.207,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 51.116394,
+          "value": 49.632819,
           "importance": 253,
-          "contribution": 12932.4477,
+          "contribution": 12557.1033,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -53.966866,
+          "value": -54.995926,
           "importance": 176,
-          "contribution": 9498.1685,
+          "contribution": 9679.283,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -23.44867,
+          "importance": 201,
+          "contribution": 4713.1827,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "VIX 수준",
@@ -11633,52 +11642,43 @@
           "contribution": 4134.02,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
-        },
-        {
-          "name": "MACD",
-          "feature": "macd",
-          "value": -18.303371,
-          "importance": 201,
-          "contribution": 3678.9776,
-          "impact": "SHORT",
-          "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 51.12,
+        "rsi_14": 49.63,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 16.34,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-03 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 16.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "KB금융, ‘키아프 서울’ 3년 연속 리드파트너…K-아트 저변 넓힌다",
-          "press": "스포츠서울"
-        },
-        {
-          "title": "“더 안 빠져 다행인데, 오르지도 않으니 재미없어”…국내 증시 거래대금 32% 급감",
+          "title": "체력 확충나선 금융지주 … 신종자본증권 발행 잇따라",
           "press": "매일경제"
         },
         {
-          "title": "NH투자증권 \"'사랑의 나눔, 헌혈' 행사 진행\"",
-          "press": "아시아경제"
+          "title": "7월 급락 트라우마에 위축된 개미, 순매수 두 달새 10분의 1로",
+          "press": "한국경제"
         },
         {
-          "title": "에이스테크, 항우연 저궤도 위성통신 안테나 개발 수주…위성·방산 통신 확대",
-          "press": "이데일리"
+          "title": "[WM명가를 찾아서] \"임직원 주식보상 나선 기업에 맞춤형 금융 솔루션 제공하죠\"",
+          "press": "매일경제"
         },
         {
-          "title": "\"아직 40조 더 남았다\"...삼전닉스 없었으면 어쩔 뻔",
-          "press": "한국경제TV"
+          "title": "中 우시바이오 1년치 IND가 삼성바이오 누적 신청의 3배…“전임상부터 지원해야”",
+          "press": "서울경제"
+        },
+        {
+          "title": "[미국 주식 돋보기] 액션캠 제왕서 동전주로…고프로, 결국 매각",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-02 14:31"
+    "updated_at": "2026-09-02 17:59"
   }
 ]
