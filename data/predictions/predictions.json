@@ -11685,14 +11685,14 @@
     "date": "2026-09-03",
     "target_date": "2026-09-04",
     "prediction": "SHORT",
-    "confidence": 0.7473,
-    "probability_long": 0.2527,
-    "probability_short": 0.7473,
-    "kospi_close": 6625.43,
+    "confidence": 0.6332,
+    "probability_long": 0.3668,
+    "probability_short": 0.6332,
+    "kospi_close": 6579.48,
     "sentiment": {
-      "avg_score": -0.0264,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.3333,
+      "avg_score": 0.1294,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -11700,36 +11700,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1359.280029,
+          "value": 1357.329956,
           "importance": 288,
-          "contribution": 391472.6484,
+          "contribution": 390911.0273,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 45.418505,
+          "value": 44.167498,
           "importance": 253,
-          "contribution": 11490.8819,
+          "contribution": 11174.377,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -50.116794,
+          "value": -50.849899,
           "importance": 176,
-          "contribution": 8820.5558,
+          "contribution": 8949.5823,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -30.600265,
+          "value": -34.265792,
           "importance": 201,
-          "contribution": 6150.6533,
+          "contribution": 6887.4243,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
@@ -11744,40 +11744,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 45.42,
+        "rsi_14": 44.17,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 15.2,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[속보] 코스피, 돌연 하락 전환해 6400대로…코스닥도 2%↓",
-          "press": "한국경제"
+          "title": "NH투자증권, 안산 지역사회 취약계층에 ‘사랑의 쌀’ 전달",
+          "press": "이데일리"
         },
         {
-          "title": "[속보] 코스피 돌연 하락 전환…6400대로 밀려, 코스닥도 2%↓",
+          "title": "모건스탠리 韓IB 대표에 빅딜 전문가 김석봉 영입",
           "press": "매일경제"
         },
         {
-          "title": "상장사 756곳 밸류업 공시 완료…시총 83% 참여",
-          "press": "뉴시스"
+          "title": "원전·데이터센터 수주 기대…건설주 강세",
+          "press": "매일경제"
         },
         {
-          "title": "국회로 넘어간 레버리지 논란, 몸사리는 증권가는 냉가슴만",
-          "press": "비즈워치"
+          "title": "금리상승·원화강세·주주환원 3박자 … 금융지주 주가 잘나가네",
+          "press": "매일경제"
         },
         {
-          "title": "'털린 계정 4000만개'…티빙, 눈뜨고 당했다",
-          "press": "비즈워치"
+          "title": "우리금융, 감사품질 제고해 투명성 강화",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-03 14:32"
+    "updated_at": "2026-09-03 18:08"
   }
 ]
