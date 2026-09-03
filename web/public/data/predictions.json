@@ -11685,14 +11685,14 @@
     "date": "2026-09-03",
     "target_date": "2026-09-04",
     "prediction": "SHORT",
-    "confidence": 0.6332,
-    "probability_long": 0.3668,
-    "probability_short": 0.6332,
+    "confidence": 0.7137,
+    "probability_long": 0.2863,
+    "probability_short": 0.7137,
     "kospi_close": 6579.48,
     "sentiment": {
-      "avg_score": 0.0306,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.0344,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -11700,9 +11700,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1357.630005,
+          "value": 1355.48999,
           "importance": 288,
-          "contribution": 390997.4414,
+          "contribution": 390381.1172,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11751,33 +11751,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "오후 2시에 무슨일이?…10분만에 3%대 급락",
-          "press": "서울경제"
+          "title": "\"잔치 끝나, 코스피도 쉽지 않아\"…수익률 한 자릿수 전망 나왔다 [분석+]",
+          "press": "한국경제"
         },
         {
-          "title": "모바일 전용 파킹통장…한국증권금융, '증금 매일모아 통장' 출시",
-          "press": "데일리안"
+          "title": "금리 급등, 2023년처럼 잡히지 않을까…이번엔 ‘세 가지’가 다르다 [투자360]",
+          "press": "헤럴드경제"
         },
         {
-          "title": "EB 막았더니 자사주 ‘팔기’ 사라져…두달간 처분 단 1건",
-          "press": "서울경제"
+          "title": "코스피 'V자 반등'에 무슨 일?…투자자 혼란",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "금투협 K-OTC, 서울시와 공동 IR 개최… \"비상장사 투자유치 지원\"",
-          "press": "머니투데이"
+          "title": "오후 2시에 무슨 일이? 243포인트 '출렁'…'공포의 30분' 일제히 흔들렸다",
+          "press": "한국경제TV"
         },
         {
-          "title": "\"기술은 남았다..\" 법정관리 가온셀, M&A로 'DMFC 재시동' [fn마켓워치]",
-          "press": "파이낸셜뉴스"
+          "title": "\"6만달러에 팔고 8만달러에 다시 샀다\"…비트코인 최대 보유사의 '이상한 거래'",
+          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-03 18:31"
+    "updated_at": "2026-09-03 22:05"
   }
 ]
