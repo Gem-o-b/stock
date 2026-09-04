@@ -11789,9 +11789,9 @@
     "probability_short": 0.5216,
     "kospi_close": 6687.21,
     "sentiment": {
-      "avg_score": 0.2122,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.3089,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -11799,9 +11799,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1351.310059,
+          "value": 1351.900024,
           "importance": 288,
-          "contribution": 389177.2969,
+          "contribution": 389347.207,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11850,33 +11850,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-09-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "비상장주식 내년 2월부터 '토큰증권'으로 사고판다",
+          "title": "“심각한 저평가…삼전 67만원·SK하닉 470만원 간다”-노무라",
+          "press": "문화일보"
+        },
+        {
+          "title": "노무라 \"삼전닉스, 심각하게 저평가…빅테크 여력 훨씬 강력\"",
+          "press": "아이뉴스24"
+        },
+        {
+          "title": "반도체서 2차전지로 순환매…한달 새 21% 쑥 [ETF 줌인]",
+          "press": "서울경제"
+        },
+        {
+          "title": "BTS 음원부터 삼전닉스 주식까지…토큰증권 시장 판 커진다",
           "press": "한국경제"
         },
         {
-          "title": "SOOP, 판교에 1315억짜리 신사옥 마련",
-          "press": "비즈워치"
-        },
-        {
-          "title": "경기신용보증재단 남양주 이전 개소식",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "주가 게걸음인데…일본 증권사 \"삼전닉스 심각한 저평가\"",
-          "press": "데일리안"
-        },
-        {
-          "title": "신한지주 2700억 신종자본증권 수요예측에 5840억원",
-          "press": "매일경제"
+          "title": "코스피 반등에 변동성도 진정…VKOSPI 40선 아래로",
+          "press": "연합뉴스TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-04 18:00"
+    "updated_at": "2026-09-04 18:23"
   }
 ]
