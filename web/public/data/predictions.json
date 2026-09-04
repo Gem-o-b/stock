@@ -11783,14 +11783,14 @@
   {
     "date": "2026-09-04",
     "target_date": "2026-09-07",
-    "prediction": "LONG",
-    "confidence": 0.8193,
-    "probability_long": 0.8193,
-    "probability_short": 0.1807,
-    "kospi_close": 6638.79,
+    "prediction": "SHORT",
+    "confidence": 0.5216,
+    "probability_long": 0.4784,
+    "probability_short": 0.5216,
+    "kospi_close": 6687.21,
     "sentiment": {
-      "avg_score": 0.0389,
-      "positive_ratio": 0.2333,
+      "avg_score": 0.2122,
+      "positive_ratio": 0.4333,
       "negative_ratio": 0.1667,
       "article_count": 30
     },
@@ -11799,84 +11799,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1352.280029,
+          "value": 1351.310059,
           "importance": 288,
-          "contribution": 389456.6484,
+          "contribution": 389177.2969,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 41.072698,
+          "value": 42.537463,
           "importance": 253,
-          "contribution": 10391.3925,
+          "contribution": 10761.9781,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -48.203714,
+          "value": -47.431201,
           "importance": 176,
-          "contribution": 8483.8536,
+          "contribution": 8347.8913,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -37.61897,
+          "value": -33.756406,
           "importance": 201,
-          "contribution": 7561.413,
+          "contribution": 6785.0376,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 15.2,
+          "value": 14.32,
           "importance": 253,
-          "contribution": 3845.6,
+          "contribution": 3622.9599,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 41.07,
+        "rsi_14": 42.54,
         "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 15.2,
+        "vix_level": 14.32,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-07 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 17%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.2로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-09-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "코스닥 ‘기술특례상장’ 21년 만에 300호 기업 배출… 신규 상장 시총 60% ‘핵심 트랙’으로",
-          "press": "서울경제"
+          "title": "비상장주식 내년 2월부터 '토큰증권'으로 사고판다",
+          "press": "한국경제"
         },
         {
-          "title": "회계감리 중징계 영풍…내부통제 시스템 허점 논란",
+          "title": "SOOP, 판교에 1315억짜리 신사옥 마련",
           "press": "비즈워치"
         },
         {
-          "title": "KB증권, 퇴직연금 계좌서 개인투자용 국채 서비스 시작",
-          "press": "서울경제"
-        },
-        {
-          "title": "전북농협·기보, 전북 중소기업에 200억원 대출 지원",
+          "title": "경기신용보증재단 남양주 이전 개소식",
           "press": "연합뉴스"
         },
         {
-          "title": "한투증권, 카카오뱅크 제휴 7주년 고객 감사 이벤트",
-          "press": "뉴시스"
+          "title": "주가 게걸음인데…일본 증권사 \"삼전닉스 심각한 저평가\"",
+          "press": "데일리안"
+        },
+        {
+          "title": "신한지주 2700억 신종자본증권 수요예측에 5840억원",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-04 14:36"
+    "updated_at": "2026-09-04 18:00"
   }
 ]
