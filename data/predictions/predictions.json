@@ -11784,14 +11784,14 @@
     "date": "2026-09-04",
     "target_date": "2026-09-07",
     "prediction": "SHORT",
-    "confidence": 0.5216,
-    "probability_long": 0.4784,
-    "probability_short": 0.5216,
+    "confidence": 0.7539,
+    "probability_long": 0.2461,
+    "probability_short": 0.7539,
     "kospi_close": 6687.21,
     "sentiment": {
-      "avg_score": 0.3089,
+      "avg_score": 0.2,
       "positive_ratio": 0.4,
-      "negative_ratio": 0.0667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -11799,9 +11799,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1351.900024,
+          "value": 1348.890015,
           "importance": 288,
-          "contribution": 389347.207,
+          "contribution": 388480.3242,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11850,33 +11850,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-09-07 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "“심각한 저평가…삼전 67만원·SK하닉 470만원 간다”-노무라",
-          "press": "문화일보"
-        },
-        {
-          "title": "노무라 \"삼전닉스, 심각하게 저평가…빅테크 여력 훨씬 강력\"",
-          "press": "아이뉴스24"
-        },
-        {
-          "title": "반도체서 2차전지로 순환매…한달 새 21% 쑥 [ETF 줌인]",
+          "title": "리파인 공개매수에 행동주의 펀드 ‘반기’…“최대주주만 이익”[시그널]",
           "press": "서울경제"
         },
         {
-          "title": "BTS 음원부터 삼전닉스 주식까지…토큰증권 시장 판 커진다",
-          "press": "한국경제"
+          "title": "美 8월 고용 16만명 '서프라이즈'…긴축 기조 이어질 듯",
+          "press": "아시아경제"
         },
         {
-          "title": "코스피 반등에 변동성도 진정…VKOSPI 40선 아래로",
+          "title": "“코인 팔아 마련한 1500억, 어디로 갔나 보니”…30대 절반, ‘똘똘한 한 채’ 택했다",
+          "press": "서울경제"
+        },
+        {
+          "title": "코스피 美금리부담 완화에 올라…코스닥 닷새만 상승",
           "press": "연합뉴스TV"
+        },
+        {
+          "title": "실적 좋아도 주가 떨어지면 상폐 …“좀비기업 정의 바꿔야”",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-04 18:23"
+    "updated_at": "2026-09-04 21:59"
   }
 ]
