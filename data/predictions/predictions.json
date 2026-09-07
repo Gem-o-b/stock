@@ -11883,14 +11883,14 @@
     "date": "2026-09-07",
     "target_date": "2026-09-08",
     "prediction": "SHORT",
-    "confidence": 0.7704,
-    "probability_long": 0.2296,
-    "probability_short": 0.7704,
-    "kospi_close": 6885.81,
+    "confidence": 0.6278,
+    "probability_long": 0.3722,
+    "probability_short": 0.6278,
+    "kospi_close": 6995.39,
     "sentiment": {
-      "avg_score": -0.5667,
-      "positive_ratio": 0.1,
-      "negative_ratio": 0.6667,
+      "avg_score": 0.2,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.0667,
       "article_count": 30
     },
     "reasons": {
@@ -11898,27 +11898,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1345.579956,
+          "value": 1343.439941,
           "importance": 288,
-          "contribution": 387527.0273,
+          "contribution": 386910.7031,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 50.39197,
+          "value": 52.922719,
           "importance": 253,
-          "contribution": 12749.1685,
+          "contribution": 13389.4479,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -41.370939,
+          "value": -39.622654,
           "importance": 176,
-          "contribution": 7281.2852,
+          "contribution": 6973.5871,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
@@ -11934,48 +11934,48 @@
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -17.129891,
+          "value": -8.388466,
           "importance": 201,
-          "contribution": 3443.1081,
+          "contribution": 1686.0818,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         }
       ],
       "market_summary": {
-        "rsi_14": 50.39,
+        "rsi_14": 52.92,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 14.53,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-09-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 67%, 긍정 10%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-09-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "다시 뛰는 삼전·닉스…3분기 실적 기대도 '쑥↑'",
-          "press": "한국경제TV"
+          "title": "명령어 몇 개면 45분만에 3D게임 완성…“아스트라 모멘트 온다”",
+          "press": "서울경제"
         },
         {
-          "title": "감성코퍼레이션 김호선 대표, 8억원 규모 자사주 추가 매입",
-          "press": "이데일리"
+          "title": "증시 변동성 잦아들자… ETP 괴리율 공시 급감",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "제너셈, 하나마이크론과 119억 규모 반도체 후공정 장비 계약",
-          "press": "이데일리"
+          "title": "8월 팔던 외국인·기관 돌아오나.. 사흘째 ‘동반 매수’ 반등 기대감",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "동아ST '하이카디', 아·태 6개국 진출",
-          "press": "비즈워치"
+          "title": "신한證, 프리미엄 ‘PWM 센트럴 용산센터’ 개소",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "에스피지, 주당 100원 중간배당 결정",
-          "press": "이데일리"
+          "title": "코스닥 상장사 77% 밸류업 미공시… \"참여율 끌어올려야\"",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-07 14:47"
+    "updated_at": "2026-09-07 18:38"
   }
 ]
