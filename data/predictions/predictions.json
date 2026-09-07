@@ -11883,14 +11883,14 @@
     "date": "2026-09-07",
     "target_date": "2026-09-08",
     "prediction": "SHORT",
-    "confidence": 0.6379,
-    "probability_long": 0.3621,
-    "probability_short": 0.6379,
+    "confidence": 0.5931,
+    "probability_long": 0.4069,
+    "probability_short": 0.5931,
     "kospi_close": 6995.39,
     "sentiment": {
-      "avg_score": 0.2333,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.0333,
+      "avg_score": 0.2722,
+      "positive_ratio": 0.5333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -11898,9 +11898,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1345.72998,
+          "value": 1345.880005,
           "importance": 288,
-          "contribution": 387570.2344,
+          "contribution": 387613.4414,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -11949,33 +11949,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-09-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 3%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-09-08 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 14.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "주가 78% 떨어지더니 결국 퇴출…18년 만에 ‘차트 아웃’된 스포츠 제국 ‘나이키’",
-          "press": "서울경제"
+          "title": "증시 거래대금 급감…증권사 3분기 실적 '먹구름'",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "[올댓차이나] 홍콩 증시, 美 금리인상 경계에 반락 마감… H주 1.47%↓",
+          "title": "“1억달러 들던 DNA 분석, 이젠 200달러”…시장 80% 장악한 DNA 대장주",
+          "press": "매일경제"
+        },
+        {
+          "title": "“삼전닉스 재고 10일치…메모리 고갈 가능성” KB證 평가",
+          "press": "문화일보"
+        },
+        {
+          "title": "달러 살 때? 팔 때? …전문가 \"3년 평균치 밑돌면 매수해야\"",
           "press": "뉴시스"
         },
         {
-          "title": "무신사, '10조 몸값' 시동 걸었다…거래소 \"코스피 상장예심 신청\"",
-          "press": "데일리안"
-        },
-        {
-          "title": "명령어 몇 개면 45분만에 3D게임 완성…“아스트라 모멘트 온다”",
-          "press": "서울경제"
-        },
-        {
-          "title": "증시 변동성 잦아들자… ETP 괴리율 공시 급감",
-          "press": "파이낸셜뉴스"
+          "title": "메모리 초호황인데…\"삼전 주가 상승 막는 MX·노조 리스크\" [분석+]",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-07 19:00"
+    "updated_at": "2026-09-07 23:33"
   }
 ]
