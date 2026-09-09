@@ -12076,5 +12076,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-09-08 22:08"
+  },
+  {
+    "date": "2026-09-09",
+    "target_date": "2026-09-10",
+    "prediction": "SHORT",
+    "confidence": 0.5838,
+    "probability_long": 0.4162,
+    "probability_short": 0.5838,
+    "kospi_close": 6995.39,
+    "sentiment": {
+      "avg_score": 0.35,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.0667,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1343.569946,
+          "importance": 288,
+          "contribution": 386948.1445,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 52.922719,
+          "importance": 253,
+          "contribution": 13389.4479,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -39.622654,
+          "importance": 176,
+          "contribution": 6973.5871,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 15.3,
+          "importance": 253,
+          "contribution": 3870.9,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -8.388466,
+          "importance": 201,
+          "contribution": 1686.0818,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 52.92,
+        "rsi_signal": "중립",
+        "macd_signal": "매수",
+        "vix_level": 15.3,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-09-10 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 7%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "news_headlines": [
+        {
+          "title": "골드앤에스, 관리종목 지정 효력정지·상폐 결정 금지 가처분 신청",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "한국거래소, 추석 연휴 전날 밤 파생상품 야간거래 휴장",
+          "press": "조선비즈"
+        },
+        {
+          "title": "“첫 바닥 버텼는데 두번째엔 판다”…코스피 ‘W자 반등’의 역설",
+          "press": "이데일리"
+        },
+        {
+          "title": "미 정부 양자컴퓨터기업 투자에… 한국 양자 관련주도 오름세",
+          "press": "머니투데이"
+        },
+        {
+          "title": "[게시판] 우리카드·나이스디앤알 맞손…기업카드 모집 다변화",
+          "press": "연합뉴스"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-09-09 14:46"
   }
 ]
