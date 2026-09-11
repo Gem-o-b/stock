@@ -11973,9 +11973,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6954.52,
+    "is_correct": true,
     "updated_at": "2026-09-07 23:33"
   },
   {
@@ -12072,9 +12072,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 7051.64,
+    "is_correct": true,
     "updated_at": "2026-09-08 22:08"
   },
   {
@@ -12171,9 +12171,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 7033.92,
+    "is_correct": true,
     "updated_at": "2026-09-09 22:13"
   },
   {
@@ -12270,9 +12270,108 @@
         }
       ]
     },
+    "actual": "SHORT",
+    "actual_close": 6860.62,
+    "is_correct": true,
+    "updated_at": "2026-09-10 22:11"
+  },
+  {
+    "date": "2026-09-11",
+    "target_date": "2026-09-14",
+    "prediction": "SHORT",
+    "confidence": 0.8114,
+    "probability_long": 0.1886,
+    "probability_short": 0.8114,
+    "kospi_close": 6860.62,
+    "sentiment": {
+      "avg_score": 0.3511,
+      "positive_ratio": 0.5333,
+      "negative_ratio": 0.2,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1345.579956,
+          "importance": 288,
+          "contribution": 387527.0273,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 55.760323,
+          "importance": 253,
+          "contribution": 14107.3618,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 40.621014,
+          "importance": 201,
+          "contribution": 8164.8238,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 17.84,
+          "importance": 253,
+          "contribution": 4513.52,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "월",
+          "feature": "month",
+          "value": 9.0,
+          "importance": 109,
+          "contribution": 981.0,
+          "impact": "LONG",
+          "description": "월: 9.0000"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 55.76,
+        "rsi_signal": "중립",
+        "macd_signal": "매수",
+        "vix_level": 17.84,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-09-14 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "\"60만전자 성장의 판이 커진다\"…잭팟 시나리오 더 세졌다",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "외국인 韓국채 투자 늘었다…국채통합계좌 거래 1700조 돌파",
+          "press": "이데일리"
+        },
+        {
+          "title": "LS증권 “HD현대중공업, AI 데이터센터 수혜 확대”",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "터톤캐피털 \"골프존홀딩스 상폐 철회, 韓 지배구조 개혁의 성과\"",
+          "press": "머니투데이"
+        },
+        {
+          "title": "싱가포르투자청 “ESG 투자, 비용 아닌 기본 원칙”[제 27회 세계지식포럼]",
+          "press": "매일경제"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-10 22:11"
+    "updated_at": "2026-09-11 14:40"
   }
 ]
