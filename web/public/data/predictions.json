@@ -12378,14 +12378,14 @@
     "date": "2026-09-14",
     "target_date": "2026-09-15",
     "prediction": "LONG",
-    "confidence": 0.9321,
-    "probability_long": 0.9321,
-    "probability_short": 0.0679,
+    "confidence": 0.8924,
+    "probability_long": 0.8924,
+    "probability_short": 0.1076,
     "kospi_close": 6684.37,
     "sentiment": {
-      "avg_score": -0.0063,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.2667,
+      "avg_score": 0.0429,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -12393,9 +12393,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1344.180054,
+          "value": 1345.310059,
           "importance": 288,
-          "contribution": 387123.8555,
+          "contribution": 387449.2969,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -12444,33 +12444,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "‘고작 4명’ 6년 간 금감원의 주식투자 규정 위반 임직원 징계 건수",
-          "press": "문화일보"
+          "title": "[올댓차이나] 홍콩 증시, 저가 매수세로 엿새 만에 반등 마감… H주 0.46%↑",
+          "press": "뉴시스"
         },
         {
-          "title": "큐리언트, 1016억 자금 로드맵과 비전 공개 \"이중 페이로드 ADC로 증명\"",
-          "press": "머니투데이"
+          "title": "[마켓인]SK리츠, 회사채 수요예측에 3650억원 주문…목표액 3배",
+          "press": "이데일리"
         },
         {
-          "title": "증권사 역대급 실적에도…나신평 \"호황 끝나면 위험\"",
+          "title": "[부고] 이동훈(미래에셋자산운용 홍보실 이사)씨 형제상",
           "press": "데일리안"
         },
         {
-          "title": "[클릭 e종목]\"에스엠, 탄탄한 IP…북미서 성장 필요\"",
+          "title": "제이알리츠, ARS 협의기간 1개월 추가 연장…\"채권자 협의 구체화\"",
           "press": "아시아경제"
         },
         {
-          "title": "KRX 애프터마켓 첫날, NXT 주문집행시스템 문제로 증권사앱 장애",
-          "press": "머니투데이"
+          "title": "‘고작 4명’ 6년 간 금감원의 주식투자 규정 위반 임직원 징계 건수",
+          "press": "문화일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-14 19:05"
+    "updated_at": "2026-09-14 19:23"
   }
 ]
