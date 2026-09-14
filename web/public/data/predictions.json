@@ -12472,5 +12472,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-09-14 19:23"
+  },
+  {
+    "date": "2026-09-15",
+    "target_date": "2026-09-16",
+    "prediction": "LONG",
+    "confidence": 0.9231,
+    "probability_long": 0.9231,
+    "probability_short": 0.0769,
+    "kospi_close": 6684.37,
+    "sentiment": {
+      "avg_score": -0.0289,
+      "positive_ratio": 0.1667,
+      "negative_ratio": 0.2667,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1346.689941,
+          "importance": 288,
+          "contribution": 387846.7031,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 48.118371,
+          "importance": 253,
+          "contribution": 12173.948,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 26.81953,
+          "importance": 201,
+          "contribution": 5390.7255,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 17.32,
+          "importance": 253,
+          "contribution": 4381.9599,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 8.744645,
+          "importance": 176,
+          "contribution": 1539.0575,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 48.12,
+        "rsi_signal": "중립",
+        "macd_signal": "매수",
+        "vix_level": 17.32,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-09-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 17.3로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -0.7%, 나스닥 -0.8%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "KRX 애프터마켓 첫선…개장 첫날 1조8천억 거래",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "美 10년물 결국 5% 돌파…글로벌 증시 '빨간불'",
+          "press": "아시아경제"
+        },
+        {
+          "title": "[사진] ‘오후 4~8시’ 애프터마켓 문 연 한국거래소",
+          "press": "중앙일보"
+        },
+        {
+          "title": "美 10년물 국채 금리 심리적 저항선 5.00% 돌파… 2023년 이후 처음",
+          "press": "조선비즈"
+        },
+        {
+          "title": "AI 개발 제동론에 반도체주 급락…엔비디아·브로드컴 동반 하락",
+          "press": "연합뉴스"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-09-15 00:21"
   }
 ]
