@@ -12369,9 +12369,108 @@
         }
       ]
     },
+    "actual": "SHORT",
+    "actual_close": 6765.94,
+    "is_correct": false,
+    "updated_at": "2026-09-11 22:05"
+  },
+  {
+    "date": "2026-09-14",
+    "target_date": "2026-09-15",
+    "prediction": "LONG",
+    "confidence": 0.7294,
+    "probability_long": 0.7294,
+    "probability_short": 0.2706,
+    "kospi_close": 6765.94,
+    "sentiment": {
+      "avg_score": 0.1417,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.1,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1345.560059,
+          "importance": 288,
+          "contribution": 387521.2969,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 50.789395,
+          "importance": 253,
+          "contribution": 12849.7169,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": 33.326538,
+          "importance": 201,
+          "contribution": 6698.6342,
+          "impact": "LONG",
+          "description": "MACD 양수 → 상승 추세"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 15.84,
+          "importance": 253,
+          "contribution": 4007.52,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": 10.046047,
+          "importance": 176,
+          "contribution": 1768.1042,
+          "impact": "LONG",
+          "description": "MACD 시그널 양수 → 매수 신호"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 50.79,
+        "rsi_signal": "중립",
+        "macd_signal": "매수",
+        "vix_level": 15.84,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-09-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.8로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "무신사, SM엔터테인먼트와 만났다…왜?",
+          "press": "디지털데일리"
+        },
+        {
+          "title": "“퇴직연금 3개월 새 14조 늘었다”…미래에셋증권, 공기업 시장 공략 확대",
+          "press": "디지털데일리"
+        },
+        {
+          "title": "“개장 첫날부터 주문 장애”…KRX 애프터마켓, SOR 오류에 투자자 혼선",
+          "press": "디지털데일리"
+        },
+        {
+          "title": "코인 과세유예 청원 5만명 돌파…정부 \"내년 시행\"",
+          "press": "비즈워치"
+        },
+        {
+          "title": "마이다스에셋자산운용 전주사무소 개소…국민연금과 협력 강화",
+          "press": "연합뉴스"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-11 22:05"
+    "updated_at": "2026-09-14 14:54"
   }
 ]
