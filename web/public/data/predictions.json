@@ -12468,23 +12468,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6627.26,
+    "is_correct": false,
     "updated_at": "2026-09-14 19:23"
   },
   {
     "date": "2026-09-15",
     "target_date": "2026-09-16",
-    "prediction": "LONG",
-    "confidence": 0.9435,
-    "probability_long": 0.9435,
-    "probability_short": 0.0565,
-    "kospi_close": 4214.17,
+    "prediction": "SHORT",
+    "confidence": 0.5181,
+    "probability_long": 0.4819,
+    "probability_short": 0.5181,
+    "kospi_close": 6627.26,
     "sentiment": {
-      "avg_score": 0.32,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.1,
+      "avg_score": 0.2167,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -12492,84 +12492,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1434.709961,
+          "value": 1362.550049,
           "importance": 288,
-          "contribution": 413196.4688,
+          "contribution": 392414.4141,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 55.635894,
+          "value": 44.135244,
           "importance": 253,
-          "contribution": 14075.8811,
+          "contribution": 11166.2168,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 17.1,
+          "importance": 253,
+          "contribution": 4326.3001,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
           "name": "MACD",
           "feature": "macd",
-          "value": 49.134896,
+          "value": 8.064382,
           "importance": 201,
-          "contribution": 9876.1141,
+          "contribution": 1620.9408,
           "impact": "LONG",
           "description": "MACD 양수 → 상승 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": 40.125645,
+          "value": 8.608592,
           "importance": 176,
-          "contribution": 7062.1136,
+          "contribution": 1515.1123,
           "impact": "LONG",
           "description": "MACD 시그널 양수 → 매수 신호"
-        },
-        {
-          "name": "VIX 수준",
-          "feature": "vix_level",
-          "value": 14.33,
-          "importance": 253,
-          "contribution": 3625.49,
-          "impact": "SHORT",
-          "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 55.64,
+        "rsi_14": 44.14,
         "rsi_signal": "중립",
-        "macd_signal": "매수",
-        "vix_level": 14.33,
+        "macd_signal": "매도",
+        "vix_level": 17.1,
         "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 원/달러 환율이 1,435원으로 높은 편이라 외국인 투자자의 매도 압력이 있을 수 있습니다. 공포지수(VIX)가 14.3로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -0.1%, 나스닥 -0.2%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-09-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.1로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "컴포짓 AI·1GW 규모 AIDC…KT클라우드의 AX 청사진",
-          "press": "비즈워치"
-        },
-        {
-          "title": "주가조작 합동대응단, 에이비엘바이오 압수수색…미공개정보 이용 혐의",
-          "press": "조선비즈"
-        },
-        {
-          "title": "신한운용, 'SOL 미국배당다우존스' 개인 순매수액 5000억원 넘어",
-          "press": "뉴시스"
-        },
-        {
-          "title": "라이프운용, 삼성전자에 우선주 매입·소각 제안… “60조 잔여 재원 투입해야”",
-          "press": "조선비즈"
-        },
-        {
-          "title": "클래리티법 극적 통과 가능성에 코인베이스 9%↑[매일코인]",
+          "title": "[단독] 코스닥ETF 선행매매 수법 내부자들은 알고 있었다…당국, 삼성액티브 조사",
           "press": "매일경제"
+        },
+        {
+          "title": "애프터마켓 VI 첫날에만 1112회…한국거래소 \"모니터링 강화\"",
+          "press": "뉴스1"
+        },
+        {
+          "title": "‘선행매매 혐의’ 삼성운용 펀드매니저…금감원 조사 착수",
+          "press": "조선비즈"
+        },
+        {
+          "title": "美 금리인상 확률 94%...38개월 만에 긴축 선회 [긴축의 시대]",
+          "press": "한국경제TV"
+        },
+        {
+          "title": "일본·홍콩에서 베트남까지…신한증권, 글로벌 네트워크 구축 박차",
+          "press": "데일리안"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-15 14:56"
+    "updated_at": "2026-09-15 18:34"
   }
 ]
