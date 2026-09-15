@@ -12476,14 +12476,14 @@
   {
     "date": "2026-09-15",
     "target_date": "2026-09-16",
-    "prediction": "SHORT",
-    "confidence": 0.5181,
-    "probability_long": 0.4819,
-    "probability_short": 0.5181,
+    "prediction": "LONG",
+    "confidence": 0.5627,
+    "probability_long": 0.5627,
+    "probability_short": 0.4373,
     "kospi_close": 6627.26,
     "sentiment": {
-      "avg_score": 0.2167,
-      "positive_ratio": 0.3667,
+      "avg_score": 0.1833,
+      "positive_ratio": 0.3333,
       "negative_ratio": 0.1667,
       "article_count": 30
     },
@@ -12492,9 +12492,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1362.550049,
+          "value": 1362.119995,
           "importance": 288,
-          "contribution": 392414.4141,
+          "contribution": 392290.5586,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -12543,8 +12543,12 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-09-16 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.1로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-09-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.1로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
+        {
+          "title": "주식+채권이면 안전하다더니…채권혼합 ETF, 美금리 상승에 흔들 [투자360]",
+          "press": "헤럴드경제"
+        },
         {
           "title": "[단독] 코스닥ETF 선행매매 수법 내부자들은 알고 있었다…당국, 삼성액티브 조사",
           "press": "매일경제"
@@ -12560,16 +12564,12 @@
         {
           "title": "美 금리인상 확률 94%...38개월 만에 긴축 선회 [긴축의 시대]",
           "press": "한국경제TV"
-        },
-        {
-          "title": "일본·홍콩에서 베트남까지…신한증권, 글로벌 네트워크 구축 박차",
-          "press": "데일리안"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-09-15 18:34"
+    "updated_at": "2026-09-15 18:49"
   }
 ]
