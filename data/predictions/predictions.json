@@ -12868,5 +12868,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-09-18 22:13"
+  },
+  {
+    "date": "2026-09-21",
+    "target_date": "2026-09-22",
+    "prediction": "LONG",
+    "confidence": 0.8521,
+    "probability_long": 0.8521,
+    "probability_short": 0.1479,
+    "kospi_close": 6724.34,
+    "sentiment": {
+      "avg_score": 0.1667,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.1333,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1379.530029,
+          "importance": 288,
+          "contribution": 397304.6484,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 47.714783,
+          "importance": 253,
+          "contribution": 12071.8402,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 15.44,
+          "importance": 253,
+          "contribution": 3906.3199,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -4.898539,
+          "importance": 201,
+          "contribution": 984.6064,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "월",
+          "feature": "month",
+          "value": 9.0,
+          "importance": 109,
+          "contribution": 981.0,
+          "impact": "LONG",
+          "description": "월: 9.0000"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 47.71,
+        "rsi_signal": "중립",
+        "macd_signal": "매도",
+        "vix_level": 15.44,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-09-22 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +1.1%, 나스닥 +1.7%) 국내 시장에 긍정적인 영향을 줄 수 있습니다.",
+      "news_headlines": [
+        {
+          "title": "예탁원, 자산유동화시장 투명성·안정성 높인다",
+          "press": "데일리안"
+        },
+        {
+          "title": "셀트리온 \"다잘렉스 시밀러, 유럽 IND 변경승인\"",
+          "press": "뉴시스"
+        },
+        {
+          "title": "KB증권, 투자 성과 분석 서비스 ‘깨비오’ 출시",
+          "press": "매일경제"
+        },
+        {
+          "title": "정부·기업·시민 함께 사회문제 해결 모색… 사회적가치 페스타 개막",
+          "press": "서울경제"
+        },
+        {
+          "title": "위고비 맞설 국산 비만약…에페 가격에 쏠린 눈",
+          "press": "동행미디어 시대"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-09-21 14:58"
   }
 ]
