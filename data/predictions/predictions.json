@@ -12765,9 +12765,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 6894.23,
+    "is_correct": false,
     "updated_at": "2026-09-17 22:52"
   },
   {
@@ -12864,9 +12864,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 7007.72,
+    "is_correct": true,
     "updated_at": "2026-09-18 22:13"
   },
   {
@@ -12963,9 +12963,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 7017.91,
+    "is_correct": true,
     "updated_at": "2026-09-21 19:29"
   },
   {
@@ -13062,9 +13062,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 7080.92,
+    "is_correct": true,
     "updated_at": "2026-09-22 22:44"
   },
   {
@@ -13161,9 +13161,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6889.74,
+    "is_correct": false,
     "updated_at": "2026-09-23 22:56"
   },
   {
@@ -13458,9 +13458,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6870.81,
+    "is_correct": false,
     "updated_at": "2026-09-28 20:31"
   },
   {
@@ -13557,9 +13557,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6838.04,
+    "is_correct": false,
     "updated_at": "2026-09-29 20:11"
   },
   {
@@ -13656,9 +13656,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 6971.35,
+    "is_correct": true,
     "updated_at": "2026-09-30 19:59"
   },
   {
@@ -13755,9 +13755,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 7003.74,
+    "is_correct": true,
     "updated_at": "2026-10-01 20:26"
   },
   {
@@ -13854,9 +13854,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6941.39,
+    "is_correct": true,
     "updated_at": "2026-10-02 19:56"
   },
   {
@@ -14052,9 +14052,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6803.9,
+    "is_correct": true,
     "updated_at": "2026-10-06 20:51"
   },
   {
@@ -14151,9 +14151,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6625.93,
+    "is_correct": true,
     "updated_at": "2026-10-07 20:36"
   },
   {
@@ -14250,9 +14250,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6384.24,
+    "is_correct": true,
     "updated_at": "2026-10-08 20:50"
   },
   {
@@ -14448,9 +14448,9 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 6035.35,
+    "is_correct": true,
     "updated_at": "2026-10-12 21:52"
   },
   {
@@ -14551,5 +14551,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-10-13 21:31"
+  },
+  {
+    "date": "2026-10-14",
+    "target_date": "2026-10-15",
+    "prediction": "LONG",
+    "confidence": 0.9525,
+    "probability_long": 0.9525,
+    "probability_short": 0.0475,
+    "kospi_close": 6035.35,
+    "sentiment": {
+      "avg_score": -0.2492,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.5333,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1340.640015,
+          "importance": 268,
+          "contribution": 359291.5239,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -89.025892,
+          "importance": 161,
+          "contribution": 14333.1686,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 30.485859,
+          "importance": 194,
+          "contribution": 5914.2567,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 15.44,
+          "importance": 233,
+          "contribution": 3597.5199,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "월",
+          "feature": "month",
+          "value": 10.0,
+          "importance": 126,
+          "contribution": 1260.0,
+          "impact": "LONG",
+          "description": "월: 10.0000"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 30.49,
+        "rsi_signal": "약세",
+        "macd_signal": "매도",
+        "vix_level": 15.44,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-10-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 53%, 긍정 23%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "'비트코인 큰손' 또 매수…스트래티지 보유량 84만8250개",
+          "press": "뉴시스"
+        },
+        {
+          "title": "[주식 매매 상위 종목 및 환율] 2026년 10월 13일자",
+          "press": "조선일보"
+        },
+        {
+          "title": "韓, 시총 하나로 증시 퇴출… 美·日은 개선 유도",
+          "press": "조선일보"
+        },
+        {
+          "title": "[주요경제지표] 2026년 10월 13일자",
+          "press": "조선일보"
+        },
+        {
+          "title": "돈 빌린 40대 3명 중 1명, 소득 40% 이상 빚 갚는 데 쓴다",
+          "press": "조선일보"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-10-14 01:33"
   }
 ]
