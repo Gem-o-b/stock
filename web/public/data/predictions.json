@@ -14556,9 +14556,9 @@
     "date": "2026-10-14",
     "target_date": "2026-10-15",
     "prediction": "LONG",
-    "confidence": 0.97,
-    "probability_long": 0.97,
-    "probability_short": 0.03,
+    "confidence": 0.9672,
+    "probability_long": 0.9672,
+    "probability_short": 0.0328,
     "kospi_close": 6008.81,
     "sentiment": {
       "avg_score": 0.0092,
@@ -14571,9 +14571,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1335.030029,
+          "value": 1335.719971,
           "importance": 268,
-          "contribution": 357788.0479,
+          "contribution": 357972.9521,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -14625,6 +14625,10 @@
       "summary": "AI 모델은 2026-10-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 15.3로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
+          "title": "최장 16년 '초장기기술투자펀드' 운용사 7곳 선정…연말가동",
+          "press": "연합뉴스"
+        },
+        {
           "title": "‘폭락장에도 상한가라고?’ 낯선 종목 이름들…알고보니 ‘상폐’가 호재? [투자360]",
           "press": "헤럴드경제"
         },
@@ -14639,16 +14643,12 @@
         {
           "title": "압타바이오 \"급성신장손상 치료제 2상 톱라인 수령\"",
           "press": "뉴시스"
-        },
-        {
-          "title": "증선위, 한주에이알티에 감사인지정 등 조치…회계처리 위반",
-          "press": "서울경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-14 18:41"
+    "updated_at": "2026-10-14 18:58"
   }
 ]
