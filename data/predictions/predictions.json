@@ -14547,23 +14547,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 6128.1,
+    "is_correct": false,
     "updated_at": "2026-10-13 21:31"
   },
   {
     "date": "2026-10-14",
     "target_date": "2026-10-15",
     "prediction": "LONG",
-    "confidence": 0.9525,
-    "probability_long": 0.9525,
-    "probability_short": 0.0475,
-    "kospi_close": 6035.35,
+    "confidence": 0.7921,
+    "probability_long": 0.7921,
+    "probability_short": 0.2079,
+    "kospi_close": 6128.1,
     "sentiment": {
-      "avg_score": -0.2492,
-      "positive_ratio": 0.2333,
-      "negative_ratio": 0.5333,
+      "avg_score": 0.1039,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -14571,84 +14571,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1340.640015,
+          "value": 1337.76001,
           "importance": 268,
-          "contribution": 359291.5239,
+          "contribution": 358519.6826,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -89.025892,
+          "value": -125.587699,
           "importance": 161,
-          "contribution": 14333.1686,
+          "contribution": 20219.6195,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -28.663176,
+          "importance": 192,
+          "contribution": 5503.3299,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 30.485859,
+          "value": 26.873781,
           "importance": 194,
-          "contribution": 5914.2567,
+          "contribution": 5213.5136,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 15.44,
+          "value": 15.27,
           "importance": 233,
-          "contribution": 3597.5199,
+          "contribution": 3557.9101,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
-        },
-        {
-          "name": "월",
-          "feature": "month",
-          "value": 10.0,
-          "importance": 126,
-          "contribution": 1260.0,
-          "impact": "LONG",
-          "description": "월: 10.0000"
         }
       ],
       "market_summary": {
-        "rsi_14": 30.49,
-        "rsi_signal": "약세",
+        "rsi_14": 26.87,
+        "rsi_signal": "과매도",
         "macd_signal": "매도",
-        "vix_level": 15.44,
+        "vix_level": 15.27,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 53%, 긍정 23%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.4로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-15 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 15.3로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "'비트코인 큰손' 또 매수…스트래티지 보유량 84만8250개",
-          "press": "뉴시스"
+          "title": "댄 아이브스 “뉴욕에 다니는 택시 운전자도 코스피 얘기…시장, 메모리 성장 잠재력 충분히 평가 못해”",
+          "press": "조선비즈"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 10월 13일자",
-          "press": "조선일보"
+          "title": "‘삼전·하닉’서 176조 판 외인…‘셀코리아’ 멈출 4대 변수는[줍줍리포트]",
+          "press": "서울경제"
         },
         {
-          "title": "韓, 시총 하나로 증시 퇴출… 美·日은 개선 유도",
-          "press": "조선일보"
+          "title": "아이지넷, 키움증권 콥데이 참가…AI·마이데이터 기반 성장전략 공유",
+          "press": "아시아경제"
         },
         {
-          "title": "[주요경제지표] 2026년 10월 13일자",
-          "press": "조선일보"
+          "title": "3Q 단기사채 발행 전분기 대기 42%↓…증권사 발행량 '3분의 1' 토막",
+          "press": "머니투데이"
         },
         {
-          "title": "돈 빌린 40대 3명 중 1명, 소득 40% 이상 빚 갚는 데 쓴다",
-          "press": "조선일보"
+          "title": "증권株 짓누르는 실적 한파…연말 배당, 버팀목 될까",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-14 01:33"
+    "updated_at": "2026-10-14 14:53"
   }
 ]
