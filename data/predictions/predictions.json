@@ -14655,14 +14655,14 @@
     "date": "2026-10-15",
     "target_date": "2026-10-16",
     "prediction": "LONG",
-    "confidence": 0.9745,
-    "probability_long": 0.9745,
-    "probability_short": 0.0255,
-    "kospi_close": 5535.43,
+    "confidence": 0.9746,
+    "probability_long": 0.9746,
+    "probability_short": 0.0254,
+    "kospi_close": 5554.22,
     "sentiment": {
-      "avg_score": -0.05,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.3333,
+      "avg_score": -0.1581,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.5333,
       "article_count": 30
     },
     "reasons": {
@@ -14670,27 +14670,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1348.780029,
+          "value": 1344.23999,
           "importance": 268,
-          "contribution": 361473.0479,
+          "contribution": 360256.3174,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -207.427428,
+          "value": -205.928511,
           "importance": 161,
-          "contribution": 33395.816,
+          "contribution": 33154.4903,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -65.938589,
+          "value": -65.638805,
           "importance": 192,
-          "contribution": 12660.209,
+          "contribution": 12602.6506,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
@@ -14706,48 +14706,48 @@
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 12.250717,
+          "value": 12.369906,
           "importance": 194,
-          "contribution": 2376.639,
+          "contribution": 2399.7618,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 12.25,
+        "rsi_14": 12.37,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
         "vix_level": 16.87,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.9로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 53%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 16.9로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "대림통상, 전국 44개 AS 지정점·AI 상담으로 고객 서비스 강화",
-          "press": "이데일리"
-        },
-        {
-          "title": "[속보] 코스피, 장중 5500선 붕괴",
+          "title": "인터넷·조선·증권株 줄줄이 급락.. 52주 신저가 종목 200개 넘었다 [바닥 없는 코스피]",
           "press": "파이낸셜뉴스"
         },
         {
-          "title": "\"샌드박스는 발행\" vs \"허가서엔 유통\"…조각투자 인가 공방",
-          "press": "한국경제"
-        },
-        {
-          "title": "이엠앤아이 고창훈 대표, 자사주 13만주 매입...중수·전고체 소재 성장 기대",
+          "title": "\"살 사람 없다\"… 외국인 투매 받을 '수급 공백'에 급락 반복 [바닥 없는 코스피]",
           "press": "파이낸셜뉴스"
         },
         {
-          "title": "[속보] 코스피, 장중 낙폭 확대…5500선도 하회",
-          "press": "한국경제"
+          "title": "“그 돈이 전재산이란 말이에요”…하락장 못 견딘 이들, 20대가 가장 많았다",
+          "press": "매일경제"
+        },
+        {
+          "title": "신보 \"재도전·재창업 관련 연대보증 폐지 적극 검토\"",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "녹아내린 코스피, 강제처분 주식만 900억",
+          "press": "데일리안"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-15 14:38"
+    "updated_at": "2026-10-15 18:21"
   }
 ]
