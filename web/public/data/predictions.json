@@ -14853,14 +14853,14 @@
     "date": "2026-10-19",
     "target_date": "2026-10-20",
     "prediction": "SHORT",
-    "confidence": 0.6,
-    "probability_long": 0.4,
-    "probability_short": 0.6,
-    "kospi_close": 5674.54,
+    "confidence": 0.7861,
+    "probability_long": 0.2139,
+    "probability_short": 0.7861,
+    "kospi_close": 5768.01,
     "sentiment": {
-      "avg_score": -0.0784,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.3333,
+      "avg_score": 0.0514,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -14868,27 +14868,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1327.47998,
+          "value": 1331.0,
           "importance": 268,
-          "contribution": 355764.6348,
+          "contribution": 356708.0,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -281.145932,
+          "value": -273.689635,
           "importance": 161,
-          "contribution": 45264.495,
+          "contribution": 44064.0313,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -138.236551,
+          "value": -136.745292,
           "importance": 192,
-          "contribution": 26541.4178,
+          "contribution": 26255.096,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
@@ -14904,48 +14904,48 @@
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 14.456991,
+          "value": 18.316127,
           "importance": 194,
-          "contribution": 2804.6562,
+          "contribution": 3553.3286,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 14.46,
+        "rsi_14": 18.32,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
         "vix_level": 19.99,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-20 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.0로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-20 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.0로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다.",
       "news_headlines": [
         {
-          "title": "앤스로픽, 지분 5% 공익기금에 출연…AI로 인한 소득감소 대비",
-          "press": "한국경제"
-        },
-        {
-          "title": "이찬진 \"해외 기관투자자, 주식 결제일 'T+1' 단축에 우려…원만한 준비 노력\"",
+          "title": "'해킹 사태' 고개 숙인 은행장들…금감원 \"내부통제 책임 묻겠다\"(종합)",
           "press": "뉴시스"
         },
         {
-          "title": "[IPO챗] 래블업 \"GPU 관리 넘어 AI 서비스 운영으로 사업 확대\"",
+          "title": "코스피 반등 모멘텀 찾을까…금통위·테슬라 실적이 시험대 [동여의도 위클리]",
+          "press": "매일경제"
+        },
+        {
+          "title": "‘철권 전설’ 무릎 출격…키움증권배 스타즈컵, 97명 참가 속 성료",
+          "press": "스포츠서울"
+        },
+        {
+          "title": "與 민병덕, 금감원에 \"'콕 코인 관계자 취업' 비토즈 점검해야\"",
           "press": "연합뉴스"
         },
         {
-          "title": "[2026 국감] 이찬진 \"솔리다임 美 상장 '중복상장' 소지\"…주주 영향 점검",
-          "press": "더팩트"
-        },
-        {
-          "title": "목숨 걸고 일하는데…소방 인건비 재원 3000억 삭감한 정부",
-          "press": "한국경제"
+          "title": "이찬진 \"SK하닉, 솔리다임 중복상장에 해당\"[출렁이는 코스피]",
+          "press": "파이낸셜뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-19 14:50"
+    "updated_at": "2026-10-19 19:13"
   }
 ]
