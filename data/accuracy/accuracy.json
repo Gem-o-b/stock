@@ -1,9 +1,9 @@
 {
-  "total_predictions": 151,
+  "total_predictions": 152,
   "evaluated_predictions": 140,
   "correct_predictions": 71,
   "accuracy_all": 0.5071,
-  "accuracy_7d": 0.6,
+  "accuracy_7d": 0.5,
   "accuracy_30d": 0.6875,
   "cumulative_return": 0.090688,
   "total_trades": 140,
@@ -569,5 +569,5 @@
       "return": 0.001145
     }
   ],
-  "last_updated": "2026-10-19 19:35"
+  "last_updated": "2026-10-20 00:58"
 }
