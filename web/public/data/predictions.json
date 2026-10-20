@@ -14952,14 +14952,14 @@
     "date": "2026-10-20",
     "target_date": "2026-10-21",
     "prediction": "SHORT",
-    "confidence": 0.6339,
-    "probability_long": 0.3661,
-    "probability_short": 0.6339,
-    "kospi_close": 5621.47,
+    "confidence": 0.6427,
+    "probability_long": 0.3573,
+    "probability_short": 0.6427,
+    "kospi_close": 5552.74,
     "sentiment": {
-      "avg_score": 0.2456,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.2,
+      "avg_score": -0.0402,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -14967,27 +14967,27 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1328.0,
+          "value": 1327.680054,
           "importance": 268,
-          "contribution": 355904.0,
+          "contribution": 355818.2544,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -300.827923,
+          "value": -306.310658,
           "importance": 161,
-          "contribution": 48433.2956,
+          "contribution": 49316.016,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -169.561818,
+          "value": -170.658365,
           "importance": 192,
-          "contribution": 32555.8691,
+          "contribution": 32766.4061,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
@@ -15003,48 +15003,48 @@
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 18.719448,
+          "value": 18.105612,
           "importance": 194,
-          "contribution": 3631.5728,
+          "contribution": 3512.4887,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 18.72,
+        "rsi_14": 18.11,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
         "vix_level": 18.44,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-21 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-21 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "\"5500선은 안 된다\"…코스피, 개인 vs 기관·외인 수급 공방 [fn오후시황]",
-          "press": "파이낸셜뉴스"
+          "title": "“2029년까지 원리금 다 갚겠다”…제이알글로벌리츠, ARS 졸업 승부수",
+          "press": "이데일리"
         },
         {
-          "title": "DB자산운용, 첫 해외투자 ETF 상장…美 피지컬 AI 기업에 투자",
-          "press": "파이낸셜뉴스"
+          "title": "코스피, 다시 3%대 급락…5,500선 후퇴",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "\"내 계좌만 파란 게 아니었네\"…급락장에 코스피 상승 종목 81개뿐",
-          "press": "파이낸셜뉴스"
+          "title": "기금위, 기업의 자사주 보유·처분계획 '주주가치' 따져 허용키로",
+          "press": "머니투데이"
         },
         {
-          "title": "이에스티, 日기업 장악한 정전척으로 '삼전닉스' 공략 [IPO톡톡]",
-          "press": "한국경제TV"
+          "title": "中 인민은행, 정책금리 기준 '7일물→익일물' 전환 검토",
+          "press": "아시아경제"
         },
         {
-          "title": "노무라증권 \"메모리 공급 부족 2028년까지…삼전닉스 '매수'\"",
-          "press": "연합뉴스"
+          "title": "“20조 굴릴 사람도, 돈도 없다”…KIC 전략투자계정 운용 적절성 '질타'",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-20 14:43"
+    "updated_at": "2026-10-20 18:35"
   }
 ]
