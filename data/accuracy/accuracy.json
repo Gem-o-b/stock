@@ -1,12 +1,12 @@
 {
   "total_predictions": 152,
-  "evaluated_predictions": 140,
-  "correct_predictions": 71,
-  "accuracy_all": 0.5071,
-  "accuracy_7d": 0.5,
-  "accuracy_30d": 0.6875,
-  "cumulative_return": 0.090688,
-  "total_trades": 140,
+  "evaluated_predictions": 141,
+  "correct_predictions": 72,
+  "accuracy_all": 0.5106,
+  "accuracy_7d": 0.6,
+  "accuracy_30d": 0.7059,
+  "cumulative_return": 0.118398,
+  "total_trades": 141,
   "daily_returns": [
     {
       "date": "2026-03-23",
@@ -567,7 +567,11 @@
     {
       "date": "2026-10-16",
       "return": 0.001145
+    },
+    {
+      "date": "2026-10-19",
+      "return": 0.025406
     }
   ],
-  "last_updated": "2026-10-20 00:58"
+  "last_updated": "2026-10-20 14:43"
 }

@@ -14943,23 +14943,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 5621.47,
+    "is_correct": true,
     "updated_at": "2026-10-19 19:35"
   },
   {
     "date": "2026-10-20",
     "target_date": "2026-10-21",
     "prediction": "SHORT",
-    "confidence": 0.6451,
-    "probability_long": 0.3549,
-    "probability_short": 0.6451,
-    "kospi_close": 5768.01,
+    "confidence": 0.6339,
+    "probability_long": 0.3661,
+    "probability_short": 0.6339,
+    "kospi_close": 5621.47,
     "sentiment": {
-      "avg_score": 0.0411,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.3,
+      "avg_score": 0.2456,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -14967,84 +14967,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1331.530029,
+          "value": 1328.0,
           "importance": 268,
-          "contribution": 356850.0479,
+          "contribution": 355904.0,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -273.689635,
+          "value": -300.827923,
           "importance": 161,
-          "contribution": 44064.0313,
+          "contribution": 48433.2956,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -136.745292,
+          "value": -169.561818,
           "importance": 192,
-          "contribution": 26255.096,
+          "contribution": 32555.8691,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 17.5,
+          "value": 18.440001,
           "importance": 233,
-          "contribution": 4077.5,
+          "contribution": 4296.5201,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 18.316127,
+          "value": 18.719448,
           "importance": 194,
-          "contribution": 3553.3286,
+          "contribution": 3631.5728,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 18.32,
+        "rsi_14": 18.72,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
-        "vix_level": 17.5,
+        "vix_level": 18.44,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-21 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.8%, 나스닥 +1.7%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다.",
+      "summary": "AI 모델은 2026-10-21 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "기업은 투자 줄이고, 근로자는 일 덜하고… “나라 유지 되겠나”",
-          "press": "조선일보"
+          "title": "\"5500선은 안 된다\"…코스피, 개인 vs 기관·외인 수급 공방 [fn오후시황]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "‘유럽의 병자’ 된 프랑스, 청년세대의 희망 도려내 기성세대 줬다",
-          "press": "조선일보"
+          "title": "DB자산운용, 첫 해외투자 ETF 상장…美 피지컬 AI 기업에 투자",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "“암 걸리면 동네 병원 가나? 살릴 자산은 무조건 미국으로”",
-          "press": "문화일보"
+          "title": "\"내 계좌만 파란 게 아니었네\"…급락장에 코스피 상승 종목 81개뿐",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "해외 부동산 공모펀드 수익률 수년째 부진",
-          "press": "조선일보"
+          "title": "이에스티, 日기업 장악한 정전척으로 '삼전닉스' 공략 [IPO톡톡]",
+          "press": "한국경제TV"
         },
         {
-          "title": "외국인, 최근 13거래일 동안 26조원 순매도",
-          "press": "조선일보"
+          "title": "노무라증권 \"메모리 공급 부족 2028년까지…삼전닉스 '매수'\"",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-20 00:58"
+    "updated_at": "2026-10-20 14:43"
   }
 ]
