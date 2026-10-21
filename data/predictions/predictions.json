@@ -15050,15 +15050,15 @@
   {
     "date": "2026-10-21",
     "target_date": "2026-10-22",
-    "prediction": "LONG",
-    "confidence": 0.5372,
-    "probability_long": 0.5372,
-    "probability_short": 0.4628,
+    "prediction": "SHORT",
+    "confidence": 0.502,
+    "probability_long": 0.498,
+    "probability_short": 0.502,
     "kospi_close": 5735.66,
     "sentiment": {
-      "avg_score": 0.1959,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.1667,
+      "avg_score": -0.0478,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.4,
       "article_count": 30
     },
     "reasons": {
@@ -15066,9 +15066,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1324.040039,
+          "value": 1328.23999,
           "importance": 268,
-          "contribution": 354842.7305,
+          "contribution": 355968.3174,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -15117,33 +15117,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-10-22 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.3로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-10-22 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 40%입니다.\n\n[시장 상황] 공포지수(VIX)가 17.3로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[단독]부처간 주도권 다툼에…100조 미래대응기금 KIC 위탁 무산",
+          "title": "뉴욕증시, 美기업 실적 호조에 상승 출발…나스닥 0.45%↑",
+          "press": "뉴시스"
+        },
+        {
+          "title": "스페이스X 11% 급등에 AI주 반등…뉴욕증시 상승 출발",
           "press": "이데일리"
         },
         {
-          "title": "대신증권 유튜브 '대신TV' 1억뷰 돌파…구독자 25.7만명",
-          "press": "연합뉴스TV"
+          "title": "[속보] 뉴욕증시, 美기업 실적 호조에 상승 출발",
+          "press": "뉴시스"
         },
         {
-          "title": "‘묻지마 투자 끝’ 이젠 의심해야…AI 덮친 ‘수익성 공포’ [투자360]",
+          "title": "AI거품론에 외국인 떠나는데…“삼전닉스 매수 적기”, 무슨 자신감? [투자360]",
           "press": "헤럴드경제"
         },
         {
-          "title": "\"KRX 넘어서면 안 돼\"…NXT 거래활발 종목들, 잇단 매매중단",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "\"고객 돈 굴리랬더니 본인 주식부터?\"…증권맨 거래액 7달 만에 21조",
-          "press": "데일리안"
+          "title": "단일종목 ETP 개인투자자들, 석 달간 6.3조 날렸다",
+          "press": "연합뉴스TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-21 18:53"
+    "updated_at": "2026-10-21 23:12"
   }
 ]
