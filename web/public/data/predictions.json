@@ -15249,14 +15249,14 @@
     "date": "2026-10-23",
     "target_date": "2026-10-26",
     "prediction": "LONG",
-    "confidence": 0.8448,
-    "probability_long": 0.8448,
-    "probability_short": 0.1552,
+    "confidence": 0.8551,
+    "probability_long": 0.8551,
+    "probability_short": 0.1449,
     "kospi_close": 5550.3,
     "sentiment": {
-      "avg_score": 0.0756,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.1059,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -15264,9 +15264,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1324.969971,
+          "value": 1325.449951,
           "importance": 268,
-          "contribution": 355091.9521,
+          "contribution": 355220.5869,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -15315,33 +15315,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-10-26 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.0로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-26 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.0로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "솔리다임 상장 중단… 반도체 투심 돌아오나",
-          "press": "국민일보"
-        },
-        {
-          "title": "“개미가 팔고 외국인 사면 코스피 오른다?” 무려 ‘86.5%’ 확률로 맞았다",
+          "title": "‘결국 올 게 왔다’ 주가 1000원도 안 되더니…코스닥 5개 상폐 임박 [투자360]",
           "press": "헤럴드경제"
         },
         {
-          "title": "하나증권, 3분기 누적 순익 3000억 육박…수수료이익 급증",
-          "press": "블로터"
+          "title": "\"AI 수요 차트 뚫는다\"더니…삼전·닉스 주가 추락한 이유 [딥시그널]",
+          "press": "한국경제TV"
         },
         {
-          "title": "기술주 던지고 국채로 자금 이동…美 10년물 금리 한달만에 5% 아래로",
+          "title": "솔리다임 상장 접자 '환호'…SK하이닉스, 하루 만에 '급반등' [종목+]",
+          "press": "한국경제"
+        },
+        {
+          "title": "대한항공·아시아나, 예약·발권 시스템 운영사서 개인정보 유출 정황",
           "press": "서울경제"
         },
         {
-          "title": "상한가 찍은 ‘채시라 남편’ 김태욱 회사…무슨 일이?",
-          "press": "한국경제TV"
+          "title": "SK하이닉스, NXT서 3% 상승 마감…삼전 0.47%↓",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-23 18:47"
+    "updated_at": "2026-10-23 22:54"
   }
 ]
