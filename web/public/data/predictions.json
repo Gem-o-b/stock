@@ -15339,9 +15339,108 @@
         }
       ]
     },
+    "actual": "SHORT",
+    "actual_close": 5472.49,
+    "is_correct": false,
+    "updated_at": "2026-10-23 22:54"
+  },
+  {
+    "date": "2026-10-26",
+    "target_date": "2026-10-27",
+    "prediction": "LONG",
+    "confidence": 0.785,
+    "probability_long": 0.785,
+    "probability_short": 0.215,
+    "kospi_close": 5472.49,
+    "sentiment": {
+      "avg_score": 0.2778,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.1333,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1321.880005,
+          "importance": 268,
+          "contribution": 354263.8413,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -351.075131,
+          "importance": 161,
+          "contribution": 56523.096,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -269.401939,
+          "importance": 192,
+          "contribution": 51725.1722,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 19.450001,
+          "importance": 233,
+          "contribution": 4531.8502,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 17.527028,
+          "importance": 194,
+          "contribution": 3400.2435,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 17.53,
+        "rsi_signal": "과매도",
+        "macd_signal": "매도",
+        "vix_level": 19.45,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 하회"
+      },
+      "summary": "AI 모델은 2026-10-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.5로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "news_headlines": [
+        {
+          "title": "듀오백, 정영아 신임 대표이사 선임…\"기업가치 회복 최선\"",
+          "press": "아시아경제"
+        },
+        {
+          "title": "\"코스닥벤처펀드도 투자 인정\"…벤처기업 자금조달 숨통 트이나",
+          "press": "데일리안"
+        },
+        {
+          "title": "동국생명과학, 사명변경…새이름 'DK 루오닉스'",
+          "press": "뉴시스"
+        },
+        {
+          "title": "\"단기 등락에 동요 말아야…꾸준한 적립·정기 리밸런싱에 집중\"",
+          "press": "이데일리"
+        },
+        {
+          "title": "빗썸, 사내 첫 AI 공모전 성료…업무 혁신 사례 107건 발굴",
+          "press": "더팩트"
+        }
+      ]
+    },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-23 22:54"
+    "updated_at": "2026-10-26 14:50"
   }
 ]
