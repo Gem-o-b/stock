@@ -15438,22 +15438,22 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 5649.59,
+    "is_correct": true,
     "updated_at": "2026-10-26 19:50"
   },
   {
     "date": "2026-10-27",
     "target_date": "2026-10-28",
     "prediction": "LONG",
-    "confidence": 0.8734,
-    "probability_long": 0.8734,
-    "probability_short": 0.1266,
-    "kospi_close": 5469.47,
+    "confidence": 0.6893,
+    "probability_long": 0.6893,
+    "probability_short": 0.3107,
+    "kospi_close": 5649.59,
     "sentiment": {
-      "avg_score": 0.3444,
-      "positive_ratio": 0.4333,
+      "avg_score": 0.4233,
+      "positive_ratio": 0.5333,
       "negative_ratio": 0.1,
       "article_count": 30
     },
@@ -15462,84 +15462,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1326.27002,
+          "value": 1323.439941,
           "importance": 268,
-          "contribution": 355440.3652,
+          "contribution": 354681.9043,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -351.316042,
+          "value": -340.656057,
           "importance": 161,
-          "contribution": 56561.8828,
+          "contribution": 54845.6252,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -269.450121,
+          "value": -283.691308,
           "importance": 192,
-          "contribution": 51734.4232,
+          "contribution": 54468.7312,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
-          "name": "VIX 수준",
-          "feature": "vix_level",
-          "value": 17.84,
-          "importance": 233,
-          "contribution": 4156.72,
-          "impact": "SHORT",
-          "description": "높은 공포지수 → 시장 불안"
-        },
-        {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 17.504607,
+          "value": 23.940093,
           "importance": 194,
-          "contribution": 3395.8937,
+          "contribution": 4644.3781,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 18.389999,
+          "importance": 233,
+          "contribution": 4284.8699,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 17.5,
+        "rsi_14": 23.94,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
-        "vix_level": 17.84,
+        "vix_level": 18.39,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-10-28 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.8로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.9%, 나스닥 +1.2%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-10-28 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "[주요경제지표] 2026년 10월 26일자",
-          "press": "조선일보"
+          "title": "증시 흔들려도 '빚투' 30조원대…금감원 \"신용융자 자제해야\" 경고",
+          "press": "한국일보"
         },
         {
-          "title": "[단신]하나자산운용, 美 AI테크플랫폼 ETF 상장 外",
-          "press": "동아일보"
-        },
-        {
-          "title": "[머니 컨설팅]‘달걀 모형’으로 분할매수하며 현금은 남겨두자",
-          "press": "동아일보"
-        },
-        {
-          "title": "\"반도체·AI 사이클 아직 안 끝났다\"…전문가가 주목한 반등 신호",
-          "press": "뉴시스"
-        },
-        {
-          "title": "'갑툭튀' 日 투자사 지분 인수 선언…JYP, 야간장서 주가 14% 급등",
+          "title": "신한투자증권, 3분기 누적 순이익 6429억…1년 전 대비 79% ‘쑥’",
           "press": "데일리안"
+        },
+        {
+          "title": "신한카드 3분기 순익 2천324억원…사옥매각으로 73.7%↑(종합)",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "토스증권, 청년 대상 글로벌 산업 트렌드 특강 성료…AI 시대 미래 일자리 조명",
+          "press": "더팩트"
+        },
+        {
+          "title": "증권 거래대금 둔화에…신한투자증권, 3Q 순이익 35%↓",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-27 00:34"
+    "updated_at": "2026-10-27 15:02"
   }
 ]
