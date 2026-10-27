@@ -15447,14 +15447,14 @@
     "date": "2026-10-27",
     "target_date": "2026-10-28",
     "prediction": "SHORT",
-    "confidence": 0.5639,
-    "probability_long": 0.4361,
-    "probability_short": 0.5639,
+    "confidence": 0.5279,
+    "probability_long": 0.4721,
+    "probability_short": 0.5279,
     "kospi_close": 5638.34,
     "sentiment": {
-      "avg_score": 0.4868,
-      "positive_ratio": 0.6667,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.2222,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -15462,9 +15462,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1328.880005,
+          "value": 1326.5,
           "importance": 268,
-          "contribution": 356139.8413,
+          "contribution": 355502.0,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -15513,26 +15513,26 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-10-28 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 67%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다.",
+      "summary": "AI 모델은 2026-10-28 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.4로 시장이 비교적 안정적입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다.",
       "news_headlines": [
         {
-          "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
-          "press": "연합뉴스"
+          "title": "“딥테크 육성 위해 장기투자 규제 혁파해야”[시그널]",
+          "press": "서울경제"
         },
         {
-          "title": "[단독]퇴직연금 로보어드바이저, DC형까지 확대…329조 시장 열린다",
+          "title": "美·日 연기금보다 잘 번 국민연금...남인순 \"국회가 몰라줘 억울할 것\"",
           "press": "이데일리"
         },
         {
-          "title": "한미사이언스 3분기 영업익 192억원…올해 매출 1조원 돌파(종합)",
-          "press": "연합뉴스"
+          "title": "브로드컴, 83조원 AI 자금조달 성사…주가는 웃는데 월가는 위험 경계",
+          "press": "이데일리"
         },
         {
-          "title": "[올댓차이나] 홍콩 증시, 기술주 차익매물로 사흘 만에 반락 마감… H주 0.45%↓",
-          "press": "뉴시스"
+          "title": "[뉴욕증시]10월 FOMC 관망…반도체주 강세에 혼조",
+          "press": "아시아경제"
         },
         {
-          "title": "[속보] JYP 공개매수 예고에 주가 급등락…금감원 \"이상거래 예의주시\"",
+          "title": "\"재료 많은데 가격 메리트도 커졌다\"…현 상황서 고민할 필요 없다는 종목 [주식R]",
           "press": "한국경제TV"
         }
       ]
@@ -15540,6 +15540,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-27 19:16"
+    "updated_at": "2026-10-27 23:59"
   }
 ]
