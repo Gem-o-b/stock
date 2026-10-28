@@ -15546,14 +15546,14 @@
     "date": "2026-10-28",
     "target_date": "2026-10-29",
     "prediction": "SHORT",
-    "confidence": 0.7038,
-    "probability_long": 0.2962,
-    "probability_short": 0.7038,
-    "kospi_close": 6007.78,
+    "confidence": 0.738,
+    "probability_long": 0.262,
+    "probability_short": 0.738,
+    "kospi_close": 6012.44,
     "sentiment": {
-      "avg_score": 0.4644,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.0,
+      "avg_score": -0.1222,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.3667,
       "article_count": 30
     },
     "reasons": {
@@ -15561,36 +15561,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1338.380005,
+          "value": 1338.140015,
           "importance": 268,
-          "contribution": 358685.8413,
+          "contribution": 358621.5239,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -287.204922,
+          "value": -287.130574,
           "importance": 192,
-          "contribution": 55143.345,
+          "contribution": 55129.0703,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -300.541427,
+          "value": -300.16969,
           "importance": 161,
-          "contribution": 48387.1698,
+          "contribution": 48327.32,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 35.252777,
+          "value": 35.364365,
           "importance": 194,
-          "contribution": 6839.0387,
+          "contribution": 6860.6869,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -15605,40 +15605,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 35.25,
+        "rsi_14": 35.36,
         "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 17.52,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-10-29 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 0%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-10-29 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 27%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "인벤티지랩 \"월 1회 비만치료제 호주 IND 신청\"",
-          "press": "뉴시스"
+          "title": "“드디어 때가 왔다” 10% 급등으로도 부족…‘300만닉스’ 진짜 가나 [투자360]",
+          "press": "헤럴드경제"
         },
         {
-          "title": "“실적잔치에 돈 좀 만졌었는데”…개미만 운 게 아니었다, 증권가 이익 ‘뚝’",
-          "press": "매일경제"
+          "title": "증선위, '허위 매출' 피델릭스에 감사인 지정 3년 등 조치",
+          "press": "아시아경제"
         },
         {
-          "title": "[특징주] 네이버, 12조원 AI인프라 확보 계약에 2%대 상승 마감(종합)",
-          "press": "연합뉴스"
+          "title": "\"안전손잡이에 공동 텃밭도 있는데 월세 40만 원\" 고령자 복지주택 가보니",
+          "press": "MBN"
         },
         {
-          "title": "[속보] 코스피 6.6% 급등 6000선 탈환…삼전·닉스 9∼10%대↑",
-          "press": "부산일보"
+          "title": "카레에 당근 넣기 무섭네…1년 전보다 25% 껑충",
+          "press": "MBN"
         },
         {
-          "title": "李 “소액주주 보호하되 M&A 위축 안돼…의무공개매수제 균형점 찾아야”",
-          "press": "서울경제"
+          "title": "증선위, 미공개정보 이용 내부자 중수청 고발",
+          "press": "아시아경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-28 15:41"
+    "updated_at": "2026-10-28 19:46"
   }
 ]
