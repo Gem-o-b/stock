@@ -15644,15 +15644,15 @@
   {
     "date": "2026-10-29",
     "target_date": "2026-10-30",
-    "prediction": "SHORT",
-    "confidence": 0.5125,
-    "probability_long": 0.4875,
-    "probability_short": 0.5125,
-    "kospi_close": 5882.24,
+    "prediction": "LONG",
+    "confidence": 0.6682,
+    "probability_long": 0.6682,
+    "probability_short": 0.3318,
+    "kospi_close": 5937.66,
     "sentiment": {
-      "avg_score": 0.0511,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.2,
+      "avg_score": 0.0356,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -15660,36 +15660,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1336.329956,
+          "value": 1337.5,
           "importance": 268,
-          "contribution": 358136.4282,
+          "contribution": 358450.0,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -284.646873,
+          "value": -283.76268,
           "importance": 192,
-          "contribution": 54652.1997,
+          "contribution": 54482.4345,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -274.712069,
+          "value": -270.291101,
           "importance": 161,
-          "contribution": 44228.6432,
+          "contribution": 43516.8672,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 36.000392,
+          "value": 36.76755,
           "importance": 194,
-          "contribution": 6984.076,
+          "contribution": 7132.9047,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -15704,40 +15704,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 36.0,
+        "rsi_14": 36.77,
         "rsi_signal": "약세",
         "macd_signal": "매수",
         "vix_level": 16.91,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-10-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-10-30 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.9로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "반도체 초호황에 매출채권도 유동화… ‘램리서치 고객사’ 텍슨, 1300억원 조달",
-          "press": "조선비즈"
+          "title": "JYP, 인수설에 단호한 선긋기… “제안 이메일은 스팸 차단”",
+          "press": "이데일리"
         },
         {
-          "title": "세아베스틸지주, 3분기 영업익 144억원…전년비 46.4% 감소",
-          "press": "동행미디어 시대"
+          "title": "1등급 한우등심 8400원에 팔아요…\"반값 행사하니 살만하네\"",
+          "press": "MBN"
         },
         {
-          "title": "0.5% 수익률에 6만3천명 가입…\"긴 호흡으로 봐달라\"",
+          "title": "역대급 실적에 '35조' 배당 풀었는데…\"주주환원은 1월로\" 삼전 무슨 일",
           "press": "한국경제TV"
         },
         {
-          "title": "코스피, 하루 만에 6000선 반납",
-          "press": "뉴스1"
+          "title": "반도체로만 106조 남긴 삼성전자…1주당 4600원 배당",
+          "press": "MBN"
         },
         {
-          "title": "코스피, 하루 만에 6000선 반납",
-          "press": "뉴스1"
+          "title": "\"JYP 사들이겠다\"는 日투자사 이메일, '스팸메일'로 처리돼 있었다",
+          "press": "아이뉴스24"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-29 15:48"
+    "updated_at": "2026-10-29 20:03"
   }
 ]
