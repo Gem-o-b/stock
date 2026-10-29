@@ -15739,5 +15739,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-10-29 20:21"
+  },
+  {
+    "date": "2026-10-30",
+    "target_date": "2026-11-02",
+    "prediction": "LONG",
+    "confidence": 0.6216,
+    "probability_long": 0.6216,
+    "probability_short": 0.3784,
+    "kospi_close": 5937.66,
+    "sentiment": {
+      "avg_score": 0.1,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1337.790039,
+          "importance": 268,
+          "contribution": 358527.7305,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -283.76268,
+          "importance": 192,
+          "contribution": 54482.4345,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -270.291101,
+          "importance": 161,
+          "contribution": 43516.8672,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 36.76755,
+          "importance": 194,
+          "contribution": 7132.9047,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 16.379999,
+          "importance": 233,
+          "contribution": 3816.5398,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 36.77,
+        "rsi_signal": "약세",
+        "macd_signal": "매수",
+        "vix_level": 16.38,
+        "vix_status": "안정",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-11-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.4로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -0.2%, 나스닥 -1.1%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "news_headlines": [
+        {
+          "title": "미래에셋, 日 중견 증권사 산코증권 인수한다",
+          "press": "조선일보"
+        },
+        {
+          "title": "[주식 매매 상위 종목 및 환율] 2026년 10월 29일자",
+          "press": "조선일보"
+        },
+        {
+          "title": "비만약 뜨니 ‘단백질 식품주’가 뜨네",
+          "press": "조선일보"
+        },
+        {
+          "title": "[사진] 하루 만에 6000피 반납",
+          "press": "중앙일보"
+        },
+        {
+          "title": "[주요경제지표] 2026년 10월 29일자",
+          "press": "조선일보"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-10-30 00:42"
   }
 ]
