@@ -15744,14 +15744,14 @@
     "date": "2026-10-30",
     "target_date": "2026-11-02",
     "prediction": "LONG",
-    "confidence": 0.7883,
-    "probability_long": 0.7883,
-    "probability_short": 0.2117,
-    "kospi_close": 5668.26,
+    "confidence": 0.7433,
+    "probability_long": 0.7433,
+    "probability_short": 0.2567,
+    "kospi_close": 5730.74,
     "sentiment": {
-      "avg_score": -0.6667,
-      "positive_ratio": 0.0333,
-      "negative_ratio": 0.7,
+      "avg_score": -0.0278,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.3333,
       "article_count": 30
     },
     "reasons": {
@@ -15759,36 +15759,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1334.199951,
+          "value": 1335.099976,
           "importance": 268,
-          "contribution": 357565.5869,
+          "contribution": 357806.7935,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -280.068605,
+          "value": -279.071773,
           "importance": 192,
-          "contribution": 53773.1722,
+          "contribution": 53581.7805,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -265.292308,
+          "value": -260.308148,
           "importance": 161,
-          "contribution": 42712.0615,
+          "contribution": 41909.6118,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 36.379927,
+          "value": 37.265776,
           "importance": 194,
-          "contribution": 7057.7058,
+          "contribution": 7229.5605,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -15803,40 +15803,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 36.38,
+        "rsi_14": 37.27,
         "rsi_signal": "약세",
         "macd_signal": "매수",
         "vix_level": 17.2,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 70%, 긍정 3%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.2로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-02 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 17.2로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "증시 마감 시황",
-          "press": "뉴시스"
+          "title": "강남 이어 한강벨트도 거래 줄고 매물 늘고…인허가는 또 줄었다",
+          "press": "MBN"
         },
         {
-          "title": "美 기술주 급락에 반도체주 '우수수'…삼전·닉스 3∼7%↓(종합2보)",
-          "press": "연합뉴스"
+          "title": "“내 주식 앞으로 얼마나 벌까?”…코스피 93%·코스닥 99% 묵묵부답, 뭐 때문에",
+          "press": "전자신문"
         },
         {
-          "title": "금융당국, 불법 가상자산업체 3곳 수사의뢰… 테더맥스·슈퍼트러스트·이지스벤처스",
-          "press": "한국일보"
+          "title": "꽃게 싸다 해서 사러 왔는데…어획량 감소에 가격 두 배 뛴 '가을 별미'",
+          "press": "MBN"
         },
         {
-          "title": "이억원 “韓 회계 국가경쟁력 55위…회계기본법 제정 적극 추진”",
-          "press": "매일경제"
+          "title": "\"올해 배추 많이 심었대\" 김장철 앞둔 희소식 가격 '뚝'",
+          "press": "MBN"
         },
         {
-          "title": "[11월 증시전망] 중간선거 앞둔 증시…지수보다 종목에 집중",
-          "press": "이데일리"
+          "title": "시스템 장애로 중단된 발권 업무…항공편 38대 줄지연",
+          "press": "MBN"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-30 15:52"
+    "updated_at": "2026-10-30 19:59"
   }
 ]
