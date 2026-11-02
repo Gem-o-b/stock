@@ -15834,23 +15834,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 5860.35,
+    "is_correct": true,
     "updated_at": "2026-10-30 20:13"
   },
   {
     "date": "2026-11-02",
     "target_date": "2026-11-03",
     "prediction": "SHORT",
-    "confidence": 0.8675,
-    "probability_long": 0.1325,
-    "probability_short": 0.8675,
-    "kospi_close": 5730.74,
+    "confidence": 0.9122,
+    "probability_long": 0.0878,
+    "probability_short": 0.9122,
+    "kospi_close": 5860.35,
     "sentiment": {
-      "avg_score": -0.2016,
-      "positive_ratio": 0.2,
-      "negative_ratio": 0.3667,
+      "avg_score": 0.2237,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.1,
       "article_count": 30
     },
     "reasons": {
@@ -15858,77 +15858,77 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1333.77002,
-          "importance": 268,
-          "contribution": 357450.3652,
+          "value": 1343.339966,
+          "importance": 281,
+          "contribution": 377478.5304,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -279.071773,
-          "importance": 192,
-          "contribution": 53581.7805,
+          "value": -271.093621,
+          "importance": 187,
+          "contribution": 50694.5071,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -260.308148,
-          "importance": 161,
-          "contribution": 41909.6118,
+          "value": -239.181013,
+          "importance": 178,
+          "contribution": 42574.2202,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 37.265776,
-          "importance": 194,
-          "contribution": 7229.5605,
+          "value": 46.271264,
+          "importance": 227,
+          "contribution": 10503.577,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 19.34,
-          "importance": 233,
-          "contribution": 4506.22,
+          "value": 19.42,
+          "importance": 235,
+          "contribution": 4563.7,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 37.27,
-        "rsi_signal": "약세",
+        "rsi_14": 46.27,
+        "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 19.34,
+        "vix_level": 19.42,
         "vix_status": "안정",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-03 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 37%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. 미국 증시가 전일 하락하여 (S&P500 -1.4%, 나스닥 -2.2%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
+      "summary": "AI 모델은 2026-11-03 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "마스턴투자운용, 스튜어드십 코드 도입…보고서 매년 발행 계획",
-          "press": "데일리안"
-        },
-        {
-          "title": "“141만원이 400만원 된다고?”…SK하이닉스, 지금이 기회?[종목e슈]",
-          "press": "이데일리"
-        },
-        {
-          "title": "[주간사모펀드] 홈플러스 이어 골프존까지…MBK, 잇단 엑시트 갈등에 '진땀'",
-          "press": "더팩트"
-        },
-        {
-          "title": "키움證, 3분기 순익 2386억 원…전년 比 26% 감소",
+          "title": "이형일 “전기차 생산세액공제, 국회 논의에 적극 참여”",
           "press": "서울경제"
         },
         {
-          "title": "뉴욕 증시, 기술주 매도에 하락세…인텔 일시 29% 급락",
+          "title": "영광, 코스닥 상장 첫날 공모가 대비 26% 상승(종합)",
+          "press": "뉴시스"
+        },
+        {
+          "title": "미국발 악재에도 2% 반등한 코스피…기관 1.2조원 '사자'",
+          "press": "비즈워치"
+        },
+        {
+          "title": "개인 1.8조 팔 때 기관이 받았다…연기금 이틀 새 1조 '안전판'",
+          "press": "머니투데이"
+        },
+        {
+          "title": "'검은 월요일' 없었다…코스피, 인텔쇼크 딛고 5850선 회복",
           "press": "뉴시스"
         }
       ]
@@ -15936,6 +15936,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-10-31 00:24"
+    "updated_at": "2026-11-02 16:24"
   }
 ]
