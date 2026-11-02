@@ -15843,14 +15843,14 @@
     "date": "2026-11-02",
     "target_date": "2026-11-03",
     "prediction": "SHORT",
-    "confidence": 0.9122,
-    "probability_long": 0.0878,
-    "probability_short": 0.9122,
-    "kospi_close": 5860.35,
+    "confidence": 0.9104,
+    "probability_long": 0.0896,
+    "probability_short": 0.9104,
+    "kospi_close": 5859.08,
     "sentiment": {
-      "avg_score": 0.2237,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.1,
+      "avg_score": 0.2489,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -15858,36 +15858,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.339966,
+          "value": 1342.109985,
           "importance": 281,
-          "contribution": 377478.5304,
+          "contribution": 377132.9059,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -271.093621,
+          "value": -271.113883,
           "importance": 187,
-          "contribution": 50694.5071,
+          "contribution": 50698.2962,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -239.181013,
+          "value": -239.282323,
           "importance": 178,
-          "contribution": 42574.2202,
+          "contribution": 42592.2535,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.271264,
+          "value": 46.242171,
           "importance": 227,
-          "contribution": 10503.577,
+          "contribution": 10496.9728,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -15902,40 +15902,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 46.27,
+        "rsi_14": 46.24,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 19.42,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-03 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.4로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-11-03 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.4로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "이형일 “전기차 생산세액공제, 국회 논의에 적극 참여”",
-          "press": "서울경제"
+          "title": "“인텔 폭락에 코스피 안 보려 했는데”…멱살 잡고 끌어올린 ‘큰손’",
+          "press": "매일경제"
         },
         {
-          "title": "영광, 코스닥 상장 첫날 공모가 대비 26% 상승(종합)",
-          "press": "뉴시스"
+          "title": "한공회 “서울시 민간위탁 회계감사 유지해야…세금 검증 약화 안 돼”",
+          "press": "매일경제"
         },
         {
-          "title": "미국발 악재에도 2% 반등한 코스피…기관 1.2조원 '사자'",
-          "press": "비즈워치"
+          "title": "앤트로픽, 美 IPO로 日서 4.7조 조달…해외기업 역대 최대",
+          "press": "한국경제"
         },
         {
-          "title": "개인 1.8조 팔 때 기관이 받았다…연기금 이틀 새 1조 '안전판'",
-          "press": "머니투데이"
+          "title": "\"아우의 반란\" 형 제치고 돈 잘 버는데…'19만→15만원' 개미 웃지 못한 이유 [주식R]",
+          "press": "한국경제TV"
         },
         {
-          "title": "'검은 월요일' 없었다…코스피, 인텔쇼크 딛고 5850선 회복",
-          "press": "뉴시스"
+          "title": "[데일리안 오늘뉴스 종합] '조원태 우군' 델타, 한진칼 지분가치 석 달 새 2862억원 불었다, '대북송금 실형 확정' 이화영, 내일 재심 청구…형집행정지 신청도 검토, 박지원, '깃발' 언급한 정청래 직격…\"전직",
+          "press": "데일리안"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-02 16:24"
+    "updated_at": "2026-11-02 21:49"
   }
 ]
