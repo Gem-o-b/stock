@@ -15933,23 +15933,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 5637.63,
+    "is_correct": true,
     "updated_at": "2026-11-02 22:13"
   },
   {
     "date": "2026-11-03",
     "target_date": "2026-11-04",
-    "prediction": "LONG",
-    "confidence": 0.5867,
-    "probability_long": 0.5867,
-    "probability_short": 0.4133,
-    "kospi_close": 5859.08,
+    "prediction": "SHORT",
+    "confidence": 0.7139,
+    "probability_long": 0.2861,
+    "probability_short": 0.7139,
+    "kospi_close": 5637.63,
     "sentiment": {
-      "avg_score": 0.1056,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.2667,
+      "avg_score": 0.2006,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -15957,84 +15957,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1344.160034,
+          "value": 1340.369995,
           "importance": 281,
-          "contribution": 377708.9696,
+          "contribution": 376643.9686,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -271.113883,
+          "value": -264.440659,
           "importance": 187,
-          "contribution": 50698.2962,
+          "contribution": 49450.4032,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -239.282323,
+          "value": -237.747761,
           "importance": 178,
-          "contribution": 42592.2535,
+          "contribution": 42319.1015,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.242171,
+          "value": 42.694112,
           "importance": 227,
-          "contribution": 10496.9728,
+          "contribution": 9691.5635,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 19.93,
+          "value": 21.15,
           "importance": 235,
-          "contribution": 4683.5501,
+          "contribution": 4970.2499,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 46.24,
+        "rsi_14": 42.69,
         "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 19.93,
-        "vix_status": "안정",
-        "trend": "5일 이동평균 상회"
+        "vix_level": 21.15,
+        "vix_status": "불안",
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-04 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 27%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +0.2%, 나스닥 +0.0%) 국내 시장에 긍정적인 영향을 줄 수 있습니다.",
+      "summary": "AI 모델은 2026-11-04 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 21.1로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "\"실적은 좋은데 왜 불안하지?\"…삼전닉스 주가 언제까지 출렁일까[부꾸미]",
-          "press": "머니투데이"
+          "title": "하이브, 3분기 영업익 1885억 원…BTS 효과에 분기 최대 실적",
+          "press": "이데일리"
         },
         {
-          "title": "인터넷은행 ‘마통’ 금리 두달 연속 7%대… 5대 은행보다 높아",
-          "press": "조선일보"
+          "title": "카카오페이증권, 3분기 영업익 157억원…전년비 0.3%↑",
+          "press": "헤럴드경제"
         },
         {
-          "title": "은행 ‘수퍼앱’ 키웠지만 1인당 이용 시간은 줄어",
-          "press": "조선일보"
+          "title": "금감원, '자료 조작·검사 방해' NH농협銀에 '기관경고' 중징계",
+          "press": "연합뉴스"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 2일자",
-          "press": "조선일보"
+          "title": "국민연금, 부동산투자실장 해임 [fn마켓워치]",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "주식 판 돈, 이젠 하루 만에 받는다",
-          "press": "조선일보"
+          "title": "한화운용, K방산·제조업 ETF 중동 진출…아부다비 증시 상장",
+          "press": "조선비즈"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-03 03:56"
+    "updated_at": "2026-11-03 16:40"
   }
 ]
