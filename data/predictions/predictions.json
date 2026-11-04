@@ -16041,14 +16041,14 @@
     "date": "2026-11-04",
     "target_date": "2026-11-05",
     "prediction": "LONG",
-    "confidence": 0.8109,
-    "probability_long": 0.8109,
-    "probability_short": 0.1891,
-    "kospi_close": 5457.57,
+    "confidence": 0.5184,
+    "probability_long": 0.5184,
+    "probability_short": 0.4816,
+    "kospi_close": 5683.8,
     "sentiment": {
-      "avg_score": 0.0989,
-      "positive_ratio": 0.3667,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.0711,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -16056,36 +16056,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1338.48999,
+          "value": 1338.780029,
           "importance": 281,
-          "contribution": 376115.6873,
+          "contribution": 376197.1882,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -260.912587,
+          "value": -257.30322,
           "importance": 187,
-          "contribution": 48790.6538,
+          "contribution": 48115.702,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -247.512505,
+          "value": -229.465667,
           "importance": 178,
-          "contribution": 44057.2259,
+          "contribution": 40844.8888,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 47.867152,
+          "value": 53.071286,
           "importance": 227,
-          "contribution": 10865.8435,
+          "contribution": 12047.1819,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -16100,15 +16100,27 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 47.87,
+        "rsi_14": 53.07,
         "rsi_signal": "중립",
         "macd_signal": "매수",
         "vix_level": 20.83,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-05 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-05 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
+        {
+          "title": "“하루만에 26% 폭락할 수” 한진칼 주식 투자, ‘널뛰기’ 주의해야 [투자360]",
+          "press": "헤럴드경제"
+        },
+        {
+          "title": "“美 선거에 日 증시 흔들렸는데”…中 증시는 2.3% 상승",
+          "press": "이데일리"
+        },
+        {
+          "title": "美 중간선거 여파에 일본 증시도 하락…닛케이 1.4%↓",
+          "press": "이데일리"
+        },
         {
           "title": "최태원, 美 AI 투자법인 이사회 의장 맡는다",
           "press": "서울경제"
@@ -16116,24 +16128,12 @@
         {
           "title": "다우·CJ, 중앙일보에 5200억 투입 '공동경영'",
           "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "호반그룹, 한진칼 최대주주 등극…조원태 회장 측 0.11%p 앞질러",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "“미국서 훈풍 불어온다”…‘블루웨이브’에 기대 커진 이곳 [주식R]",
-          "press": "한국경제TV"
-        },
-        {
-          "title": "[올댓차이나] 대만 증시, AI 규제 美 민주당 선거 승리에 닷새째 속락…0.83%↓",
-          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-04 21:26"
+    "updated_at": "2026-11-04 21:50"
   }
 ]
