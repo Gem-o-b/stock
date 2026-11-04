@@ -16032,23 +16032,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 5457.57,
+    "is_correct": true,
     "updated_at": "2026-11-03 21:40"
   },
   {
     "date": "2026-11-04",
     "target_date": "2026-11-05",
-    "prediction": "SHORT",
-    "confidence": 0.902,
-    "probability_long": 0.098,
-    "probability_short": 0.902,
-    "kospi_close": 5648.79,
+    "prediction": "LONG",
+    "confidence": 0.6561,
+    "probability_long": 0.6561,
+    "probability_short": 0.3439,
+    "kospi_close": 5457.57,
     "sentiment": {
-      "avg_score": -0.0456,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.3333,
+      "avg_score": 0.2079,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -16056,84 +16056,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1344.380005,
+          "value": 1342.02002,
           "importance": 281,
-          "contribution": 377770.7814,
+          "contribution": 377107.6255,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -264.262608,
+          "value": -260.912587,
           "importance": 187,
-          "contribution": 49417.1076,
+          "contribution": 48790.6538,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -236.857505,
+          "value": -247.512505,
           "importance": 178,
-          "contribution": 42160.6359,
+          "contribution": 44057.2259,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 42.882505,
+          "value": 47.867152,
           "importance": 227,
-          "contribution": 9734.3285,
+          "contribution": 10865.8435,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 20.52,
+          "value": 20.83,
           "importance": 235,
-          "contribution": 4822.2001,
+          "contribution": 4895.05,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 42.88,
+        "rsi_14": 47.87,
         "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 20.52,
+        "vix_level": 20.83,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-05 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.5로 다소 불안한 수준입니다. 미국 증시가 전일 상승하여 (S&P500 +0.4%, 나스닥 +0.8%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-05 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 20.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "애크먼 “증시가 카지노처럼”…급등락 속 우량주 매수 기회도",
-          "press": "이데일리"
+          "title": "美 민주당 하원 탈환에 달러 약세…달러·원 환율 상승폭 반납(종합)",
+          "press": "뉴스1"
         },
         {
-          "title": "美민주당 이기면 내 미국 주식은?…AI주 부담·헬스케어 기대",
-          "press": "이데일리"
+          "title": "환영사하는 이윤수 한국예탁결제원 사장",
+          "press": "연합뉴스"
         },
         {
-          "title": "美 중간선거 오늘 개표, 이후 반도체주 반등할까…“관건은 의회 구도”",
-          "press": "문화일보"
+          "title": "환영사하는 이윤수 한국예탁결제원 사장",
+          "press": "연합뉴스"
         },
         {
-          "title": "5대 은행 정기예금 6개월째 증가… 1030조원 넘어",
-          "press": "조선일보"
+          "title": "예탁원, 전자의결권 플랫폼 '이봅' 출시",
+          "press": "연합뉴스"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 3일자",
-          "press": "조선일보"
+          "title": "예탁원, 전자의결권 플랫폼 '이봅' 출시",
+          "press": "연합뉴스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-04 01:42"
+    "updated_at": "2026-11-04 16:19"
   }
 ]
