@@ -16041,14 +16041,14 @@
     "date": "2026-11-04",
     "target_date": "2026-11-05",
     "prediction": "LONG",
-    "confidence": 0.6561,
-    "probability_long": 0.6561,
-    "probability_short": 0.3439,
+    "confidence": 0.8109,
+    "probability_long": 0.8109,
+    "probability_short": 0.1891,
     "kospi_close": 5457.57,
     "sentiment": {
-      "avg_score": 0.2079,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.0989,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -16056,9 +16056,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1342.02002,
+          "value": 1338.48999,
           "importance": 281,
-          "contribution": 377107.6255,
+          "contribution": 376115.6873,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16107,33 +16107,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-05 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 20.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-05 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "美 민주당 하원 탈환에 달러 약세…달러·원 환율 상승폭 반납(종합)",
-          "press": "뉴스1"
+          "title": "최태원, 美 AI 투자법인 이사회 의장 맡는다",
+          "press": "서울경제"
         },
         {
-          "title": "환영사하는 이윤수 한국예탁결제원 사장",
-          "press": "연합뉴스"
+          "title": "다우·CJ, 중앙일보에 5200억 투입 '공동경영'",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "환영사하는 이윤수 한국예탁결제원 사장",
-          "press": "연합뉴스"
+          "title": "호반그룹, 한진칼 최대주주 등극…조원태 회장 측 0.11%p 앞질러",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "예탁원, 전자의결권 플랫폼 '이봅' 출시",
-          "press": "연합뉴스"
+          "title": "“미국서 훈풍 불어온다”…‘블루웨이브’에 기대 커진 이곳 [주식R]",
+          "press": "한국경제TV"
         },
         {
-          "title": "예탁원, 전자의결권 플랫폼 '이봅' 출시",
-          "press": "연합뉴스"
+          "title": "[올댓차이나] 대만 증시, AI 규제 美 민주당 선거 승리에 닷새째 속락…0.83%↓",
+          "press": "뉴시스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-04 16:19"
+    "updated_at": "2026-11-04 21:26"
   }
 ]
