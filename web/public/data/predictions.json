@@ -16140,9 +16140,9 @@
     "date": "2026-11-05",
     "target_date": "2026-11-06",
     "prediction": "LONG",
-    "confidence": 0.7646,
-    "probability_long": 0.7646,
-    "probability_short": 0.2354,
+    "confidence": 0.7217,
+    "probability_long": 0.7217,
+    "probability_short": 0.2783,
     "kospi_close": 5416.46,
     "sentiment": {
       "avg_score": -0.1,
@@ -16155,9 +16155,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.880005,
+          "value": 1344.130005,
           "importance": 281,
-          "contribution": 377630.2814,
+          "contribution": 377700.5314,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16233,6 +16233,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-05 21:41"
+    "updated_at": "2026-11-05 21:58"
   }
 ]
