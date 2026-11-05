@@ -16131,23 +16131,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 5416.46,
+    "is_correct": false,
     "updated_at": "2026-11-04 21:50"
   },
   {
     "date": "2026-11-05",
     "target_date": "2026-11-06",
     "prediction": "LONG",
-    "confidence": 0.6576,
-    "probability_long": 0.6576,
-    "probability_short": 0.3424,
-    "kospi_close": 5683.8,
+    "confidence": 0.6509,
+    "probability_long": 0.6509,
+    "probability_short": 0.3491,
+    "kospi_close": 5416.46,
     "sentiment": {
-      "avg_score": 0.0087,
-      "positive_ratio": 0.2667,
-      "negative_ratio": 0.2333,
+      "avg_score": -0.0156,
+      "positive_ratio": 0.4333,
+      "negative_ratio": 0.3667,
       "article_count": 30
     },
     "reasons": {
@@ -16155,84 +16155,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1342.380005,
+          "value": 1341.099976,
           "importance": 281,
-          "contribution": 377208.7814,
+          "contribution": 376849.0931,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -257.30322,
+          "value": -254.319699,
           "importance": 187,
-          "contribution": 48115.702,
+          "contribution": 47557.7837,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -229.465667,
+          "value": -242.385616,
           "importance": 178,
-          "contribution": 40844.8888,
+          "contribution": 43144.6397,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 53.071286,
+          "value": 44.441351,
           "importance": 227,
-          "contribution": 12047.1819,
+          "contribution": 10088.1867,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 17.969999,
+          "value": 16.610001,
           "importance": 235,
-          "contribution": 4222.9498,
+          "contribution": 3903.3501,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 53.07,
+        "rsi_14": 44.44,
         "rsi_signal": "중립",
         "macd_signal": "매수",
-        "vix_level": 17.97,
+        "vix_level": 16.61,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-06 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 18.0로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +1.5%, 나스닥 +1.4%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-06 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 37%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "\"부채 축소가 관건\"…16만3천원→11만원 목표가 '싹둑'한 종목 [주식R]",
-          "press": "한국경제TV"
+          "title": "[포토] 코스피 5%대 급락…삼전 7%↓ SK하닉 9%↓",
+          "press": "디지털타임스"
         },
         {
-          "title": "‘머스크 합병’에 서학개미만 양도세 내는 이유는?",
-          "press": "조선일보"
+          "title": "[포토] 미 블루웨이브 쇼크에 코스피 5%대 급락 마감",
+          "press": "디지털타임스"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 4일자",
-          "press": "조선일보"
+          "title": "'삼전닉스' 연말 배당 역송금 최대 126억달러…원화 강세에 복병되나",
+          "press": "이데일리"
         },
         {
-          "title": "대출 상품 추천하는 토스가 P2P 사업한다고?",
-          "press": "조선일보"
+          "title": "한국금융지주, 3분기 연결 당기순익 2823억원… 전년比 58.1%↓",
+          "press": "조선비즈"
         },
         {
-          "title": "‘홍콩 ELS사태’ 과징금 3700억 확정… 당초보다 1조가량 줄어",
-          "press": "동아일보"
+          "title": "[포토] 미 블루웨이브 쇼크에 코스피·코스닥, 5%대 급락 마감",
+          "press": "디지털타임스"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-05 01:39"
+    "updated_at": "2026-11-05 16:45"
   }
 ]
