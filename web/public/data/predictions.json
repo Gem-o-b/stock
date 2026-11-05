@@ -16140,14 +16140,14 @@
     "date": "2026-11-05",
     "target_date": "2026-11-06",
     "prediction": "LONG",
-    "confidence": 0.6509,
-    "probability_long": 0.6509,
-    "probability_short": 0.3491,
+    "confidence": 0.7646,
+    "probability_long": 0.7646,
+    "probability_short": 0.2354,
     "kospi_close": 5416.46,
     "sentiment": {
-      "avg_score": -0.0156,
-      "positive_ratio": 0.4333,
-      "negative_ratio": 0.3667,
+      "avg_score": -0.1,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.3333,
       "article_count": 30
     },
     "reasons": {
@@ -16155,9 +16155,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1341.099976,
+          "value": 1343.880005,
           "importance": 281,
-          "contribution": 376849.0931,
+          "contribution": 377630.2814,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16206,33 +16206,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-06 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 43%, 부정 37%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-06 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 33%입니다.\n\n[시장 상황] 공포지수(VIX)가 16.6로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "[포토] 코스피 5%대 급락…삼전 7%↓ SK하닉 9%↓",
-          "press": "디지털타임스"
+          "title": "미래에셋그룹, AI·보안 전진배치…증권·운용 중심 조직 재편",
+          "press": "블로터"
         },
         {
-          "title": "[포토] 미 블루웨이브 쇼크에 코스피 5%대 급락 마감",
-          "press": "디지털타임스"
+          "title": "영국, 기준금리 3년3개월 만에 인상…연 4.00%",
+          "press": "아시아경제"
         },
         {
-          "title": "'삼전닉스' 연말 배당 역송금 최대 126억달러…원화 강세에 복병되나",
-          "press": "이데일리"
+          "title": "“엄마 미안해, 돈 다 잃었어” 코스피 폭락에 개미들 몰려간 곳…절하고 굿까지 한다는데 [이슈, 풀어주리]",
+          "press": "서울경제"
         },
         {
-          "title": "한국금융지주, 3분기 연결 당기순익 2823억원… 전년比 58.1%↓",
-          "press": "조선비즈"
+          "title": "“국장서 단타만 치는 이유? 주주 배신하는 이사회”…저평가 해법 제시한 與",
+          "press": "매일경제"
         },
         {
-          "title": "[포토] 미 블루웨이브 쇼크에 코스피·코스닥, 5%대 급락 마감",
-          "press": "디지털타임스"
+          "title": "200만원 넘던 주식인데…주총 앞두고 꺼낸 카드에 '시끌'",
+          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-05 16:45"
+    "updated_at": "2026-11-05 21:41"
   }
 ]
