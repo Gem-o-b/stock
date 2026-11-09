@@ -16329,23 +16329,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 5111.15,
+    "is_correct": true,
     "updated_at": "2026-11-06 21:46"
   },
   {
     "date": "2026-11-09",
     "target_date": "2026-11-10",
-    "prediction": "LONG",
-    "confidence": 0.7153,
-    "probability_long": 0.7153,
-    "probability_short": 0.2847,
-    "kospi_close": 5059.69,
+    "prediction": "SHORT",
+    "confidence": 0.6819,
+    "probability_long": 0.3181,
+    "probability_short": 0.6819,
+    "kospi_close": 5111.15,
     "sentiment": {
-      "avg_score": -0.4733,
-      "positive_ratio": 0.1333,
-      "negative_ratio": 0.6667,
+      "avg_score": 0.0955,
+      "positive_ratio": 0.4667,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -16353,84 +16353,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1362.219971,
+          "value": 1347.939941,
           "importance": 281,
-          "contribution": 382783.8118,
+          "contribution": 378771.1235,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -280.217681,
+          "value": -300.51852,
           "importance": 178,
-          "contribution": 49878.7473,
+          "contribution": 53492.2965,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -259.916152,
+          "value": -268.036626,
           "importance": 187,
-          "contribution": 48604.3205,
+          "contribution": 50122.849,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 35.945251,
+          "value": 40.628594,
           "importance": 227,
-          "contribution": 8159.572,
+          "contribution": 9222.6909,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 24.610001,
+          "value": 25.639999,
           "importance": 235,
-          "contribution": 5783.3501,
+          "contribution": 6025.3999,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 35.95,
-        "rsi_signal": "약세",
+        "rsi_14": 40.63,
+        "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 24.61,
+        "vix_level": 25.64,
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-10 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 67%, 긍정 13%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 24.6로 다소 불안한 수준입니다. 미국 증시가 전일 상승하여 (S&P500 +0.9%, 나스닥 +1.7%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-10 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 25.6로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "美증시 급락에 헤지펀드도 '백기'…10여년만에 최대 포지션 축소",
-          "press": "연합뉴스"
+          "title": "신한투자증권, 美 운용사 증권대차 분쟁 뉴욕으로…'무결재 서명' 쟁점",
+          "press": "블로터"
         },
         {
-          "title": "코스피, AI 쇼크… 장중 5000 붕괴",
-          "press": "조선일보"
+          "title": "인엑스 ‘연차 무관’ AI 네이티브 엔지니어 기획채용 돌입",
+          "press": "디지털타임스"
         },
         {
-          "title": "‘블루 쓰나미’에 무너진 나스닥… 하루새 시총 3355조원, 사상 최대 증발",
-          "press": "조선일보"
+          "title": "달러·원 16원 하락한 1347원…1363원 출발 후 상승분 반납(종합)",
+          "press": "뉴스1"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 6일자",
-          "press": "조선일보"
+          "title": "셀트리온제약, 3분기 매출 1619억원…분기 최대",
+          "press": "뉴시스"
         },
         {
-          "title": "단일 레버리지와 닮은 테마형 ETF?…보완 뾰족수도 없어",
-          "press": "데일리안"
+          "title": "금감원, 미래에셋證도 현장점검…계열사 연쇄 해킹 연관성 주시",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-07 01:26"
+    "updated_at": "2026-11-09 16:42"
   }
 ]
