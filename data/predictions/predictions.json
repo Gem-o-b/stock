@@ -16338,14 +16338,14 @@
     "date": "2026-11-09",
     "target_date": "2026-11-10",
     "prediction": "SHORT",
-    "confidence": 0.6819,
-    "probability_long": 0.3181,
-    "probability_short": 0.6819,
+    "confidence": 0.7424,
+    "probability_long": 0.2576,
+    "probability_short": 0.7424,
     "kospi_close": 5111.15,
     "sentiment": {
-      "avg_score": 0.0955,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.3,
+      "avg_score": -0.1376,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.4333,
       "article_count": 30
     },
     "reasons": {
@@ -16353,9 +16353,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1347.939941,
+          "value": 1346.579956,
           "importance": 281,
-          "contribution": 378771.1235,
+          "contribution": 378388.9677,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16404,33 +16404,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-10 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 25.6로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-10 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 43%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 25.6로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "신한투자증권, 美 운용사 증권대차 분쟁 뉴욕으로…'무결재 서명' 쟁점",
-          "press": "블로터"
+          "title": "역사적 폭락에 공포 덮쳤는데…골드만이 본 '삼전닉스 미래'",
+          "press": "한국경제"
         },
         {
-          "title": "인엑스 ‘연차 무관’ AI 네이티브 엔지니어 기획채용 돌입",
-          "press": "디지털타임스"
+          "title": "만들기만 하면 떼돈 벌던 소프트웨어…AI는 왜 데이터센터에 돈을 쏟아붓나 [한눈에 보는 AI 투자지도]",
+          "press": "매일경제"
         },
         {
-          "title": "달러·원 16원 하락한 1347원…1363원 출발 후 상승분 반납(종합)",
-          "press": "뉴스1"
-        },
-        {
-          "title": "셀트리온제약, 3분기 매출 1619억원…분기 최대",
+          "title": "대신증권, 3분기 영업손실 22억…거래 급감에 적자전환",
           "press": "뉴시스"
         },
         {
-          "title": "금감원, 미래에셋證도 현장점검…계열사 연쇄 해킹 연관성 주시",
-          "press": "이데일리"
+          "title": "새 빈틈 노린 해커…금융 플랫폼 통해 법카 부정결제 잇단 시도",
+          "press": "연합뉴스"
+        },
+        {
+          "title": "장사 잘돼 '1,756억' 벌었는데…개미들 지갑이 변수로 떠오른 종목 [주식R]",
+          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-09 16:42"
+    "updated_at": "2026-11-09 22:16"
   }
 ]
