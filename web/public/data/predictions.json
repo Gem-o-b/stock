@@ -16338,12 +16338,12 @@
     "date": "2026-11-09",
     "target_date": "2026-11-10",
     "prediction": "SHORT",
-    "confidence": 0.7424,
-    "probability_long": 0.2576,
-    "probability_short": 0.7424,
-    "kospi_close": 5111.15,
+    "confidence": 0.6908,
+    "probability_long": 0.3092,
+    "probability_short": 0.6908,
+    "kospi_close": 5018.85,
     "sentiment": {
-      "avg_score": -0.1376,
+      "avg_score": -0.1487,
       "positive_ratio": 0.2,
       "negative_ratio": 0.4333,
       "article_count": 30
@@ -16353,36 +16353,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1346.579956,
+          "value": 1346.699951,
           "importance": 281,
-          "contribution": 378388.9677,
+          "contribution": 378422.6863,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -300.51852,
+          "value": -307.881483,
           "importance": 178,
-          "contribution": 53492.2965,
+          "contribution": 54802.9039,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -268.036626,
+          "value": -269.509218,
           "importance": 187,
-          "contribution": 50122.849,
+          "contribution": 50398.2238,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 40.628594,
+          "value": 38.618505,
           "importance": 227,
-          "contribution": 9222.6909,
+          "contribution": 8766.4006,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -16397,8 +16397,8 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 40.63,
-        "rsi_signal": "중립",
+        "rsi_14": 38.62,
+        "rsi_signal": "약세",
         "macd_signal": "매도",
         "vix_level": 25.64,
         "vix_status": "불안",
@@ -16406,6 +16406,14 @@
       },
       "summary": "AI 모델은 2026-11-10 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 43%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 25.6로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
+        {
+          "title": "‘블루 쓰나미’에 흔들린 AI주…10일 밤 美 CPI발표에 촉각 [동여의도 위클리]",
+          "press": "매일경제"
+        },
+        {
+          "title": "MBK “고려아연 콜옵션, 엑시트 때만 행사…단가 인하 주장은 여론몰이” [시그널]",
+          "press": "서울경제"
+        },
         {
           "title": "역사적 폭락에 공포 덮쳤는데…골드만이 본 '삼전닉스 미래'",
           "press": "한국경제"
@@ -16417,20 +16425,12 @@
         {
           "title": "대신증권, 3분기 영업손실 22억…거래 급감에 적자전환",
           "press": "뉴시스"
-        },
-        {
-          "title": "새 빈틈 노린 해커…금융 플랫폼 통해 법카 부정결제 잇단 시도",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "장사 잘돼 '1,756억' 벌었는데…개미들 지갑이 변수로 떠오른 종목 [주식R]",
-          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-09 22:16"
+    "updated_at": "2026-11-09 22:41"
   }
 ]
