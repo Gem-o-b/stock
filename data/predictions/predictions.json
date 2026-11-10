@@ -16428,23 +16428,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 5228.79,
+    "is_correct": false,
     "updated_at": "2026-11-09 22:41"
   },
   {
     "date": "2026-11-10",
     "target_date": "2026-11-11",
-    "prediction": "LONG",
-    "confidence": 0.8632,
-    "probability_long": 0.8632,
-    "probability_short": 0.1368,
-    "kospi_close": 5018.85,
+    "prediction": "SHORT",
+    "confidence": 0.967,
+    "probability_long": 0.033,
+    "probability_short": 0.967,
+    "kospi_close": 5228.79,
     "sentiment": {
-      "avg_score": -0.0833,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.3667,
+      "avg_score": 0.1819,
+      "positive_ratio": 0.5667,
+      "negative_ratio": 0.3333,
       "article_count": 30
     },
     "reasons": {
@@ -16452,84 +16452,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.959961,
+          "value": 1335.780029,
           "importance": 281,
-          "contribution": 377652.749,
+          "contribution": 375354.1882,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -307.881483,
+          "value": -309.29943,
           "importance": 178,
-          "contribution": 54802.9039,
+          "contribution": 55055.2985,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -269.509218,
+          "value": -277.467261,
           "importance": 187,
-          "contribution": 50398.2238,
+          "contribution": 51886.3778,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 38.618505,
+          "value": 39.317583,
           "importance": 227,
-          "contribution": 8766.4006,
+          "contribution": 8925.0914,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 20.15,
+          "value": 19.92,
           "importance": 235,
-          "contribution": 4735.2499,
+          "contribution": 4681.2,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 38.62,
+        "rsi_14": 39.32,
         "rsi_signal": "약세",
         "macd_signal": "매도",
-        "vix_level": 20.15,
-        "vix_status": "불안",
+        "vix_level": 19.92,
+        "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-11 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 37%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.1로 다소 불안한 수준입니다. 미국 증시가 전일 상승하여 (S&P500 +2.3%, 나스닥 +2.6%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-11 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 33%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "반도체 반등에도 엔비디아 장중 8%↓…황 CEO 조사에 나홀로 약세",
-          "press": "이데일리"
+          "title": "[단독] 이지스, 바이오 신사업 본격화…헬스케어 플랫폼 만든다 [시그널]",
+          "press": "서울경제"
         },
         {
-          "title": "트럼프, 중간선거 패배에 부정선거론…\"정적 용서 안 해\"",
-          "press": "아시아경제"
+          "title": "동원산업 3분기 영업이익 1천497억원…작년 동기 대비 1.1%↑",
+          "press": "연합뉴스"
         },
         {
-          "title": "트럼프 '황금함대·골든돔' 좌초 위기…예산 삭감 가능성",
-          "press": "아시아경제"
+          "title": "한화M&S, 장애 아동 치료비 지원 확대…지원금·대상 늘려",
+          "press": "서울경제"
         },
         {
-          "title": "줄어든 증시 거래대금에 증권가는 ‘MTS 전쟁’",
-          "press": "조선일보"
+          "title": "코스피 나흘 만에 반등…외국인·기관 매수에 5200선 회복",
+          "press": "동행미디어 시대"
         },
         {
-          "title": "저축은행의 대기업·중견기업 대출 5조원 첫 돌파",
-          "press": "조선일보"
+          "title": "젠슨황 불륜, 뉴욕증시 '꼬리위험'으로…\"엔비디아도 은행처럼 감독을\"",
+          "press": "뉴스1"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-10 04:16"
+    "updated_at": "2026-11-10 17:03"
   }
 ]
