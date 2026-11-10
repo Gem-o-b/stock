@@ -16437,14 +16437,14 @@
     "date": "2026-11-10",
     "target_date": "2026-11-11",
     "prediction": "SHORT",
-    "confidence": 0.967,
-    "probability_long": 0.033,
-    "probability_short": 0.967,
+    "confidence": 0.9698,
+    "probability_long": 0.0302,
+    "probability_short": 0.9698,
     "kospi_close": 5228.79,
     "sentiment": {
-      "avg_score": 0.1819,
-      "positive_ratio": 0.5667,
-      "negative_ratio": 0.3333,
+      "avg_score": -0.0711,
+      "positive_ratio": 0.1667,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -16452,9 +16452,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1335.780029,
+          "value": 1338.380005,
           "importance": 281,
-          "contribution": 375354.1882,
+          "contribution": 376084.7814,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16503,33 +16503,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-11 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 33%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다.",
+      "summary": "AI 모델은 2026-11-11 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 17%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.9로 시장이 비교적 안정적입니다.",
       "news_headlines": [
         {
-          "title": "[단독] 이지스, 바이오 신사업 본격화…헬스케어 플랫폼 만든다 [시그널]",
-          "press": "서울경제"
+          "title": "앤트로픽 몸값 1조달러 목표…최대 904억달러 조달",
+          "press": "한국경제"
         },
         {
-          "title": "동원산업 3분기 영업이익 1천497억원…작년 동기 대비 1.1%↑",
-          "press": "연합뉴스"
+          "title": "160만닉스·30만전자 vs 470만닉스·67만전자…극과 극 전망? 개미들 “아무도 못믿어”",
+          "press": "전자신문"
         },
         {
-          "title": "한화M&S, 장애 아동 치료비 지원 확대…지원금·대상 늘려",
-          "press": "서울경제"
+          "title": "금융권 보안 책임지는 금융보안원도 뚫렸다… 일부 개인정보 유출",
+          "press": "한국일보"
         },
         {
-          "title": "코스피 나흘 만에 반등…외국인·기관 매수에 5200선 회복",
-          "press": "동행미디어 시대"
+          "title": "美훈풍에 코스피·코스닥 동반 급등…4거래일만 반등",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "젠슨황 불륜, 뉴욕증시 '꼬리위험'으로…\"엔비디아도 은행처럼 감독을\"",
-          "press": "뉴스1"
+          "title": "“삼전닉스 토큰 해외 거래, 가슴 아프다”…제도화 지연에 쓴소리",
+          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-10 17:03"
+    "updated_at": "2026-11-10 21:55"
   }
 ]
