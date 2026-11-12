@@ -16626,23 +16626,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 5305.47,
+    "is_correct": true,
     "updated_at": "2026-11-11 21:30"
   },
   {
     "date": "2026-11-12",
     "target_date": "2026-11-13",
-    "prediction": "LONG",
-    "confidence": 0.5149,
-    "probability_long": 0.5149,
-    "probability_short": 0.4851,
-    "kospi_close": 5375.36,
+    "prediction": "SHORT",
+    "confidence": 0.7746,
+    "probability_long": 0.2254,
+    "probability_short": 0.7746,
+    "kospi_close": 5305.47,
     "sentiment": {
-      "avg_score": 0.278,
-      "positive_ratio": 0.5667,
-      "negative_ratio": 0.2,
+      "avg_score": 0.1167,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.1667,
       "article_count": 30
     },
     "reasons": {
@@ -16650,84 +16650,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1338.25,
+          "value": 1333.380005,
           "importance": 281,
-          "contribution": 376048.25,
+          "contribution": 374679.7814,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -280.753141,
+          "value": -281.77663,
           "importance": 187,
-          "contribution": 52500.8375,
+          "contribution": 52692.2299,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -294.556539,
+          "value": -285.870587,
           "importance": 178,
-          "contribution": 52431.0639,
+          "contribution": 50884.9644,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 46.581763,
+          "value": 44.835878,
           "importance": 227,
-          "contribution": 10574.0602,
+          "contribution": 10177.7443,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 17.74,
+          "value": 17.49,
           "importance": 235,
-          "contribution": 4168.8999,
+          "contribution": 4110.1499,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
       ],
       "market_summary": {
-        "rsi_14": 46.58,
+        "rsi_14": 44.84,
         "rsi_signal": "중립",
         "macd_signal": "매도",
-        "vix_level": 17.74,
+        "vix_level": 17.49,
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-13 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 57%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.7로 시장이 비교적 안정적입니다. 미국 증시가 전일 상승하여 (S&P500 +1.3%, 나스닥 +1.9%) 국내 시장에 긍정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-11-13 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "트럼프 떠난 청년노동자 표심 되찾기…밀러 비서실장, 정책 전환 추진",
-          "press": "아시아경제"
+          "title": "KT&G '2년 연속 대상'…머니투데이 2026 IR대상 성료",
+          "press": "머니투데이"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 11일자",
-          "press": "조선일보"
+          "title": "젠슨 황 '불장난'에 인버스 환호…개미, SK하닉 '곱버스' 나흘째 매수",
+          "press": "뉴스1"
         },
         {
-          "title": "“美 데이터센터 규제, AI투자 사이클 꺾지 못할 것”",
-          "press": "조선일보"
+          "title": "DB손보 3분기 영업이익 6,183억원…전년 대비 40.1%↑",
+          "press": "연합뉴스TV"
         },
         {
-          "title": "못 믿을 증권사 전망… 지수 따라가기 급급",
-          "press": "조선일보"
+          "title": "영풍·MBK \"의결권 박탈 위법 확인\"…고려아연 \"즉시 항소\"",
+          "press": "머니투데이"
         },
         {
-          "title": "한 달 새 45% 빠졌는데…\"280만원 간다\" 안바꾼 이유 [주식R]",
-          "press": "한국경제TV"
+          "title": "\"젠슨 황 해임\" 보도에 흔들린 코스피… 네비우스 실적에 안정찾을까",
+          "press": "머니투데이"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-12 01:43"
+    "updated_at": "2026-11-12 17:00"
   }
 ]
