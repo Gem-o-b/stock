@@ -16635,14 +16635,14 @@
     "date": "2026-11-12",
     "target_date": "2026-11-13",
     "prediction": "SHORT",
-    "confidence": 0.7746,
-    "probability_long": 0.2254,
-    "probability_short": 0.7746,
+    "confidence": 0.5328,
+    "probability_long": 0.4672,
+    "probability_short": 0.5328,
     "kospi_close": 5305.47,
     "sentiment": {
-      "avg_score": 0.1167,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.0511,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -16650,9 +16650,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1333.380005,
+          "value": 1334.380005,
           "importance": 281,
-          "contribution": 374679.7814,
+          "contribution": 374960.7814,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16701,33 +16701,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-13 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-11-13 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 17.5로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "KT&G '2년 연속 대상'…머니투데이 2026 IR대상 성료",
-          "press": "머니투데이"
+          "title": "외인 '국장 엑소더스'…코스피 흔들리고 개미 투심 멍든다 [분석+]",
+          "press": "한국경제"
         },
         {
-          "title": "젠슨 황 '불장난'에 인버스 환호…개미, SK하닉 '곱버스' 나흘째 매수",
-          "press": "뉴스1"
+          "title": "[기자수첩]국민연금이 ‘힘을 못 쓴다’는 말",
+          "press": "이데일리"
         },
         {
-          "title": "DB손보 3분기 영업이익 6,183억원…전년 대비 40.1%↑",
-          "press": "연합뉴스TV"
+          "title": "고려아연, 주총 결의 취소 1심 판결에 “즉시 항소 예정”",
+          "press": "서울경제"
         },
         {
-          "title": "영풍·MBK \"의결권 박탈 위법 확인\"…고려아연 \"즉시 항소\"",
-          "press": "머니투데이"
+          "title": "“같은 반도체 소부장인데 다르다”…'급등락 장세' ETF 투자법 [한입에 쏙]",
+          "press": "한국경제TV"
         },
         {
-          "title": "\"젠슨 황 해임\" 보도에 흔들린 코스피… 네비우스 실적에 안정찾을까",
-          "press": "머니투데이"
+          "title": "“물려있는데 뭘 할 수 있죠?”...코스피 거래대금, 6개월새 60% 증발",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-12 17:00"
+    "updated_at": "2026-11-12 22:09"
   }
 ]
