@@ -16828,5 +16828,104 @@
     "actual_close": null,
     "is_correct": null,
     "updated_at": "2026-11-13 21:54"
+  },
+  {
+    "date": "2026-11-16",
+    "target_date": "2026-11-17",
+    "prediction": "SHORT",
+    "confidence": 0.6035,
+    "probability_long": 0.3965,
+    "probability_short": 0.6035,
+    "kospi_close": 5290.53,
+    "sentiment": {
+      "avg_score": 0.1,
+      "positive_ratio": 0.3333,
+      "negative_ratio": 0.2667,
+      "article_count": 30
+    },
+    "reasons": {
+      "top_factors": [
+        {
+          "name": "환율 수준",
+          "feature": "usdkrw_level",
+          "value": 1336.550049,
+          "importance": 281,
+          "contribution": 375570.5637,
+          "impact": "SHORT",
+          "description": "고환율 → 수출 유리/외인 매도"
+        },
+        {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -279.886636,
+          "importance": 187,
+          "contribution": 52338.801,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
+          "name": "MACD",
+          "feature": "macd",
+          "value": -274.704505,
+          "importance": 178,
+          "contribution": 48897.4019,
+          "impact": "SHORT",
+          "description": "MACD 음수 → 하락 추세"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 46.117764,
+          "importance": 227,
+          "contribution": 10468.7325,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
+        },
+        {
+          "name": "VIX 수준",
+          "feature": "vix_level",
+          "value": 20.1,
+          "importance": 235,
+          "contribution": 4723.5001,
+          "impact": "SHORT",
+          "description": "높은 공포지수 → 시장 불안"
+        }
+      ],
+      "market_summary": {
+        "rsi_14": 46.12,
+        "rsi_signal": "중립",
+        "macd_signal": "매수",
+        "vix_level": 20.1,
+        "vix_status": "불안",
+        "trend": "5일 이동평균 상회"
+      },
+      "summary": "AI 모델은 2026-11-17 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 20.1로 다소 불안한 수준입니다. 미국 증시가 전일 하락하여 (S&P500 -1.0%, 나스닥 -1.6%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
+      "news_headlines": [
+        {
+          "title": "뉴욕증시, 10월 PPI 둔화 속 장 초반 혼조세",
+          "press": "조선비즈"
+        },
+        {
+          "title": "AI 거품론·젠슨 황 충격에도…삼성전자, 여전히 ‘50만전자’ 기대감",
+          "press": "디지털타임스"
+        },
+        {
+          "title": "엔비디아 주가 고점 대비 30% 빠져… 코스피도 하락",
+          "press": "조선일보"
+        },
+        {
+          "title": "정진완 우리은행장 연임",
+          "press": "조선일보"
+        },
+        {
+          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 13일자",
+          "press": "조선일보"
+        }
+      ]
+    },
+    "actual": null,
+    "actual_close": null,
+    "is_correct": null,
+    "updated_at": "2026-11-14 01:49"
   }
 ]
