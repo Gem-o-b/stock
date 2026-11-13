@@ -16734,14 +16734,14 @@
     "date": "2026-11-13",
     "target_date": "2026-11-16",
     "prediction": "LONG",
-    "confidence": 0.5242,
-    "probability_long": 0.5242,
-    "probability_short": 0.4758,
+    "confidence": 0.5295,
+    "probability_long": 0.5295,
+    "probability_short": 0.4705,
     "kospi_close": 5315.45,
     "sentiment": {
-      "avg_score": 0.1933,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.3,
+      "avg_score": 0.0544,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -16749,9 +16749,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1337.280029,
+          "value": 1336.410034,
           "importance": 281,
-          "contribution": 375775.6882,
+          "contribution": 375531.2196,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16800,33 +16800,33 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 30%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 18.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-11-16 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 20%입니다.\n\n[시장 상황] 공포지수(VIX)가 18.7로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "오스코텍, 3분기 누적 매출 628억…영업익 흑자",
+          "title": "증안펀드 가동론에 이억원 \"매우 긴급할 때만\"",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "'젠슨 황 사임'에도 올랐던 코스피…외국인 매도에 하락",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "[올댓차이나] 대만 증시, 엔비디아 지배력 저하 기대로 반등 마감…1.35%↑",
           "press": "뉴시스"
         },
         {
-          "title": "증시 부진에 LS증권 3분기 순이익 64억… 전분기比 85.4% 감소",
-          "press": "서울경제"
+          "title": "스시 먹고 마운자로로 살 빼고…입꼬리 올라가는 항공주 [주末머니]",
+          "press": "아시아경제"
         },
         {
-          "title": "IR 안 하면 상장유지 불이익?…거래소 규정 개정 주목",
-          "press": "비즈워치"
-        },
-        {
-          "title": "미래산업, 3분기 누적 영업이익 227억원… 전년比 149.5% ↑",
-          "press": "머니투데이"
-        },
-        {
-          "title": "\"AI 도입보다 데이터가 먼저…\" 자산운용업계에 던진 '생존 공식'",
-          "press": "파이낸셜뉴스"
+          "title": "李대통령, 증시 하락에 “골이 깊으면 산이 높지 않겠나”",
+          "press": "문화일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-13 16:39"
+    "updated_at": "2026-11-13 21:32"
   }
 ]
