@@ -16833,14 +16833,14 @@
     "date": "2026-11-16",
     "target_date": "2026-11-17",
     "prediction": "LONG",
-    "confidence": 0.5113,
-    "probability_long": 0.5113,
-    "probability_short": 0.4887,
+    "confidence": 0.5116,
+    "probability_long": 0.5116,
+    "probability_short": 0.4884,
     "kospi_close": 5132.94,
     "sentiment": {
-      "avg_score": -0.0259,
-      "positive_ratio": 0.4667,
-      "negative_ratio": 0.4333,
+      "avg_score": 0.0667,
+      "positive_ratio": 0.3667,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -16848,9 +16848,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1334.319946,
+          "value": 1334.449951,
           "importance": 281,
-          "contribution": 374943.9049,
+          "contribution": 374980.4363,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -16899,26 +16899,26 @@
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-17 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 47%, 부정 43%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-17 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "'젠슨황 쇼크'에 하이닉스 털썩…SK그룹 시총 장중 1천조원 깨지기도",
-          "press": "연합뉴스TV"
+          "title": "\"8300 재탈환\" vs \"상단 6390 박스권\"…내년 코스피 엇갈린 전망 [분석+]",
+          "press": "한국경제"
         },
         {
-          "title": "3Q 적자전환 한 영풍, 상반기 번 이익 모두 반납",
-          "press": "비즈워치"
-        },
-        {
-          "title": "거래소, 6월 신입사원 채용시험서 스마트안경 착용 적발",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "넥스턴앤롤코리아, 3분기 영업익 58억…전년比 49.6%↑",
+          "title": "[올댓차이나] 대만 증시, 엔비디아 불안에 역대 2번째 급락 마감…6.03%↓",
           "press": "뉴시스"
         },
         {
-          "title": "ETF 투자자도 '삼전닉스 배당'에 웃는다…분배율 5배 껑충",
+          "title": "“나만 뒤처져” SK하닉 몰빵한 30대, 10년 모은 4억이 1억으로…“나보다 더 망한 인생 있을까”",
+          "press": "전자신문"
+        },
+        {
+          "title": "美 '빅스텝' 가능성까지…기업 신용위험 '경고등'",
+          "press": "이데일리"
+        },
+        {
+          "title": "중앙그룹 사태 뒷북대응...한신평 신뢰도 '꼴찌'",
           "press": "이데일리"
         }
       ]
@@ -16926,6 +16926,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-16 16:43"
+    "updated_at": "2026-11-16 22:05"
   }
 ]
