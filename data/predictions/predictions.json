@@ -16832,11 +16832,11 @@
   {
     "date": "2026-11-16",
     "target_date": "2026-11-17",
-    "prediction": "LONG",
-    "confidence": 0.5116,
-    "probability_long": 0.5116,
-    "probability_short": 0.4884,
-    "kospi_close": 5132.94,
+    "prediction": "SHORT",
+    "confidence": 0.6645,
+    "probability_long": 0.3355,
+    "probability_short": 0.6645,
+    "kospi_close": 5100.5,
     "sentiment": {
       "avg_score": 0.0667,
       "positive_ratio": 0.3667,
@@ -16848,36 +16848,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1334.449951,
+          "value": 1335.589966,
           "importance": 281,
-          "contribution": 374980.4363,
+          "contribution": 375300.7804,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -279.454434,
+          "value": -279.971996,
           "importance": 187,
-          "contribution": 52257.9792,
+          "contribution": 52354.7632,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -277.725628,
+          "value": -280.313434,
           "importance": 178,
-          "contribution": 49435.1618,
+          "contribution": 49895.7913,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 38.981041,
+          "value": 38.437328,
           "importance": 227,
-          "contribution": 8848.6962,
+          "contribution": 8725.2735,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -16892,17 +16892,17 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 38.98,
+        "rsi_14": 38.44,
         "rsi_signal": "약세",
-        "macd_signal": "매수",
+        "macd_signal": "매도",
         "vix_level": 19.3,
         "vix_status": "안정",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-17 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-17 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 37%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 19.3로 시장이 비교적 안정적입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "\"8300 재탈환\" vs \"상단 6390 박스권\"…내년 코스피 엇갈린 전망 [분석+]",
+          "title": "\"코스피 8300 간다더니\"…증권가 전망에 개미들 '부글부글' [분석+]",
           "press": "한국경제"
         },
         {
@@ -16926,6 +16926,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-16 22:05"
+    "updated_at": "2026-11-16 22:25"
   }
 ]
