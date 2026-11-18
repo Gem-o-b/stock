@@ -17031,14 +17031,14 @@
     "date": "2026-11-18",
     "target_date": "2026-11-19",
     "prediction": "SHORT",
-    "confidence": 0.7383,
-    "probability_long": 0.2617,
-    "probability_short": 0.7383,
+    "confidence": 0.8276,
+    "probability_long": 0.1724,
+    "probability_short": 0.8276,
     "kospi_close": 5064.0,
     "sentiment": {
-      "avg_score": 0.1567,
-      "positive_ratio": 0.3,
-      "negative_ratio": 0.2,
+      "avg_score": 0.09,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -17046,9 +17046,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1331.829956,
+          "value": 1332.280029,
           "importance": 281,
-          "contribution": 374244.2177,
+          "contribution": 374370.6882,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17097,8 +17097,12 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-19 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 25.5로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-19 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 25.5로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
+        {
+          "title": "[올댓차이나] 홍콩 증시, 美 증시 약세· 수출 규제 우려에 속락 마감… H주 0.86%↓",
+          "press": "뉴시스"
+        },
         {
           "title": "한한령 해제 기대감에… SM·스튜디오드래곤 등 엔터주 상한가",
           "press": "이데일리"
@@ -17114,16 +17118,12 @@
         {
           "title": "“불장 땐 선수 아닌 사람 있나”…액티브 ETF, 하락장엔 지수만도 못했다",
           "press": "매일경제"
-        },
-        {
-          "title": "한쪽은 7500피, 한쪽은 1만피…개미들 \"누구 말을 믿나\" 혼란 [분석+]",
-          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-18 22:21"
+    "updated_at": "2026-11-18 22:42"
   }
 ]
