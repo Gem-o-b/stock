@@ -17031,14 +17031,14 @@
     "date": "2026-11-18",
     "target_date": "2026-11-19",
     "prediction": "SHORT",
-    "confidence": 0.7477,
-    "probability_long": 0.2523,
-    "probability_short": 0.7477,
+    "confidence": 0.7383,
+    "probability_long": 0.2617,
+    "probability_short": 0.7383,
     "kospi_close": 5064.0,
     "sentiment": {
-      "avg_score": 0.1322,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.2333,
+      "avg_score": 0.1567,
+      "positive_ratio": 0.3,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -17046,9 +17046,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1329.359985,
+          "value": 1331.829956,
           "importance": 281,
-          "contribution": 373550.1559,
+          "contribution": 374244.2177,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17097,33 +17097,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-19 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 25.5로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-19 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 30%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 25.5로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "5000피 탈환…수능일 10시 개장, 앤트로픽 공모가 주목",
-          "press": "머니투데이"
+          "title": "한한령 해제 기대감에… SM·스튜디오드래곤 등 엔터주 상한가",
+          "press": "이데일리"
         },
         {
-          "title": "대덕전자·일진전기, 코스피200 편입…OCI·한샘은 편출",
-          "press": "조선비즈"
+          "title": "평판 리스크 지면서 굳이?...적대적 M&A 투자 꺼리는 공적기금",
+          "press": "이데일리"
         },
         {
-          "title": "상장사 4곳 중 1곳 '한계기업'…삼정KPMG \"선제적 구조조정해야\"",
+          "title": "[올댓차이나] 대만 10월 IT매출 121.3조원·53.6%↑…AI 서버 수요 견인",
           "press": "뉴시스"
         },
         {
-          "title": "\"달러 파킹 수요 늘어난다\"…KODEX 미국머니마켓액티브, 순자산 1조원 돌파",
-          "press": "한국경제"
+          "title": "“불장 땐 선수 아닌 사람 있나”…액티브 ETF, 하락장엔 지수만도 못했다",
+          "press": "매일경제"
         },
         {
-          "title": "고점서 46% 밀린 코스닥…외국인 열흘째 매도, 19개월 만에 최장",
-          "press": "뉴스1"
+          "title": "한쪽은 7500피, 한쪽은 1만피…개미들 \"누구 말을 믿나\" 혼란 [분석+]",
+          "press": "한국경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-18 17:17"
+    "updated_at": "2026-11-18 22:21"
   }
 ]
