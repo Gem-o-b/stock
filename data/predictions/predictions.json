@@ -17135,9 +17135,9 @@
     "probability_short": 0.4181,
     "kospi_close": 5066.06,
     "sentiment": {
-      "avg_score": -0.0011,
+      "avg_score": -0.0344,
       "positive_ratio": 0.2,
-      "negative_ratio": 0.2667,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -17145,9 +17145,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1327.310059,
+          "value": 1326.97998,
           "importance": 281,
-          "contribution": 372974.1265,
+          "contribution": 372881.3745,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17196,8 +17196,12 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-20 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 24.6로 다소 불안한 수준입니다.",
+      "summary": "AI 모델은 2026-11-20 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 30%입니다.\n\n[시장 상황] 공포지수(VIX)가 24.6로 다소 불안한 수준입니다.",
       "news_headlines": [
+        {
+          "title": "‘내 주식 좀 살려주!’…엔트로픽 상장 공모가, ‘희망가’ 훌쩍 넘겨...AI 거품론 이겨낼까 주목",
+          "press": "문화일보"
+        },
         {
           "title": "앤트로픽 드디어 나스닥 데뷔…외인 K증시 돌아올까 [분석+]",
           "press": "한국경제"
@@ -17213,16 +17217,12 @@
         {
           "title": "“여태껏 숨참고 기다렸습니다”…한한령 빗장 풀리자 용틀임한 종목들",
           "press": "매일경제"
-        },
-        {
-          "title": "‘상장 첫날 살까, ETF 기다릴까’…‘2000조 공룡’ 앤트로픽 데뷔, 서학개미 투자 셈법은 [투자360]",
-          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-19 22:48"
+    "updated_at": "2026-11-19 23:11"
   }
 ]
