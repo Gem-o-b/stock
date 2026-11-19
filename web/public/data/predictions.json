@@ -17129,15 +17129,15 @@
   {
     "date": "2026-11-19",
     "target_date": "2026-11-20",
-    "prediction": "SHORT",
-    "confidence": 0.7706,
-    "probability_long": 0.2294,
-    "probability_short": 0.7706,
+    "prediction": "LONG",
+    "confidence": 0.5819,
+    "probability_long": 0.5819,
+    "probability_short": 0.4181,
     "kospi_close": 5066.06,
     "sentiment": {
-      "avg_score": 0.295,
-      "positive_ratio": 0.5,
-      "negative_ratio": 0.1,
+      "avg_score": -0.0011,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.2667,
       "article_count": 30
     },
     "reasons": {
@@ -17145,9 +17145,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1330.380005,
+          "value": 1327.310059,
           "importance": 281,
-          "contribution": 373836.7814,
+          "contribution": 372974.1265,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17196,33 +17196,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-20 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 10%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 24.6로 다소 불안한 수준입니다.",
+      "summary": "AI 모델은 2026-11-20 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 20%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 24.6로 다소 불안한 수준입니다.",
       "news_headlines": [
         {
-          "title": "장학금부터 창업펀드까지…예탁원 23년부터 사회공헌 71억",
-          "press": "머니투데이"
+          "title": "앤트로픽 드디어 나스닥 데뷔…외인 K증시 돌아올까 [분석+]",
+          "press": "한국경제"
         },
         {
-          "title": "‘한한령 완화’ 기대에 수출 1조달러 돌파까지…코스피 이틀째 상승 [투자360]",
+          "title": "‘코스피 15% 빠질 때 50% 올랐다’…목표가 줄하향 속 증권가 눈높이 높아진 종목은 [투자360]",
           "press": "헤럴드경제"
         },
         {
-          "title": "앤디포스, 'ESS·데이터센터 소재'로 성장판 넓힌다…내년 상용화 채비",
-          "press": "파이낸셜뉴스"
+          "title": "KT스카이라이프, 자회사 HCN 흡수합병키로…내년 6월 합병",
+          "press": "연합뉴스"
         },
         {
-          "title": "[단독] 다우 빠진 ‘미국 3대 지수’?…ETF 이름 놓고 운용업계 또 신경전",
-          "press": "디지털타임스"
+          "title": "“여태껏 숨참고 기다렸습니다”…한한령 빗장 풀리자 용틀임한 종목들",
+          "press": "매일경제"
         },
         {
-          "title": "코스피 1% 올라 '5130선'⋯외인 매도 받아낸 '자사주'",
-          "press": "아이뉴스24"
+          "title": "‘상장 첫날 살까, ETF 기다릴까’…‘2000조 공룡’ 앤트로픽 데뷔, 서학개미 투자 셈법은 [투자360]",
+          "press": "헤럴드경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-19 17:28"
+    "updated_at": "2026-11-19 22:48"
   }
 ]
