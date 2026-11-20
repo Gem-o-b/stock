@@ -17244,9 +17244,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1339.219971,
+          "value": 1339.380005,
           "importance": 281,
-          "contribution": 376320.8118,
+          "contribution": 376365.7814,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17322,6 +17322,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-20 22:30"
+    "updated_at": "2026-11-20 22:53"
   }
 ]
