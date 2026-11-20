@@ -17220,23 +17220,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 4848.29,
+    "is_correct": false,
     "updated_at": "2026-11-19 23:11"
   },
   {
     "date": "2026-11-20",
     "target_date": "2026-11-23",
     "prediction": "SHORT",
-    "confidence": 0.9289,
-    "probability_long": 0.0711,
-    "probability_short": 0.9289,
-    "kospi_close": 5137.89,
+    "confidence": 0.5043,
+    "probability_long": 0.4957,
+    "probability_short": 0.5043,
+    "kospi_close": 4848.29,
     "sentiment": {
-      "avg_score": 0.0756,
-      "positive_ratio": 0.2333,
-      "negative_ratio": 0.1667,
+      "avg_score": -0.1167,
+      "positive_ratio": 0.2,
+      "negative_ratio": 0.3333,
       "article_count": 30
     },
     "reasons": {
@@ -17244,84 +17244,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1332.160034,
+          "value": 1335.52002,
           "importance": 281,
-          "contribution": 374336.9696,
+          "contribution": 375281.1255,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -283.029182,
+          "value": -284.658414,
           "importance": 187,
-          "contribution": 52926.4571,
+          "contribution": 53231.1234,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -279.497703,
+          "value": -291.175342,
           "importance": 178,
-          "contribution": 49750.5912,
+          "contribution": 51829.2108,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
-          "name": "RSI(14)",
-          "feature": "rsi_14",
-          "value": 34.963655,
-          "importance": 227,
-          "contribution": 7936.7497,
-          "impact": "LONG",
-          "description": "RSI 높음 → 과매수 구간"
-        },
-        {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 25.59,
+          "value": 28.440001,
           "importance": 235,
-          "contribution": 6013.65,
+          "contribution": 6683.4001,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
+        },
+        {
+          "name": "RSI(14)",
+          "feature": "rsi_14",
+          "value": 26.302019,
+          "importance": 227,
+          "contribution": 5970.5582,
+          "impact": "LONG",
+          "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 34.96,
-        "rsi_signal": "약세",
-        "macd_signal": "매수",
-        "vix_level": 25.59,
+        "rsi_14": 26.3,
+        "rsi_signal": "과매도",
+        "macd_signal": "매도",
+        "vix_level": 28.44,
         "vix_status": "불안",
-        "trend": "5일 이동평균 상회"
+        "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-23 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 23%, 부정 17%입니다.\n\n[시장 상황] 공포지수(VIX)가 25.6로 다소 불안한 수준입니다. 미국 증시가 전일 하락하여 (S&P500 -1.0%, 나스닥 -0.9%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
+      "summary": "AI 모델은 2026-11-23 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 33%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 28.4로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "앤트로픽 IPO에 기관 주문 쇄도…개인 몫은 15% 안팎",
+          "title": "KB증권 'IPO 왕좌' 내주고 6위 추락⋯IB 실적도 '뚝'",
+          "press": "아이뉴스24"
+        },
+        {
+          "title": "“나 없으면 회사 안 돌아가” 줄사표 쓴 7인…5년 만에 전부 30조원대 주식 부자",
+          "press": "매일경제"
+        },
+        {
+          "title": "HLB펩 \"스킨메드 임상 2상 원료약 CDMO 계약\"",
           "press": "뉴시스"
         },
         {
-          "title": "앤트로픽, 역대 최대 IPO로 나스닥 데뷔…첫 체결가 111.50달러",
-          "press": "뉴시스"
+          "title": "주담대 절반은 30대 몫… 가계대출 둔화에도 주담대 622만 원↑",
+          "press": "한국일보"
         },
         {
-          "title": "앤스로픽 직원도 IPO로 '돈방석'…아모데이 \"AI 안전·성공 모두 잡겠다\"",
-          "press": "아시아경제"
-        },
-        {
-          "title": "앤트로픽, 111.5달러에 거래 시작…시총 2조달러 달성",
-          "press": "연합뉴스"
-        },
-        {
-          "title": "[속보]앤트로픽, 나스닥 거래 개시…첫 체결가 111.50달러",
-          "press": "뉴시스"
+          "title": "포스코, 소재 경쟁력으로 AI 데이터센터 공략",
+          "press": "동행미디어 시대"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-20 02:48"
+    "updated_at": "2026-11-20 17:10"
   }
 ]
