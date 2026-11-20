@@ -17229,14 +17229,14 @@
     "date": "2026-11-20",
     "target_date": "2026-11-23",
     "prediction": "SHORT",
-    "confidence": 0.5043,
-    "probability_long": 0.4957,
-    "probability_short": 0.5043,
+    "confidence": 0.55,
+    "probability_long": 0.45,
+    "probability_short": 0.55,
     "kospi_close": 4848.29,
     "sentiment": {
-      "avg_score": -0.1167,
+      "avg_score": -0.3644,
       "positive_ratio": 0.2,
-      "negative_ratio": 0.3333,
+      "negative_ratio": 0.4667,
       "article_count": 30
     },
     "reasons": {
@@ -17244,9 +17244,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1335.52002,
+          "value": 1339.219971,
           "importance": 281,
-          "contribution": 375281.1255,
+          "contribution": 376320.8118,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17295,33 +17295,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-23 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 33%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 28.4로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-23 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 47%, 긍정 20%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 28.4로 다소 불안한 수준입니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "KB증권 'IPO 왕좌' 내주고 6위 추락⋯IB 실적도 '뚝'",
-          "press": "아이뉴스24"
-        },
-        {
-          "title": "“나 없으면 회사 안 돌아가” 줄사표 쓴 7인…5년 만에 전부 30조원대 주식 부자",
-          "press": "매일경제"
-        },
-        {
-          "title": "HLB펩 \"스킨메드 임상 2상 원료약 CDMO 계약\"",
+          "title": "[올댓차이나] 中, 신생 레드칩 기업 해외 상장 제한…홍콩 IPO 시장 타격 우려",
           "press": "뉴시스"
         },
         {
-          "title": "주담대 절반은 30대 몫… 가계대출 둔화에도 주담대 622만 원↑",
-          "press": "한국일보"
+          "title": "“AI 커닝해 주식 샀으니 취소해 달라”…차라리 '부정행위?' 자수하고 싶은 개미들",
+          "press": "전자신문"
         },
         {
-          "title": "포스코, 소재 경쟁력으로 AI 데이터센터 공략",
-          "press": "동행미디어 시대"
+          "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
+          "press": "한국경제"
+        },
+        {
+          "title": "앤트로픽 상장에도 외국인 '팔자'…AI·금리 변수",
+          "press": "연합뉴스TV"
+        },
+        {
+          "title": "'국민주'에 물린 개미 어쩌나…절반 넘게 '손실'",
+          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-20 17:10"
+    "updated_at": "2026-11-20 22:30"
   }
 ]
