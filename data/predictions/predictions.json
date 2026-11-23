@@ -17319,23 +17319,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "SHORT",
+    "actual_close": 4736.72,
+    "is_correct": true,
     "updated_at": "2026-11-20 22:53"
   },
   {
     "date": "2026-11-23",
     "target_date": "2026-11-24",
-    "prediction": "SHORT",
-    "confidence": 0.9356,
-    "probability_long": 0.0644,
-    "probability_short": 0.9356,
-    "kospi_close": 4869.96,
+    "prediction": "LONG",
+    "confidence": 0.5901,
+    "probability_long": 0.5901,
+    "probability_short": 0.4099,
+    "kospi_close": 4736.72,
     "sentiment": {
-      "avg_score": -0.3811,
-      "positive_ratio": 0.1,
-      "negative_ratio": 0.4667,
+      "avg_score": -0.114,
+      "positive_ratio": 0.1333,
+      "negative_ratio": 0.3,
       "article_count": 30
     },
     "reasons": {
@@ -17343,84 +17343,84 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.280029,
+          "value": 1344.439941,
           "importance": 281,
-          "contribution": 377461.6882,
+          "contribution": 377787.6235,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
-          "name": "MACD 시그널",
-          "feature": "macd_signal",
-          "value": -284.312682,
-          "importance": 187,
-          "contribution": 53166.4715,
-          "impact": "SHORT",
-          "description": "MACD 시그널 음수 → 매도 신호"
-        },
-        {
           "name": "MACD",
           "feature": "macd",
-          "value": -289.446681,
+          "value": -304.571758,
           "importance": 178,
-          "contribution": 51521.5092,
+          "contribution": 54213.7729,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
+          "name": "MACD 시그널",
+          "feature": "macd_signal",
+          "value": -288.364497,
+          "importance": 187,
+          "contribution": 53924.161,
+          "impact": "SHORT",
+          "description": "MACD 시그널 음수 → 매도 신호"
+        },
+        {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 31.290001,
+          "value": 35.889999,
           "importance": 235,
-          "contribution": 7353.1502,
+          "contribution": 8434.1499,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 26.572019,
+          "value": 27.578629,
           "importance": 227,
-          "contribution": 6031.8482,
+          "contribution": 6260.3487,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         }
       ],
       "market_summary": {
-        "rsi_14": 26.57,
+        "rsi_14": 27.58,
         "rsi_signal": "과매도",
         "macd_signal": "매도",
-        "vix_level": 31.29,
+        "vix_level": 35.89,
         "vix_status": "공포",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-24 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 47%, 긍정 10%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 31.3로 매우 높아 글로벌 시장의 불안감이 큽니다. 미국 증시가 전일 하락하여 (S&P500 -2.1%, 나스닥 -3.5%) 국내 시장에 부정적인 영향을 줄 수 있습니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-24 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 30%, 긍정 13%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 35.9로 매우 높아 글로벌 시장의 불안감이 큽니다. RSI 지표가 과매도 구간으로, 반등 가능성이 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "앤스로픽 호재 덮은 ‘AI 거품론’… 코스피 4900 붕괴",
-          "press": "동아일보"
-        },
-        {
-          "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
+          "title": "코스피 금융위기급 공포에도 금리·환율은 ‘평온’… AI 편중이 부른 기묘한 폭락",
           "press": "조선비즈"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 20일자",
-          "press": "조선일보"
+          "title": "결국…1월로 돌아간 코스피",
+          "press": "서울경제"
         },
         {
-          "title": "앤스로픽 11% 급락, 공모가마저 위협…IPO 열기 왜 식었나",
-          "press": "이데일리"
+          "title": "美 반도체 투매에 삼전닉스 동반 하락…'18만 전자' 붕괴[핫종목](종합)",
+          "press": "뉴스1"
         },
         {
-          "title": "앤트로픽 상장 이틀째 9% 급락 출발…AI 투자 불안 확산",
-          "press": "연합뉴스"
+          "title": "금융위, '매출 등 허위계상' 피델릭스에 과징금 2억8690만원",
+          "press": "파이낸셜뉴스"
+        },
+        {
+          "title": "[단독] 블랙록이 20% 투자한 리커런트에너지, 韓 태양광 개발사업 매각 추진",
+          "press": "매일경제"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-21 02:24"
+    "updated_at": "2026-11-23 17:40"
   }
 ]
