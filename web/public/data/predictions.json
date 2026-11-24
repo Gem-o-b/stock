@@ -17526,14 +17526,14 @@
     "date": "2026-11-25",
     "target_date": "2026-11-26",
     "prediction": "SHORT",
-    "confidence": 0.9411,
-    "probability_long": 0.0589,
-    "probability_short": 0.9411,
+    "confidence": 0.9077,
+    "probability_long": 0.0923,
+    "probability_short": 0.9077,
     "kospi_close": 5006.03,
     "sentiment": {
-      "avg_score": 0.0744,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.2667,
+      "avg_score": 0.17,
+      "positive_ratio": 0.4,
+      "negative_ratio": 0.2,
       "article_count": 30
     },
     "reasons": {
@@ -17541,9 +17541,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1342.47998,
+          "value": 1342.800049,
           "importance": 281,
-          "contribution": 377236.8745,
+          "contribution": 377326.8137,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17577,9 +17577,9 @@
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 27.809999,
+          "value": 26.58,
           "importance": 235,
-          "contribution": 6535.3499,
+          "contribution": 6246.3,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
@@ -17588,37 +17588,37 @@
         "rsi_14": 35.42,
         "rsi_signal": "약세",
         "macd_signal": "매도",
-        "vix_level": 27.81,
+        "vix_level": 26.58,
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 27%입니다.\n\n[시장 상황] 공포지수(VIX)가 27.8로 다소 불안한 수준입니다. 미국 증시가 전일 하락하여 (S&P500 -0.7%, 나스닥 -1.7%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
+      "summary": "AI 모델은 2026-11-26 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.6로 다소 불안한 수준입니다. 미국 증시가 전일 하락하여 (S&P500 -0.6%, 나스닥 -1.7%) 국내 시장에 부정적인 영향을 줄 수 있습니다.",
       "news_headlines": [
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 24일자",
-          "press": "조선일보"
+          "title": "뉴욕 연은 총재 \"물가 2% 복귀 필수…추가 조치 필요\"",
+          "press": "아시아경제"
         },
         {
-          "title": "앤스로픽, 공모가 83달러 깨졌는데…월가는 \"목표가 최고 150달러\"",
-          "press": "이데일리"
+          "title": "미래대응기금 편집자주",
+          "press": "한국일보"
         },
         {
-          "title": "“메모리 수요 여전히 탄탄… 장기 계약 물량이 떠받쳐”",
-          "press": "조선일보"
+          "title": "안도걸 \"미래대응기금은 재정 안전판… 성장 잠재력 높일 마중물\"",
+          "press": "한국일보"
         },
         {
-          "title": "[주요경제지표] 2026년 11월 24일자",
-          "press": "조선일보"
+          "title": "박수영 \"초과세수 절반은 빚 갚아야... 국회 심의 피한 선거용 쌈짓돈 될 것\"",
+          "press": "한국일보"
         },
         {
-          "title": "젠슨 황 복귀 전날 자사주 16억 매입… 하루새 1억 벌어",
-          "press": "동아일보"
+          "title": "'AI 황제' 단 한명에 흔들린 K반도체株",
+          "press": "머니투데이"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-25 00:36"
+    "updated_at": "2026-11-25 04:46"
   }
 ]
