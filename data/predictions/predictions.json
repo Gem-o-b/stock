@@ -17526,14 +17526,14 @@
     "date": "2026-11-25",
     "target_date": "2026-11-26",
     "prediction": "LONG",
-    "confidence": 0.6185,
-    "probability_long": 0.6185,
-    "probability_short": 0.3815,
+    "confidence": 0.5523,
+    "probability_long": 0.5523,
+    "probability_short": 0.4477,
     "kospi_close": 4697.51,
     "sentiment": {
-      "avg_score": 0.2722,
-      "positive_ratio": 0.5333,
-      "negative_ratio": 0.2,
+      "avg_score": -0.2814,
+      "positive_ratio": 0.1667,
+      "negative_ratio": 0.4667,
       "article_count": 30
     },
     "reasons": {
@@ -17541,9 +17541,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1344.599976,
+          "value": 1347.069946,
           "importance": 281,
-          "contribution": 377832.5931,
+          "contribution": 378526.6549,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17592,33 +17592,33 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-26 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 53%, 부정 20%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.4로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-26 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 47%, 긍정 17%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.4로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "SKT, 고객 만족도 해킹 이전 수준…신뢰 회복도 1위",
-          "press": "비즈워치"
+          "title": "KB인베스트먼트, 중진공과 유망 중소기업 발굴 협약",
+          "press": "서울경제"
         },
         {
-          "title": "한국투자금융그룹, 한국발명진흥회와 IP 혁신기업 성장 지원 위한 MOU",
+          "title": "국장 떠나는 개미…“장기투자 유도하려면 ISA 세제 혜택 늘려야”",
+          "press": "서울경제"
+        },
+        {
+          "title": "[속보]뉴욕증시, AI주 매도·관세 우려에 하락 출발…나스닥 3.6%↓",
+          "press": "뉴시스"
+        },
+        {
+          "title": "물가·관세 겹악재에 나스닥 선물 3%↓…국채로 '피난'(종합)",
           "press": "이데일리"
         },
         {
-          "title": "'부산행' 장현국, 넥써쓰, 게임보다 블록체인 힘주나",
-          "press": "비즈워치"
-        },
-        {
-          "title": "\"벤츠 S클래스 날아갔다, 숨이 안 쉬어져\"…반도체株 '폭락'에 '아우성'",
-          "press": "아이뉴스24"
-        },
-        {
-          "title": "주식 먼저 사고 '호재성 기사'…증선위, 언론사 기자 고발",
-          "press": "뉴스1"
+          "title": "미 성장도, 물가도 뜨겁다…GDP 4.3%·PCE 3.8%",
+          "press": "한국경제TV"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-25 18:38"
+    "updated_at": "2026-11-25 23:51"
   }
 ]
