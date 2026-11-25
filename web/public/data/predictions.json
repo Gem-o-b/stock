@@ -17624,15 +17624,15 @@
   {
     "date": "2026-11-26",
     "target_date": "2026-11-27",
-    "prediction": "SHORT",
-    "confidence": 0.7089,
-    "probability_long": 0.2911,
-    "probability_short": 0.7089,
+    "prediction": "LONG",
+    "confidence": 0.655,
+    "probability_long": 0.655,
+    "probability_short": 0.345,
     "kospi_close": 4697.51,
     "sentiment": {
-      "avg_score": -0.3314,
-      "positive_ratio": 0.1333,
-      "negative_ratio": 0.5,
+      "avg_score": -0.1759,
+      "positive_ratio": 0.2333,
+      "negative_ratio": 0.4333,
       "article_count": 30
     },
     "reasons": {
@@ -17640,9 +17640,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1348.47998,
+          "value": 1343.579956,
           "importance": 281,
-          "contribution": 378922.8745,
+          "contribution": 377545.9677,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17676,9 +17676,9 @@
         {
           "name": "VIX 수준",
           "feature": "vix_level",
-          "value": 31.690001,
+          "value": 28.58,
           "importance": 235,
-          "contribution": 7447.1501,
+          "contribution": 6716.3,
           "impact": "SHORT",
           "description": "높은 공포지수 → 시장 불안"
         }
@@ -17687,37 +17687,37 @@
         "rsi_14": 35.29,
         "rsi_signal": "약세",
         "macd_signal": "매도",
-        "vix_level": 31.69,
-        "vix_status": "공포",
+        "vix_level": 28.58,
+        "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 50%, 긍정 13%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 31.7로 매우 높아 글로벌 시장의 불안감이 큽니다. 미국 증시가 전일 하락하여 (S&P500 -2.7%, 나스닥 -4.0%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-27 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 부정적입니다. 수집된 30건의 기사 중 부정 43%, 긍정 23%로 시장에 악재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 28.6로 다소 불안한 수준입니다. 미국 증시가 전일 하락하여 (S&P500 -0.1%, 나스닥 -0.7%) 국내 시장에 부정적인 영향을 줄 수 있습니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "일장‘황’몽 코스피…미 반도체 기침하자 증시가 녹았다",
-          "press": "중앙일보"
+          "title": "미 USTR, 과잉생산 관세 발표…韓 15% 상한 유지",
+          "press": "한국경제TV"
         },
         {
-          "title": "\"변동성 끝이 안 보인다\"…공포지수 30 돌파, 나스닥 한때 4%대 급락",
-          "press": "이데일리"
+          "title": "美 10월 PCE 3.8%·3Q 성장률 4.3%…12월 금리 인상 굳어져(종합)",
+          "press": "아시아경제"
         },
         {
-          "title": "“올랐다가 폭삭”…삼전닉스 개미들 멘붕, 증권가도 의견 ‘분분’ [종목e슈]",
-          "press": "이데일리"
-        },
-        {
-          "title": "\"진짜 뇌관은 비상장 시장\"…연준·ECB도 경고한 'AI 빚폭탄'의 실체",
+          "title": "스시자로 되팔겠다고?…\"걸리면 최대 징역 5년\"",
           "press": "뉴시스"
         },
         {
-          "title": "KB인베스트먼트, 중진공과 유망 중소기업 발굴 협약",
-          "press": "서울경제"
+          "title": "美 10월 PCE 전월 대비 3.8% ↑…예상치 부합",
+          "press": "아시아경제"
+        },
+        {
+          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 25일자",
+          "press": "조선일보"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-26 00:21"
+    "updated_at": "2026-11-26 03:53"
   }
 ]
