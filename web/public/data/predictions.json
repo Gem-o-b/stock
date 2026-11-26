@@ -17625,14 +17625,14 @@
     "date": "2026-11-26",
     "target_date": "2026-11-27",
     "prediction": "SHORT",
-    "confidence": 0.7309,
-    "probability_long": 0.2691,
-    "probability_short": 0.7309,
+    "confidence": 0.7186,
+    "probability_long": 0.2814,
+    "probability_short": 0.7186,
     "kospi_close": 4710.65,
     "sentiment": {
-      "avg_score": 0.2444,
-      "positive_ratio": 0.4,
-      "negative_ratio": 0.1333,
+      "avg_score": -0.0078,
+      "positive_ratio": 0.2667,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -17640,9 +17640,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.300049,
+          "value": 1343.569946,
           "importance": 281,
-          "contribution": 377467.3137,
+          "contribution": 377543.1549,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17691,26 +17691,26 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 하회"
       },
-      "summary": "AI 모델은 2026-11-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 40%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 28.3로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-27 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 뚜렷한 방향성 없이 중립적입니다. 수집된 30건의 기사 중 긍정 27%, 부정 23%입니다.\n\n[시장 상황] 공포지수(VIX)가 28.3로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
       "news_headlines": [
         {
-          "title": "깨끗한나라 52%, AK홀딩스 29%↑…하락장 거스른 저PBR株",
-          "press": "서울경제"
+          "title": "저점에서 41억 풀매수 안철수…안랩 사상최고가",
+          "press": "문화일보"
         },
         {
-          "title": "AI 투자 꺾여도 내년 3% 중반 성장…“재정지출 늘어 소비도 증가”",
-          "press": "서울경제"
+          "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해석",
+          "press": "매일경제"
         },
         {
-          "title": "민간 위원장에 김용범…자본시장 개혁 진두지휘",
-          "press": "서울경제"
+          "title": "\"6년 모은 3억 날리고 나흘간 울어\"…하락장 속 애널리스트의 뼈아픈 고백",
+          "press": "한국경제TV"
         },
         {
-          "title": "트럼프, 젠슨 황 복귀 바란 까닭 [한경 프리미엄9 TODAY]",
-          "press": "한국경제"
+          "title": "확률 ‘99.8%’…증시 짓누르는 ‘폭락 진범’, 더 세지고 독해진다 [투자360]",
+          "press": "헤럴드경제"
         },
         {
-          "title": "김용범 “대주주 1주와 일반주주 1주 가치 같아…모든 주주 과실 누리게 할것”",
+          "title": "“주가 오를 때까지 버티려 했는데”…마통서 5000만원 끌어다 쓴 50대 자영업자의 최후",
           "press": "서울경제"
         }
       ]
@@ -17718,6 +17718,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-26 18:13"
+    "updated_at": "2026-11-26 23:18"
   }
 ]
