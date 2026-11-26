@@ -1,17 +1,17 @@
 {
   "date": "2026-11-26",
-  "kospi_close": 4710.65,
+  "kospi_close": 4711.21,
   "kospi_open": 4745.1,
   "kospi_high": 4817.77,
   "kospi_low": 4704.65,
-  "kospi_volume": 156500366,
-  "usdkrw": 1343.73,
+  "kospi_volume": 170995935,
+  "usdkrw": 1343.46,
   "sp500": 7182.78,
   "nasdaq": 23585.8,
-  "vix": 28.29,
-  "wti": 83.68,
-  "gold": 3535.8,
-  "dxy": 103.67,
+  "vix": 26.8,
+  "wti": 84.89,
+  "gold": 3595.6,
+  "dxy": 103.77,
   "candles": [
     {
       "time": "2026-08-31",
@@ -431,7 +431,7 @@
       "open": 4745.1,
       "high": 4817.77,
       "low": 4704.65,
-      "close": 4710.65
+      "close": 4711.21
     }
   ]
 }
