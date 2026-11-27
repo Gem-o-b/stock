@@ -17715,23 +17715,23 @@
         }
       ]
     },
-    "actual": null,
-    "actual_close": null,
-    "is_correct": null,
+    "actual": "LONG",
+    "actual_close": 4907.11,
+    "is_correct": false,
     "updated_at": "2026-11-26 23:48"
   },
   {
     "date": "2026-11-27",
     "target_date": "2026-11-30",
-    "prediction": "LONG",
-    "confidence": 0.8426,
-    "probability_long": 0.8426,
-    "probability_short": 0.1574,
-    "kospi_close": 4711.21,
+    "prediction": "SHORT",
+    "confidence": 0.9266,
+    "probability_long": 0.0734,
+    "probability_short": 0.9266,
+    "kospi_close": 4907.11,
     "sentiment": {
-      "avg_score": 0.1289,
-      "positive_ratio": 0.3333,
-      "negative_ratio": 0.1667,
+      "avg_score": 0.4422,
+      "positive_ratio": 0.6,
+      "negative_ratio": 0.1333,
       "article_count": 30
     },
     "reasons": {
@@ -17739,36 +17739,36 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1343.459961,
+          "value": 1332.51001,
           "importance": 281,
-          "contribution": 377512.249,
+          "contribution": 374435.3127,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
         {
           "name": "MACD 시그널",
           "feature": "macd_signal",
-          "value": -295.522808,
+          "value": -294.690781,
           "importance": 187,
-          "contribution": 55262.765,
+          "contribution": 55107.176,
           "impact": "SHORT",
           "description": "MACD 시그널 음수 → 매도 신호"
         },
         {
           "name": "MACD",
           "feature": "macd",
-          "value": -307.556016,
+          "value": -291.362675,
           "importance": 178,
-          "contribution": 54744.9708,
+          "contribution": 51862.5561,
           "impact": "SHORT",
           "description": "MACD 음수 → 하락 추세"
         },
         {
           "name": "RSI(14)",
           "feature": "rsi_14",
-          "value": 41.385771,
+          "value": 47.43452,
           "importance": 227,
-          "contribution": 9394.5701,
+          "contribution": 10767.636,
           "impact": "LONG",
           "description": "RSI 높음 → 과매수 구간"
         },
@@ -17783,40 +17783,40 @@
         }
       ],
       "market_summary": {
-        "rsi_14": 41.39,
+        "rsi_14": 47.43,
         "rsi_signal": "중립",
-        "macd_signal": "매도",
+        "macd_signal": "매수",
         "vix_level": 26.8,
         "vix_status": "불안",
-        "trend": "5일 이동평균 하회"
+        "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-30 KOSPI가 상승(LONG)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 33%, 부정 17%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 아래로 내려와 하락 흐름입니다.",
+      "summary": "AI 모델은 2026-11-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "스페이스X·머스크, 美 아동 '트럼프 계좌'에 자사주 2주씩 기부",
-          "press": "아시아경제"
+          "title": "미래에셋운용, 연기금투자풀 25주년 행사 열어…공공자금 운용 성과 공유",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "[주식 매매 상위 종목 및 환율] 2026년 11월 26일자",
-          "press": "조선일보"
+          "title": "대신PE, 국민성장펀드 첫 투자처로 유리기판社…500억 EB 인수 [시그널]",
+          "press": "서울경제"
         },
         {
-          "title": "“한국 반도체 기업, 이익 변동성 줄이고 주주 환원 늘려야”",
-          "press": "조선일보"
+          "title": "엔비디아 물타기 나선 서학개미…매수 늘어도 보관액 '뚝'",
+          "press": "파이낸셜뉴스"
         },
         {
-          "title": "정부案보다 세진 ‘주가 누르기 방지법’ 나오나",
-          "press": "조선일보"
+          "title": "국민연금, 석 달 만에 수익률 반토막...적립금 1664조[마켓인]",
+          "press": "이데일리"
         },
         {
-          "title": "[주요경제지표] 2026년 11월 26일자",
-          "press": "조선일보"
+          "title": "과학기술인 21만명 정보 털렸다…해킹 알고도 열흘 뒤 공지",
+          "press": "이데일리"
         }
       ]
     },
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-27 03:42"
+    "updated_at": "2026-11-27 18:29"
   }
 ]
