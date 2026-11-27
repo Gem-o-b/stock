@@ -17724,14 +17724,14 @@
     "date": "2026-11-27",
     "target_date": "2026-11-30",
     "prediction": "SHORT",
-    "confidence": 0.9266,
-    "probability_long": 0.0734,
-    "probability_short": 0.9266,
+    "confidence": 0.8154,
+    "probability_long": 0.1846,
+    "probability_short": 0.8154,
     "kospi_close": 4907.11,
     "sentiment": {
-      "avg_score": 0.4422,
-      "positive_ratio": 0.6,
-      "negative_ratio": 0.1333,
+      "avg_score": 0.2438,
+      "positive_ratio": 0.5,
+      "negative_ratio": 0.2333,
       "article_count": 30
     },
     "reasons": {
@@ -17739,9 +17739,9 @@
         {
           "name": "환율 수준",
           "feature": "usdkrw_level",
-          "value": 1332.51001,
+          "value": 1335.579956,
           "importance": 281,
-          "contribution": 374435.3127,
+          "contribution": 375297.9677,
           "impact": "SHORT",
           "description": "고환율 → 수출 유리/외인 매도"
         },
@@ -17790,26 +17790,26 @@
         "vix_status": "불안",
         "trend": "5일 이동평균 상회"
       },
-      "summary": "AI 모델은 2026-11-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 60%, 부정 13%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
+      "summary": "AI 모델은 2026-11-30 KOSPI가 하락(SHORT)할 것으로 예측했습니다.\n\n[뉴스 동향] 오늘 뉴스는 전반적으로 긍정적입니다. 수집된 30건의 기사 중 긍정 50%, 부정 23%로 시장에 호재성 소식이 많았습니다.\n\n[시장 상황] 공포지수(VIX)가 26.8로 다소 불안한 수준입니다. 최근 주가가 단기 평균선 위에 있어 상승 흐름을 유지하고 있습니다.",
       "news_headlines": [
         {
-          "title": "미래에셋운용, 연기금투자풀 25주년 행사 열어…공공자금 운용 성과 공유",
-          "press": "파이낸셜뉴스"
+          "title": "SK하이닉스, 자사주 일일 매수 주문량 두 배로…“주주가치 제고 차원”",
+          "press": "조선비즈"
         },
         {
-          "title": "대신PE, 국민성장펀드 첫 투자처로 유리기판社…500억 EB 인수 [시그널]",
-          "press": "서울경제"
-        },
-        {
-          "title": "엔비디아 물타기 나선 서학개미…매수 늘어도 보관액 '뚝'",
-          "press": "파이낸셜뉴스"
-        },
-        {
-          "title": "국민연금, 석 달 만에 수익률 반토막...적립금 1664조[마켓인]",
+          "title": "7만 아닌 4만전자?…전문가의 메모리 업황 경고",
           "press": "이데일리"
         },
         {
-          "title": "과학기술인 21만명 정보 털렸다…해킹 알고도 열흘 뒤 공지",
+          "title": "SK하이닉스 자사주 매수 수량 70만주로 확대…기존 2배",
+          "press": "문화일보"
+        },
+        {
+          "title": "\"10조로 되겠냐고요\"…개미들이 진짜 원하는 건 따로 있다 [분석+]",
+          "press": "한국경제"
+        },
+        {
+          "title": "미래에셋운용, 연금자산 70조 돌파…‘TIGER ETF’로 1위 굳혀",
           "press": "이데일리"
         }
       ]
@@ -17817,6 +17817,6 @@
     "actual": null,
     "actual_close": null,
     "is_correct": null,
-    "updated_at": "2026-11-27 18:29"
+    "updated_at": "2026-11-27 23:14"
   }
 ]
